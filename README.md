@@ -1,39 +1,57 @@
 # Stroka
 
-**Your Mac just got its own news channel.**
+### Your desktop. On air.
 
-[Русский](README.ru.md) · [Download the beta](https://github.com/kosbushe/stroka/releases/tag/v0.23.1-beta.1) · [Constitution](CONSTITUTION.md) · [Roadmap](ROADMAP.md)
+**Your sources. Your name. Your news channel.**
+
+[Download the Mac beta](https://github.com/kosbushe/stroka/releases/tag/v0.23.1-beta.1) · [Русский](README.ru.md) · [Roadmap](ROADMAP.md)
 
 ![Stroka illustrated preview](assets/stroka-preview.svg)
 
-For the hundred-open-tabs era. Choose the publishers and public Telegram channels you care about, add your watchlist or a message of your own, and let your world scroll along the edge of your screen.
+Built for the hundred-open-tabs era. Stroka turns the edge of your Mac into a personal news channel: favourite publishers, public Telegram channels, market prices and messages of your own.
 
-Your name or logo on the left. Time, date and weekday on the right. Your selected information in between. One to four rows. Four looks. Top or bottom.
+Put your name on it. Pick a look. Set the pace. Your world scrolls by while you get on with your day.
 
-## Start your own feed
-
-1. Choose sources from the catalog or add an HTTPS RSS/Atom feed. For public Telegram previews, enter **@channel**.
-2. Add your name, choose **News**, **Night**, **Minimal** or **Glass**, and preview the result.
-3. Press **Start ticker**. Double-click the strip to reopen setup; click or Space to pause.
-
-The catalog contains **550 feed URLs across 11 topics**, including Russian and English sources. These are feed endpoints, not 550 distinct publishers. Source availability changes; the catalog's last full recorded check is from 14 November 2026. Nothing is selected secretly, and no stale news is inserted to fill an empty feed.
-
-## What's in the beta
-
-| Area | Included | Status |
+| Choose the signal | Make it yours | Find your rhythm |
 |---|---|---|
-| Mac | AppKit/SwiftUI app, top/bottom strip, 1-4 independent rows, four looks, name/logo, clock/date/weekday, 45-180 pt height | Local beta **0.23.1 (30)**, Universal arm64/x86_64 build |
-| Content | RSS/Atom, public Telegram previews, own messages, 96 original bilingual offline items, optional short-headline filter | Sources keep their original publication time |
-| Freshness | News under 24 hours; explicitly starred highlights under 48 hours | Unknown/future dates excluded; download/edit/translation time does not refresh a story |
-| Markets | Coinbase, MOEX and official CBR/ECB rates | Provider and cadence/delay labelled; not uniformly real-time |
-| Translation | Apple on-device English-to-Russian translation | macOS 15+ and prepared language models; human quality review remains needed |
-| Android TV | Optional receiver mirroring the selected Mac feed | Prototype **0.2.2**, Mac must stay on; pairing/overlay tested on Philips Android TV 11 in receiver 0.2.1 |
-| iPhone + autonomous TV | Common SwiftUI editor, QR/TLS pairing and TV-owned source engine | **[Experimental Lab](Labs/Ecosystem/README.md)**. iPhone build/device path and full feature parity are not complete |
-| Windows | Contribution/port direction | No Windows app is included |
+| RSS, public Telegram, your watchlist and your own words | Your name or logo, four looks, a compact clock | One to four rows, top or bottom, with adjustable speed |
 
-Lower rows move slightly faster by default. A shared speed control preserves reading position. Named setups live in **Settings → Saved settings**. Text/settings remain local. There is no developer news backend, analytics or advertising SDK.
+**Native macOS beta · Apple Silicon + Intel · Local settings · No account required**
 
-No arbitrary resizing of other apps, fullscreen signage, countdown timers or social-account OAuth timelines are included. A public Telegram preview is different from a private subscription. HDMI, DRM apps and every TV overlay path are not guaranteed.
+## What goes on your channel?
+
+- **Your morning briefing.** Technology, AI, business, science, cinema, sport. Choose the publishers you actually want to read.
+- **Your market glance.** Keep your watchlist nearby, with the source and update cadence attached.
+- **Your next session.** Put a welcome message, a workshop prompt or your own announcements on your Mac.
+
+A shared speed control sets the tempo; lower rows are a little faster by default. Height runs from **45 to 180 pt**. Name/logo on the left, time/date/weekday on the right, your selected feed between them.
+
+## Pick. Personalize. Press play.
+
+1. Choose feeds from the catalog or add an HTTPS RSS/Atom URL. For a public Telegram preview, type **@channel**.
+2. Add your name and choose **News**, **Night**, **Minimal** or **Glass**.
+3. Press **Start ticker**. Double-click the strip to reopen setup. Click or Space to pause.
+
+Save a setup in **Settings → Saved settings** and come back to it later.
+
+## Small strip. Plenty to choose from.
+
+**550 feed URLs · 11 topics · 96 original bilingual offline messages · 4 looks · Up to 4 rows**
+
+The catalog includes Russian and English feeds. These are feed endpoints, not 550 distinct publishers; availability changes. The last full recorded catalog check is from 14 November 2026.
+
+News stays fresh: original publication time under 24 hours, or under 48 hours for highlights you explicitly star. Downloading, editing or translating a story never resets its age. Market data comes from Coinbase, MOEX and official CBR/ECB rates, with provider and cadence/delay labels. Not every quote is real-time.
+
+## Where it runs
+
+| Platform | What you can try |
+|---|---|
+| **Mac** | Beta **0.23.1 (30)**. Native AppKit/SwiftUI app, macOS 14+, Universal Apple Silicon/Intel. Optional on-device English-to-Russian translation needs macOS 15+ and prepared Apple language models. |
+| **Android TV / Google TV** | Experimental **0.2.2** receiver for your Mac feed. Mac stays on; basic pairing/overlay tested on Philips Android TV 11 in receiver 0.2.1. [TV guide](TVCompanion/README.md). |
+| **iPhone + autonomous TV** | [Experimental Lab](Labs/Ecosystem/README.md): common editor, QR/TLS pairing and a TV-owned source engine. iPhone build/device acceptance and full feature parity remain incomplete. |
+| **Windows** | A future port direction. No Windows app is included. |
+
+Settings, messages and caches stay local. There is no developer news backend, analytics or advertising SDK. Private Telegram subscriptions, social-account timelines, automatic resizing of other apps and universal HDMI/DRM overlays are outside this beta.
 
 ## Download or build
 

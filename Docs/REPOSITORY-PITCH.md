@@ -1,19 +1,33 @@
-# Repository copy and preparation history
+# Stroka - public project copy
+
+## GitHub About
+
+Your desktop. On air. A native macOS news ticker for RSS, public Telegram, markets and your own words. Your name. Four looks. Up to four rows. Local-first beta.
 
 ## English
 
-**Your Mac just got its own news channel.**
+**Your desktop. On air.**
 
-For the hundred-open-tabs era: build a personal stream from your favourite publishers, public Telegram channels, market prices and your own messages. One to four rows, four looks, your name on the left and a clock on the right. Pin it to the top or bottom and let your world scroll by.
+Your sources. Your name. Your news channel.
 
-Built for macOS. A Windows port is a future contribution direction, not an included app. Android TV / Google TV receiver: local test build; basic Philips Android TV 11 overlay verified; extended acceptance pending.
+Built for the hundred-open-tabs era. Stroka turns the edge of your Mac into a personal news channel: favourite publishers, public Telegram channels, market prices and messages of your own. Put your name on it. Pick a look. Set the pace.
+
+Mac beta available. Android TV receiver is experimental; iPhone/autonomous TV is a separate Lab. No Windows app is included. Source preview with retained copyright; no open-source reuse grant has been selected.
 
 ## Русский
 
-**У твоего Mac теперь есть свой личный эфир.**
+**Твой Mac. Твой эфир.**
 
-Для тех, у кого уже сто открытых вкладок. Собери любимые новости, Telegram-каналы, котировки и свои сообщения в одну живую полосу. До четырёх строк, четыре оформления, твоё название и часы. Сверху или снизу экрана. Настроил под себя - и твой мир уже в эфире.
+Твои источники. Твоё имя. Твой новостной канал.
 
-Сейчас для macOS. Windows - направление для будущего порта, готовой версии пока нет. Для Android TV / Google TV подготовлена тестовая сборка; базовый показ на Philips проверен; длительная приёмка ещё впереди.
+Для эпохи сотни открытых вкладок. Собери любимые издания, публичные Telegram-каналы, котировки и свои сообщения в личный эфир у края экрана. Добавь название, выбери оформление и задай свой темп.
 
-Publication checkpoint, 17 November 2026: owner requested GitHub beta publication. Root README contains the current copy and scope. Source preview retains copyright; reuse terms and store readiness remain separate.
+Доступна бета для Mac. Приёмник Android TV экспериментальный; iPhone и самостоятельный ТВ находятся в отдельном Lab. Windows-версии пока нет. Авторские права сохранены, лицензия переиспользования не выбрана.
+
+## Short sharing draft
+
+Твой Mac. Твой эфир.
+Stroka собирает выбранные новости, публичный Telegram, котировки и свои сообщения в живую полосу у края экрана. До четырёх строк, четыре оформления, твоё имя и часы.
+Попробовать Mac-бету: https://github.com/kosbushe/stroka
+
+This is reusable draft copy. No external announcements or messages were sent as part of the description update.
