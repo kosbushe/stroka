@@ -1,0 +1,32 @@
+INTERNAL DRAFT - NOT SUBMITTED
+Primary language: English (U.S.)
+Name: Stroka - Personal News Ticker
+Subtitle: Your feeds on your desktop
+Keywords: ticker,news,rss,desktop,personal,scrolling,feeds,markets,stocks,currency,mac
+Category: Utilities
+
+Description:
+Keep your chosen news, messages and optional market data in a personal ticker at the top or bottom of your Mac desktop.
+
+Enter your ticker name, choose content, optionally enable market prices, choose one of four looks and press Start ticker. Pin your personal ticker to the top or bottom of your desktop and save the setup as a preset.
+
+Make it yours
+- Four looks: News, Night, Minimal and Glass.
+- Your station name or logo, local time, weekday and date.
+- A 50-180 pt strip, screen placement, speed and visible message separators.
+- Up to four independent rows with graduated speeds.
+- Double-click the live strip to open display settings.
+
+Choose your content
+- Eighteen content choices with topic, publisher and headline search.
+- News from RSS/Atom and selected public Telegram previews, with original links.
+- News less than 24 hours old; only your starred highlights can last up to 48 hours.
+- Optional short-headline filtering and English-to-Russian on-device translation.
+- Original offline jokes, thoughts, riddles and conversation starters in English and Russian.
+- Shares, indices, Coinbase crypto and official CBR/ECB reference rates, with provider and delay labels.
+
+Messages, presets and caches stay on your Mac. No developer analytics or advertising. An optional phone remote works on a trusted local network.
+
+macOS 14 or later. Translation requires macOS 15 or later and downloaded Apple language models. Online content requires internet access. Availability, provider terms and latency vary; not every quote is real time. The local phone remote uses HTTP without TLS. Full-screen/frame/side/centre/floating and idle output are excluded.
+
+Do not submit yet: configure real support/privacy URLs; complete developer signing, Xcode archive validation, privacy/age declarations, provider permissions and device acceptance. Do not claim guaranteed 120 fps, zero-delay market prices, an Apple-approved app or management of other apps' windows. Source distribution terms are pending separately.

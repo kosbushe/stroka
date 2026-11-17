@@ -1,0 +1,22 @@
+Stroka - quick start
+
+1. Enter the name you want on the left of your ticker.
+2. Click Content. Choose a topic or switch to Publishers to select individual RSS sources. You can add an HTTPS RSS/Atom URL or a public @Telegram channel. My Text accepts one message per line. Press Done to return.
+3. Enable Second row if you want market prices. Select common currency pairs directly, or open All instruments for shares, indices, reference rates and crypto pairs.
+4. Choose News, Night, Minimal or Glass, then Top or Bottom. Press Start ticker.
+
+Your name/logo stays on the left; the compact local clock, weekday and date stay on the right. News scrolls in the centre. A second market row has its own speed.
+
+More settings contains screen, 50-180 pt strip thickness, speed, logo, separators, source labels and reduced motion. Settings > Saved settings saves and loads named setups. Choose Save current settings, name it, then use Load beside its name to restore it. The toolbar contains only Settings. Interface language is under Settings and is independent of source language.
+
+Double-click the live strip to reopen the simple setup. A single click pauses after the double-click interval; dragging cannot detach the strip or pause it. Space pauses/resumes, arrow keys browse messages, Escape ends output.
+
+Online news requires a publication date less than 24 hours old. In Content, Preview headlines lets you star an exceptional item for less than 48 hours from publication. Unknown/future dates are excluded. Offline collections and your own messages are separate. Topic filters and optional short-headline filtering are available in the content chooser. Public Telegram previews may be excerpts linked to the original post.
+
+Optional Russian translation uses Apple Translation on macOS 15+ after system language-model preparation. Untranslated English waits when Russian translation is selected. Publishers and market-data providers have their own availability, latency and public-display terms. Official daily reference rates are not tradable live prices.
+
+Announcements and Phone Remote remain under the Display menu. The optional remote is for a trusted local network and uses HTTP without TLS. Only a pinned horizontal strip is supported; full-screen, frame, side/centre/floating and idle output are excluded. Cross-application window resizing is not implemented in this sandboxed beta.
+
+Top sits below the macOS menu bar. Bottom sits along the available desktop edge, above a visible Dock. Other applications are not resized.
+
+TV test: Settings > Television > Connect a TV. The Mac and TV must share a trusted private network. Install the separate Stroka TV test APK on a compatible Android TV / Google TV, enter the Mac address and six-digit code, grant Display over other apps and press Start. Physical Philips acceptance is still pending.

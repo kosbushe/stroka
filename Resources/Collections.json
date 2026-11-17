@@ -1,0 +1,492 @@
+{
+  "jokes": [
+    {
+      "id": "1",
+      "en": "My laptop asked for a break. I closed the lid. Now we are both pretending to be productive.",
+      "ru": "Ноутбук попросил перерыв. Я закрыл крышку. Теперь мы оба делаем вид, что работаем."
+    },
+    {
+      "id": "2",
+      "en": "The meeting was so efficient that we scheduled another one to discuss why.",
+      "ru": "Совещание прошло так эффективно, что назначили ещё одно - обсудить, почему."
+    },
+    {
+      "id": "3",
+      "en": "I bought a smart kettle. It knows I need tea before I know what I am doing.",
+      "ru": "Купил умный чайник. Он уже знает, что мне нужен чай. Я ещё не знаю, что делаю."
+    },
+    {
+      "id": "4",
+      "en": "My calendar has excellent boundaries. It never lets free time get too close.",
+      "ru": "Мой календарь отлично держит границы: не подпускает свободное время."
+    },
+    {
+      "id": "5",
+      "en": "I cleaned up my desktop. All the files now live in a folder called Desktop.",
+      "ru": "Навёл порядок на рабочем столе. Теперь все файлы лежат в папке «Рабочий стол»."
+    },
+    {
+      "id": "6",
+      "en": "Working from home saves commute time. I spend it looking for my headphones.",
+      "ru": "Работа из дома экономит время на дорогу. Трачу его на поиски наушников."
+    },
+    {
+      "id": "7",
+      "en": "The printer and I finally agree: neither of us is ready to work.",
+      "ru": "Мы с принтером наконец договорились: к работе не готов ни один из нас."
+    },
+    {
+      "id": "8",
+      "en": "I gave my to-do list a day off. It came back with friends.",
+      "ru": "Дал списку дел выходной. Он вернулся с друзьями."
+    },
+    {
+      "id": "9",
+      "en": "My most reliable cloud storage is still the promise to remember it later.",
+      "ru": "Самое надёжное облачное хранилище - обещание «потом вспомню». Пока ничего не выгружалось."
+    },
+    {
+      "id": "10",
+      "en": "The coffee machine has one button. Somehow it is the most understandable colleague.",
+      "ru": "У кофемашины одна кнопка. Почему-то это самый понятный коллега."
+    },
+    {
+      "id": "11",
+      "en": "I asked AI to simplify my schedule. It suggested becoming my cat.",
+      "ru": "Попросил ИИ упростить мой график. Он предложил стать моим котом."
+    },
+    {
+      "id": "12",
+      "en": "The Wi-Fi password is on a sticker. The sticker is in a safe place. Nobody knows where.",
+      "ru": "Пароль от Wi-Fi на наклейке. Наклейка в надёжном месте. Никто не знает где."
+    },
+    {
+      "id": "13",
+      "en": "I finally found the perfect work-life balance. Both are asking where I have been.",
+      "ru": "Наконец нашёл баланс работы и жизни. Теперь обе спрашивают, куда я пропал."
+    },
+    {
+      "id": "14",
+      "en": "My presentation has no unnecessary slides. Only necessary pauses while I find the right one.",
+      "ru": "В моей презентации нет лишних слайдов. Есть необходимые паузы, пока я ищу нужный."
+    },
+    {
+      "id": "15",
+      "en": "I switched to paper notes. Now my ideas also have beautiful handwriting that I cannot read.",
+      "ru": "Перешёл на бумажные заметки. Теперь у идей красивый почерк, который я не могу разобрать."
+    },
+    {
+      "id": "16",
+      "en": "We made the process transparent. Everyone can now clearly see how complicated it is.",
+      "ru": "Мы сделали процесс прозрачным. Теперь всем хорошо видно, насколько он сложный."
+    },
+    {
+      "id": "17",
+      "en": "My phone counts my steps. It politely ignores the ones between the fridge and the sofa.",
+      "ru": "Телефон считает шаги. Вежливо делает вид, что не знает маршрут от дивана до холодильника."
+    },
+    {
+      "id": "18",
+      "en": "I put the instructions somewhere obvious. Apparently obvious means invisible to future me.",
+      "ru": "Положил инструкцию на видное место. Оказалось, для будущего меня это невидимое место."
+    },
+    {
+      "id": "19",
+      "en": "The team agreed to speak the same language. We are still choosing the spreadsheet.",
+      "ru": "Команда договорилась говорить на одном языке. Пока выбираем таблицу."
+    },
+    {
+      "id": "20",
+      "en": "I opened one browser tab to focus. The other thirty-seven came to support it.",
+      "ru": "Открыл одну вкладку, чтобы сосредоточиться. Остальные тридцать семь пришли поддержать."
+    },
+    {
+      "id": "21",
+      "en": "My suitcase is optimistic. It always thinks one more thing will fit.",
+      "ru": "Мой чемодан - оптимист. Всегда верит, что поместится ещё одна вещь."
+    },
+    {
+      "id": "22",
+      "en": "The houseplant is my productivity coach. It grows slowly and never apologises.",
+      "ru": "Комнатное растение - мой тренер продуктивности. Растёт медленно и ни перед кем не оправдывается."
+    },
+    {
+      "id": "23",
+      "en": "I set an out-of-office reply for my thoughts. They ignored it and kept sending ideas.",
+      "ru": "Поставил мыслям автоответ «Меня нет на месте». Они проигнорировали и продолжили присылать идеи."
+    },
+    {
+      "id": "24",
+      "en": "We asked for a fresh perspective. Someone moved the chairs. Surprisingly, it helped.",
+      "ru": "Попросили свежий взгляд. Кто-то переставил стулья. Удивительно, но помогло."
+    }
+  ],
+  "riddles": [
+    {
+      "id": "1",
+      "en": "What gets smaller every time it helps you fix a mistake? An eraser.",
+      "ru": "Что становится меньше, помогая исправлять ошибки? Ластик."
+    },
+    {
+      "id": "2",
+      "en": "What has a spine but cannot stand up by itself? A book.",
+      "ru": "У чего есть корешок, но нет корней? У книги."
+    },
+    {
+      "id": "3",
+      "en": "What can fill a room without taking up space? Light.",
+      "ru": "Что заполняет комнату, не занимая места? Свет."
+    },
+    {
+      "id": "4",
+      "en": "What has many keys but opens no doors? A piano.",
+      "ru": "У чего много клавиш, но ни одна не открывает дверь? У пианино."
+    },
+    {
+      "id": "5",
+      "en": "What belongs to you but is used more often by others? Your name.",
+      "ru": "Что принадлежит вам, но другие пользуются этим чаще? Ваше имя."
+    },
+    {
+      "id": "6",
+      "en": "What has a face and hands but no arms? A clock.",
+      "ru": "Что показывает время, но не знает, который час? Часы."
+    },
+    {
+      "id": "7",
+      "en": "What can you catch but never throw? A cold.",
+      "ru": "Что можно подхватить, но нельзя подбросить? Простуду."
+    },
+    {
+      "id": "8",
+      "en": "What becomes yours only after you give it away? A promise.",
+      "ru": "Что связывает вас именно после того, как вы это даёте? Обещание."
+    },
+    {
+      "id": "9",
+      "en": "What grows when you share it and never leaves your head? Knowledge.",
+      "ru": "Что растёт, когда им делятся, и остаётся в голове? Знание."
+    },
+    {
+      "id": "10",
+      "en": "What is full of holes but still holds water? A sponge.",
+      "ru": "Что полно отверстий, но удерживает воду? Губка."
+    },
+    {
+      "id": "11",
+      "en": "What travels around the world while staying in a corner? A postage stamp.",
+      "ru": "Что может обойти весь мир, оставаясь в углу? Почтовая марка."
+    },
+    {
+      "id": "12",
+      "en": "What is always coming but never arrives as itself? Tomorrow.",
+      "ru": "Что всегда приближается, но, придя, меняет имя? Завтра."
+    }
+  ],
+  "conversation": [
+    {
+      "id": "1",
+      "en": "Which small discovery made your week better?",
+      "ru": "Какое маленькое открытие сделало вашу неделю лучше?"
+    },
+    {
+      "id": "2",
+      "en": "What would you happily teach someone in ten minutes?",
+      "ru": "Чему вы с удовольствием научили бы другого за десять минут?"
+    },
+    {
+      "id": "3",
+      "en": "Which place would you like to see through the eyes of a local?",
+      "ru": "Какое место вы хотели бы увидеть глазами местного жителя?"
+    },
+    {
+      "id": "4",
+      "en": "What is a skill you would like to borrow for one day?",
+      "ru": "Какой навык вы хотели бы одолжить на один день?"
+    },
+    {
+      "id": "5",
+      "en": "Which ordinary thing deserves more appreciation?",
+      "ru": "Какая обычная вещь заслуживает больше внимания?"
+    },
+    {
+      "id": "6",
+      "en": "What advice sounded strange until you tried it?",
+      "ru": "Какой совет казался странным, пока вы его не попробовали?"
+    },
+    {
+      "id": "7",
+      "en": "What is a question you wish people asked more often?",
+      "ru": "Какой вопрос вы хотели бы слышать чаще?"
+    },
+    {
+      "id": "8",
+      "en": "Which book, film, or conversation changed your perspective?",
+      "ru": "Какая книга, фильм или беседа изменили ваш взгляд на что-то?"
+    },
+    {
+      "id": "9",
+      "en": "What would you put in a museum of everyday happiness?",
+      "ru": "Что вы поместили бы в музей повседневного счастья?"
+    },
+    {
+      "id": "10",
+      "en": "What is your favourite way to start a good conversation?",
+      "ru": "Как вы любите начинать хороший разговор?"
+    },
+    {
+      "id": "11",
+      "en": "What would your ideal neighbourhood have within walking distance?",
+      "ru": "Что было бы в пешей доступности в вашем идеальном районе?"
+    },
+    {
+      "id": "12",
+      "en": "Which simple habit would you recommend to a friend?",
+      "ru": "Какую простую привычку вы посоветовали бы другу?"
+    },
+    {
+      "id": "13",
+      "en": "What surprised you about something you thought you knew well?",
+      "ru": "Что удивило вас в том, что вы считали хорошо знакомым?"
+    },
+    {
+      "id": "14",
+      "en": "If this room were a team, what should we build together?",
+      "ru": "Если бы эта комната стала командой, что мы могли бы создать вместе?"
+    },
+    {
+      "id": "15",
+      "en": "What is a good question for the person sitting next to you?",
+      "ru": "Какой хороший вопрос можно задать человеку рядом?"
+    },
+    {
+      "id": "16",
+      "en": "Which memory would make a great opening scene?",
+      "ru": "Какое воспоминание могло бы стать отличной первой сценой фильма?"
+    },
+    {
+      "id": "17",
+      "en": "What is something you are glad you tried?",
+      "ru": "Что вы рады однажды попробовать?"
+    },
+    {
+      "id": "18",
+      "en": "Which tradition would you like to invent?",
+      "ru": "Какую традицию вы хотели бы придумать?"
+    },
+    {
+      "id": "19",
+      "en": "What would you like to learn from someone here?",
+      "ru": "Чему вы хотели бы научиться у кого-то из присутствующих?"
+    },
+    {
+      "id": "20",
+      "en": "What would make today a little more memorable?",
+      "ru": "Что могло бы сделать сегодняшний день чуть более запоминающимся?"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "1",
+      "en": "Describe your idea without using its three most obvious words.",
+      "ru": "Опишите идею, не используя три самых очевидных слова."
+    },
+    {
+      "id": "2",
+      "en": "Imagine the same task with half the budget and twice the kindness.",
+      "ru": "Представьте ту же задачу с половиной бюджета и вдвое большей заботой о людях."
+    },
+    {
+      "id": "3",
+      "en": "Sketch a solution you could explain with one picture.",
+      "ru": "Набросайте решение, которое можно объяснить одной картинкой."
+    },
+    {
+      "id": "4",
+      "en": "Ask what could be removed before adding something new.",
+      "ru": "Прежде чем добавлять новое, спросите, что можно убрать."
+    },
+    {
+      "id": "5",
+      "en": "Look at a familiar problem from a first-time visitor’s point of view.",
+      "ru": "Посмотрите на знакомую задачу глазами человека, который видит её впервые."
+    },
+    {
+      "id": "6",
+      "en": "Name the smallest useful version of your idea.",
+      "ru": "Назовите самую маленькую полезную версию вашей идеи."
+    },
+    {
+      "id": "7",
+      "en": "Combine two good ideas that have never met.",
+      "ru": "Соедините две хорошие идеи, которые ещё не встречались."
+    },
+    {
+      "id": "8",
+      "en": "Replace one complicated instruction with a clear example.",
+      "ru": "Замените одну сложную инструкцию понятным примером."
+    },
+    {
+      "id": "9",
+      "en": "List three things that already work. Start there.",
+      "ru": "Назовите три вещи, которые уже работают. Начните с них."
+    },
+    {
+      "id": "10",
+      "en": "Ask someone outside your field how they would approach it.",
+      "ru": "Спросите человека из другой области, как он подошёл бы к задаче."
+    },
+    {
+      "id": "11",
+      "en": "Turn a complaint into a question you can act on.",
+      "ru": "Превратите жалобу в вопрос, с которым можно работать."
+    },
+    {
+      "id": "12",
+      "en": "Explain the benefit before explaining the mechanism.",
+      "ru": "Объясните пользу, прежде чем объяснять устройство."
+    },
+    {
+      "id": "13",
+      "en": "Try the opposite of your first idea, just on paper.",
+      "ru": "Попробуйте противоположность первой идеи - пока только на бумаге."
+    },
+    {
+      "id": "14",
+      "en": "Design a better first minute for the person using your idea.",
+      "ru": "Придумайте лучшую первую минуту для человека, который воспользуется вашей идеей."
+    },
+    {
+      "id": "15",
+      "en": "Think of a small experiment you could finish today.",
+      "ru": "Придумайте небольшой эксперимент, который можно завершить сегодня."
+    },
+    {
+      "id": "16",
+      "en": "Give a good unfinished idea a clear next step.",
+      "ru": "Придумайте понятный следующий шаг для хорошей незаконченной идеи."
+    }
+  ],
+  "thoughts": [
+    {
+      "id": "1",
+      "en": "Start with a step you can take today.",
+      "ru": "Начните с шага, который можно сделать сегодня."
+    },
+    {
+      "id": "2",
+      "en": "Curiosity opens more doors than certainty.",
+      "ru": "Любопытство открывает больше дверей, чем уверенность."
+    },
+    {
+      "id": "3",
+      "en": "A pause can also be part of moving forward.",
+      "ru": "Пауза тоже бывает частью движения вперёд."
+    },
+    {
+      "id": "4",
+      "en": "Not every thought needs to become a task.",
+      "ru": "Не каждую мысль нужно превращать в задачу."
+    },
+    {
+      "id": "5",
+      "en": "A good question can be more useful than a quick answer.",
+      "ru": "Хороший вопрос иногда полезнее быстрого ответа."
+    },
+    {
+      "id": "6",
+      "en": "Try something new today, however small.",
+      "ru": "Сделайте сегодня что-нибудь впервые, пусть совсем небольшое."
+    },
+    {
+      "id": "7",
+      "en": "Attention to another person begins with listening.",
+      "ru": "Внимание к человеку начинается с умения слушать."
+    },
+    {
+      "id": "8",
+      "en": "A big task becomes clearer after one small step.",
+      "ru": "Большое дело становится понятнее после первого маленького шага."
+    },
+    {
+      "id": "9",
+      "en": "Try explaining your idea in one simple sentence.",
+      "ru": "Попробуйте объяснить свою идею одним простым предложением."
+    },
+    {
+      "id": "10",
+      "en": "Leave some room for an unexpectedly good day.",
+      "ru": "Оставьте немного места для неожиданно хорошего дня."
+    },
+    {
+      "id": "11",
+      "en": "You can change your mind when you learn something new.",
+      "ru": "Можно передумать, когда узнаёшь что-то новое."
+    },
+    {
+      "id": "12",
+      "en": "Not everything important needs an immediate answer.",
+      "ru": "Не всё важное требует немедленного ответа."
+    },
+    {
+      "id": "13",
+      "en": "Someone else’s pace does not have to become yours.",
+      "ru": "Чужой темп не обязан становиться вашим."
+    },
+    {
+      "id": "14",
+      "en": "Notice one thing that went well today.",
+      "ru": "Заметьте одну вещь, которая сегодня получилась."
+    },
+    {
+      "id": "15",
+      "en": "Sometimes making the next step clear is enough.",
+      "ru": "Иногда достаточно сделать следующий шаг понятным."
+    },
+    {
+      "id": "16",
+      "en": "Precision begins with an honest “I do not know yet.”",
+      "ru": "Точность начинается с честного «я пока не знаю»."
+    },
+    {
+      "id": "17",
+      "en": "Give a new idea time to become clear.",
+      "ru": "Дайте новой идее время стать понятной."
+    },
+    {
+      "id": "18",
+      "en": "Ask yourself: what here really deserves my attention?",
+      "ru": "Спросите себя: что здесь действительно стоит моего внимания?"
+    },
+    {
+      "id": "19",
+      "en": "You do not need to finish everything for today to matter.",
+      "ru": "Не обязательно успеть всё, чтобы день имел смысл."
+    },
+    {
+      "id": "20",
+      "en": "Try seeing a familiar place through a visitor’s eyes.",
+      "ru": "Попробуйте заметить знакомое место глазами гостя."
+    },
+    {
+      "id": "21",
+      "en": "A conversation becomes interesting when a real question appears.",
+      "ru": "Разговор становится интереснее, когда появляется настоящий вопрос."
+    },
+    {
+      "id": "22",
+      "en": "A small improvement is still an improvement.",
+      "ru": "Небольшое улучшение всё равно остаётся улучшением."
+    },
+    {
+      "id": "23",
+      "en": "Understand the person before offering a solution.",
+      "ru": "Сначала поймите человека, затем предлагайте решение."
+    },
+    {
+      "id": "24",
+      "en": "Sometimes a new question is enough for a new perspective.",
+      "ru": "Для нового взгляда иногда достаточно сменить вопрос."
+    }
+  ]
+}

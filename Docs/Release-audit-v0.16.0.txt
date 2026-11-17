@@ -1,0 +1,28 @@
+STROKA 0.16.0 (18) - LOCAL PRODUCT AUDIT
+14 November 2026. Product verdict: a functional native beta with a clean source-publication candidate; public distribution and App Store gates remain open.
+
+FIXED NOW
+Four concurrent feed requests, a 5 MB received-body cap, HTTPS-only redirects, cancellation of obsolete collection/language requests, immediate refresh after source-language changes, forty-item parser limit and 8192 UTF-16-unit field limit. Oversized fields cannot inflate headline caches. Atom updated alone is excluded as a publication timestamp; original published/pubDate/Dublin Core dates remain supported. Selected sources sort first and show errors, eligible count, translation wait or filter/freshness explanations. Preview headline search is local. Two broken endpoints were replaced with official Moscow news/economy feeds; personal sources were preserved.
+
+CONTENT SNAPSHOT
+79/79 current URLs downloaded and parsed: 77 RSS catalog entries plus two public Telegram previews. 64/79 had news eligible under the 24-hour rule at the final native audit: 1093 raw source headlines, 681 at most eleven words. These are up to forty entries per source, not a unique editorial ranking or the entirety of the web. Freshness naturally changes over time. @aiffring had no eligible recent post; @exploitex did. Apple Newsroom entries in this response were updated-only and are not treated as fresh original publications. Source availability, translation rights and public-display permissions are separate issues.
+Live market check (28 seconds, default watchlist): MOEX 6, CBR 3, ECB 2, Coinbase 2 values. Provider dates/cadence are retained; not all values are real time.
+
+RENDERER PERFORMANCE
+Mac: macOS 26.5.1, Apple Silicon, 1710x1107 logical points, 2x backing, 60 Hz. One-second warmup, six-second window, synthetic market updates every 0.4 seconds, no live network and no concurrent compiler. Small 52 pt dual strip: final repeated candidate runs 3.53% and 3.74% of one CPU core; prior 0.15.1 runs 3.47% and 3.48%. Initial extra runs varied more. There is no demonstrated renderer CPU improvement, and no renderer rewrite was made. RSS work is now bounded independently of animation.
+144 pt dual strip: 1.77%; paused case: 0.73%, zero draw calls; hidden case: 0.43%, zero draw calls/callbacks. Scenarios differ; this is not a monotonic size comparison. Visible test callback p95 was 16.67 ms with no intervals over 1.5 frame periods. This measures callback pacing, not compositor-presented frames or hardware-wide smoothness.
+Installed 0.16.0 with its control window visible and no visible live strip: 0.429-0.556% CPU, 114.25-114.98 MiB resident, 47.49-48.58 MiB physical footprint in six five-second samples. The prior process had different cache/warmup state; do not claim controlled memory reduction from these samples.
+
+VALIDATION
+316 named assertions: 113 core, 20 feed reliability, 16 short content, 18 content catalog, 19 editorial, 25 edge/style, 56 compact layout, 13 dual row, 19 separators, 9 motion and 8 double click. Preview visibility integration also passed. Edge checks cover 288 geometry contexts and 44 pixel renders; dual checks render 36 layouts. Native English/Russian and light/dark UI snapshots were produced. No full physical-input, VoiceOver, long-session, older-OS or external-monitor acceptance is implied.
+Technical source preflight, plist/project syntax, Universal architectures, release signature/sandbox/manifest and exclusion of diagnostic entry points passed. A fresh installed 0.16.0 process was verified; saved settings, presets and both language selections compared equal across installation.
+The old process did not exit through the external termination request within five seconds; installation used a forced restart after preference backups. Actual user Quit needs explicit acceptance before public release. Offscreen dark toolbar screenshots are not a reliable material/icon acceptance surface; inspect the real native toolbar before store screenshot approval.
+
+REFERENCES AND PRODUCT DIRECTION
+See References.txt for direct GitHub links, checked source licenses and limitations. MacOS-Ticker is the nearest native ticker reference; Crawl is an old keyword-crawl concept; NetNewsWire is the RSS-reliability benchmark; MacClock is a related RSS/clock UI with AGPL code; Newsprint is a local reader UX reference with unresolved license-file evidence. No reference implementation was imported.
+Preserve Stroka's core: a quiet information layer with fixed station/clock and confined moving text. Keep the six distinct broadcast looks, one Content destination and native settings. Finish reliability and acceptance before expanding into cloud venue signage or paid guest messages.
+
+RELEASE GATES
+See ../RELEASE-READINESS.txt. Public support/privacy addresses do not exist yet. Source license, publisher/market permissions, developer distribution identity, Xcode archive validation, privacy/age declarations and real-device acceptance remain open. Proposed cross-application window resizing is not in this sandboxed edition; it requires separate direct-distribution design and Accessibility consent. No repository, release or store submission was published.
+
+Evidence is in the accompanying local Product-Audit-v0.16.0 review. Original downloaded publisher bodies and personal preference backups are deliberately excluded from this source candidate and review delivery.

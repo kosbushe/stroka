@@ -1,0 +1,40 @@
+# Generated output and local archives
+.build/
+dist/
+qa/
+qa-*/
+release/
+release-*/
+source-before*/
+*.app/
+*.zip
+*.dmg
+*.pkg
+*.dSYM/
+*.xcarchive/
+*.xcresult/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+# Personal data, credentials and diagnostic scratch
+.env
+.env.*
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*preferences*.plist
+*payloads*.json
+*Cache*.json
+render-matrix*.jpg
+__pycache__/
+*.pyc
+
+# Local TV build/signing output
+*.apk
+*.idsig
+*.keystore
+*.jks

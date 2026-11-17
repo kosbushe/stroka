@@ -1,0 +1,31 @@
+Privacy in Stroka
+Updated 14 November 2026
+
+Your Mac
+Your messages, presets, selected sources, settings, and cached headlines stay on your Mac. They are not sent to the developer. Stroka has no advertising, analytics, tracking, or third-party SDKs.
+
+Content Library
+News is loaded directly from the RSS and Atom sources in the selected feed. Publishers receive normal connection information, such as your IP address and the resources requested, under their own policies. Only headlines, source names, publication dates, and links are cached; full articles are not stored. Jokes, riddles, conversation questions, and creative prompts are included in the app and work offline. Source language filters original publications. Optional Russian translation uses Apple Translation on-device; language models require a system download. Translated headlines are cached locally and are removed with Delete Local Data.
+
+Market Data
+When used by the selected channel or layout, market data connects directly to Coinbase and MOEX. These providers receive normal network information under their policies. Source timestamps and availability may vary.
+
+Phone Remote
+Off by default. When enabled, your Mac accepts local commands through a link with a random access key. Commands include playback actions and announcement text. This is local HTTP without TLS: use a trusted network and keep the link private. No developer server is involved.
+
+Permissions
+No camera, microphone, contacts, screen recording, or control of other apps is requested. macOS may ask for local-network access for Phone Remote. Data from other apps is not read.
+
+Deletion
+Choose Stroka > Delete Local Data… and confirm to remove messages, presets, and cached headlines. Default settings are restored. Quit Stroka to stop network updates. Individual sources can be disabled in the library.
+
+This is a local preview release. Public support contact and privacy-policy URLs must be provided before public distribution.
+
+Your selected station logo is normalized to PNG and kept locally in settings and saved presets. It is not uploaded. The original file path is not retained.
+
+Market data sources also include the Central Bank of Russia (cbr.ru) and European Central Bank (ecb.europa.eu) for official reference rates. Requests use your internet connection; no account or personal message text is sent to these providers.
+
+When you choose a public Telegram feed, Stroka requests its public t.me web preview directly. Telegram receives the requested channel address and normal network connection information; no Telegram account, private-channel content or personal message queue is sent.
+
+TV prototype
+TV sharing is off by default. If enabled, your selected ticker text, publisher labels, quotes and display settings are sent to your paired TV over unencrypted HTTP on your trusted private home network. The TV can only read this feed. It cannot control your Mac. No screen capture or logo is transferred. The TV stores only the Mac address and session capability in private preferences, without backup or a persistent news cache. New pairing, sharing off, quitting Stroka or deleting local data revokes the connection.

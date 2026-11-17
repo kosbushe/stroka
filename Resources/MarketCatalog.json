@@ -1,0 +1,590 @@
+[
+  {
+    "id": "share:SBER",
+    "symbol": "SBER",
+    "name": "Sberbank",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:SBERP",
+    "symbol": "SBERP",
+    "name": "Sberbank Preferred",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:GAZP",
+    "symbol": "GAZP",
+    "name": "Gazprom",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:LKOH",
+    "symbol": "LKOH",
+    "name": "LUKOIL",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:ROSN",
+    "symbol": "ROSN",
+    "name": "Rosneft",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:NVTK",
+    "symbol": "NVTK",
+    "name": "NOVATEK",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:GMKN",
+    "symbol": "GMKN",
+    "name": "Nornickel",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:PLZL",
+    "symbol": "PLZL",
+    "name": "Polyus",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:TATN",
+    "symbol": "TATN",
+    "name": "Tatneft",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:TATNP",
+    "symbol": "TATNP",
+    "name": "Tatneft Preferred",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:YDEX",
+    "symbol": "YDEX",
+    "name": "Yandex",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:T",
+    "symbol": "T",
+    "name": "T-Technologies",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:MOEX",
+    "symbol": "MOEX",
+    "name": "Moscow Exchange",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:MTSS",
+    "symbol": "MTSS",
+    "name": "MTS",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:SNGS",
+    "symbol": "SNGS",
+    "name": "Surgutneftegas",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:SNGSP",
+    "symbol": "SNGSP",
+    "name": "Surgutneftegas Preferred",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:MGNT",
+    "symbol": "MGNT",
+    "name": "Magnit",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:CHMF",
+    "symbol": "CHMF",
+    "name": "Severstal",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:NLMK",
+    "symbol": "NLMK",
+    "name": "NLMK",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:ALRS",
+    "symbol": "ALRS",
+    "name": "ALROSA",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:MAGN",
+    "symbol": "MAGN",
+    "name": "MMK",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:PHOR",
+    "symbol": "PHOR",
+    "name": "PhosAgro",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:AFLT",
+    "symbol": "AFLT",
+    "name": "Aeroflot",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:IRAO",
+    "symbol": "IRAO",
+    "name": "Inter RAO",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:HYDR",
+    "symbol": "HYDR",
+    "name": "RusHydro",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:RTKM",
+    "symbol": "RTKM",
+    "name": "Rostelecom",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:RUAL",
+    "symbol": "RUAL",
+    "name": "RUSAL",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:PIKK",
+    "symbol": "PIKK",
+    "name": "PIK",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:TRNFP",
+    "symbol": "TRNFP",
+    "name": "Transneft Preferred",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "share:BSPB",
+    "symbol": "BSPB",
+    "name": "Bank Saint Petersburg",
+    "kind": "share",
+    "currency": "RUB"
+  },
+  {
+    "id": "index:IMOEX",
+    "symbol": "IMOEX",
+    "name": "MOEX Russia Index",
+    "kind": "index",
+    "currency": "pts"
+  },
+  {
+    "id": "index:RTSI",
+    "symbol": "RTSI",
+    "name": "RTS Index",
+    "kind": "index",
+    "currency": "pts"
+  },
+  {
+    "id": "index:RGBI",
+    "symbol": "RGBI",
+    "name": "Russian Government Bond Index",
+    "kind": "index",
+    "currency": "pts"
+  },
+  {
+    "id": "index:MOEXBC",
+    "symbol": "MOEXBC",
+    "name": "MOEX Blue Chip Index",
+    "kind": "index",
+    "currency": "pts"
+  },
+  {
+    "id": "index:MCFTR",
+    "symbol": "MCFTR",
+    "name": "MOEX Total Return Index",
+    "kind": "index",
+    "currency": "pts"
+  },
+  {
+    "id": "currency:USD",
+    "symbol": "USD",
+    "name": "US Dollar",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:EUR",
+    "symbol": "EUR",
+    "name": "Euro",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:CNY",
+    "symbol": "CNY",
+    "name": "Chinese Yuan",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:GBP",
+    "symbol": "GBP",
+    "name": "British Pound",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:CHF",
+    "symbol": "CHF",
+    "name": "Swiss Franc",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:JPY",
+    "symbol": "JPY",
+    "name": "Japanese Yen",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:AED",
+    "symbol": "AED",
+    "name": "UAE Dirham",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:TRY",
+    "symbol": "TRY",
+    "name": "Turkish Lira",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:KZT",
+    "symbol": "KZT",
+    "name": "Kazakhstani Tenge",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:HKD",
+    "symbol": "HKD",
+    "name": "Hong Kong Dollar",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:INR",
+    "symbol": "INR",
+    "name": "Indian Rupee",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:BRL",
+    "symbol": "BRL",
+    "name": "Brazilian Real",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:CAD",
+    "symbol": "CAD",
+    "name": "Canadian Dollar",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:AUD",
+    "symbol": "AUD",
+    "name": "Australian Dollar",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:SGD",
+    "symbol": "SGD",
+    "name": "Singapore Dollar",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:KRW",
+    "symbol": "KRW",
+    "name": "South Korean Won",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:BYN",
+    "symbol": "BYN",
+    "name": "Belarusian Ruble",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:AMD",
+    "symbol": "AMD",
+    "name": "Armenian Dram",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:UZS",
+    "symbol": "UZS",
+    "name": "Uzbek Sum",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "currency:GEL",
+    "symbol": "GEL",
+    "name": "Georgian Lari",
+    "kind": "currency",
+    "currency": "RUB"
+  },
+  {
+    "id": "ecb:USD",
+    "symbol": "EUR/USD",
+    "name": "Euro / USD",
+    "kind": "euro",
+    "currency": "USD"
+  },
+  {
+    "id": "ecb:JPY",
+    "symbol": "EUR/JPY",
+    "name": "Euro / JPY",
+    "kind": "euro",
+    "currency": "JPY"
+  },
+  {
+    "id": "ecb:CZK",
+    "symbol": "EUR/CZK",
+    "name": "Euro / CZK",
+    "kind": "euro",
+    "currency": "CZK"
+  },
+  {
+    "id": "ecb:DKK",
+    "symbol": "EUR/DKK",
+    "name": "Euro / DKK",
+    "kind": "euro",
+    "currency": "DKK"
+  },
+  {
+    "id": "ecb:GBP",
+    "symbol": "EUR/GBP",
+    "name": "Euro / GBP",
+    "kind": "euro",
+    "currency": "GBP"
+  },
+  {
+    "id": "ecb:HUF",
+    "symbol": "EUR/HUF",
+    "name": "Euro / HUF",
+    "kind": "euro",
+    "currency": "HUF"
+  },
+  {
+    "id": "ecb:PLN",
+    "symbol": "EUR/PLN",
+    "name": "Euro / PLN",
+    "kind": "euro",
+    "currency": "PLN"
+  },
+  {
+    "id": "ecb:RON",
+    "symbol": "EUR/RON",
+    "name": "Euro / RON",
+    "kind": "euro",
+    "currency": "RON"
+  },
+  {
+    "id": "ecb:SEK",
+    "symbol": "EUR/SEK",
+    "name": "Euro / SEK",
+    "kind": "euro",
+    "currency": "SEK"
+  },
+  {
+    "id": "ecb:CHF",
+    "symbol": "EUR/CHF",
+    "name": "Euro / CHF",
+    "kind": "euro",
+    "currency": "CHF"
+  },
+  {
+    "id": "ecb:ISK",
+    "symbol": "EUR/ISK",
+    "name": "Euro / ISK",
+    "kind": "euro",
+    "currency": "ISK"
+  },
+  {
+    "id": "ecb:NOK",
+    "symbol": "EUR/NOK",
+    "name": "Euro / NOK",
+    "kind": "euro",
+    "currency": "NOK"
+  },
+  {
+    "id": "ecb:TRY",
+    "symbol": "EUR/TRY",
+    "name": "Euro / TRY",
+    "kind": "euro",
+    "currency": "TRY"
+  },
+  {
+    "id": "ecb:AUD",
+    "symbol": "EUR/AUD",
+    "name": "Euro / AUD",
+    "kind": "euro",
+    "currency": "AUD"
+  },
+  {
+    "id": "ecb:BRL",
+    "symbol": "EUR/BRL",
+    "name": "Euro / BRL",
+    "kind": "euro",
+    "currency": "BRL"
+  },
+  {
+    "id": "ecb:CAD",
+    "symbol": "EUR/CAD",
+    "name": "Euro / CAD",
+    "kind": "euro",
+    "currency": "CAD"
+  },
+  {
+    "id": "ecb:CNY",
+    "symbol": "EUR/CNY",
+    "name": "Euro / CNY",
+    "kind": "euro",
+    "currency": "CNY"
+  },
+  {
+    "id": "ecb:HKD",
+    "symbol": "EUR/HKD",
+    "name": "Euro / HKD",
+    "kind": "euro",
+    "currency": "HKD"
+  },
+  {
+    "id": "ecb:IDR",
+    "symbol": "EUR/IDR",
+    "name": "Euro / IDR",
+    "kind": "euro",
+    "currency": "IDR"
+  },
+  {
+    "id": "ecb:ILS",
+    "symbol": "EUR/ILS",
+    "name": "Euro / ILS",
+    "kind": "euro",
+    "currency": "ILS"
+  },
+  {
+    "id": "ecb:INR",
+    "symbol": "EUR/INR",
+    "name": "Euro / INR",
+    "kind": "euro",
+    "currency": "INR"
+  },
+  {
+    "id": "ecb:KRW",
+    "symbol": "EUR/KRW",
+    "name": "Euro / KRW",
+    "kind": "euro",
+    "currency": "KRW"
+  },
+  {
+    "id": "ecb:MXN",
+    "symbol": "EUR/MXN",
+    "name": "Euro / MXN",
+    "kind": "euro",
+    "currency": "MXN"
+  },
+  {
+    "id": "ecb:MYR",
+    "symbol": "EUR/MYR",
+    "name": "Euro / MYR",
+    "kind": "euro",
+    "currency": "MYR"
+  },
+  {
+    "id": "ecb:NZD",
+    "symbol": "EUR/NZD",
+    "name": "Euro / NZD",
+    "kind": "euro",
+    "currency": "NZD"
+  },
+  {
+    "id": "ecb:PHP",
+    "symbol": "EUR/PHP",
+    "name": "Euro / PHP",
+    "kind": "euro",
+    "currency": "PHP"
+  },
+  {
+    "id": "ecb:SGD",
+    "symbol": "EUR/SGD",
+    "name": "Euro / SGD",
+    "kind": "euro",
+    "currency": "SGD"
+  },
+  {
+    "id": "ecb:THB",
+    "symbol": "EUR/THB",
+    "name": "Euro / THB",
+    "kind": "euro",
+    "currency": "THB"
+  },
+  {
+    "id": "ecb:ZAR",
+    "symbol": "EUR/ZAR",
+    "name": "Euro / ZAR",
+    "kind": "euro",
+    "currency": "ZAR"
+  }
+]

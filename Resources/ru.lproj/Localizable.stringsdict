@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%ld headlines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld заголовок</string>
+			<key>few</key>
+			<string>%ld заголовка</string>
+			<key>many</key>
+			<string>%ld заголовков</string>
+			<key>other</key>
+			<string>%ld заголовков</string>
+		</dict>
+	</dict>
+	<key>%ld posts · refreshed every 15 minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld пост · обновление каждые 15 минут</string>
+			<key>few</key>
+			<string>%ld поста · обновление каждые 15 минут</string>
+			<key>many</key>
+			<string>%ld постов · обновление каждые 15 минут</string>
+			<key>other</key>
+			<string>%ld постов · обновление каждые 15 минут</string>
+		</dict>
+	</dict>
+	<key>%ld headlines · refreshed every %ld min</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld новость · обновление каждые %ld мин</string>
+			<key>few</key>
+			<string>%ld новости · обновление каждые %ld мин</string>
+			<key>many</key>
+			<string>%ld новостей · обновление каждые %ld мин</string>
+			<key>other</key>
+			<string>%ld новостей · обновление каждые %ld мин</string>
+		</dict>
+	</dict>
+	<key>%ld messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld сообщение</string>
+			<key>few</key>
+			<string>%ld сообщения</string>
+			<key>many</key>
+			<string>%ld сообщений</string>
+			<key>other</key>
+			<string>%ld сообщений</string>
+		</dict>
+	</dict>
+	<key>%ld sources</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld источник</string>
+			<key>few</key>
+			<string>%ld источника</string>
+			<key>many</key>
+			<string>%ld источников</string>
+			<key>other</key>
+			<string>%ld источника</string>
+		</dict>
+	</dict>
+	<key>%ld instruments</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld инструмент</string>
+			<key>few</key>
+			<string>%ld инструмента</string>
+			<key>many</key>
+			<string>%ld инструментов</string>
+			<key>other</key>
+			<string>%ld инструмента</string>
+		</dict>
+	</dict>
+	<key>%ld words</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld слово</string>
+			<key>few</key>
+			<string>%ld слова</string>
+			<key>many</key>
+			<string>%ld слов</string>
+			<key>other</key>
+			<string>%ld слова</string>
+		</dict>
+	</dict>
+	<key>%ld headlines translated</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Переведён %ld заголовок</string>
+			<key>few</key>
+			<string>Переведено %ld заголовка</string>
+			<key>many</key>
+			<string>Переведено %ld заголовков</string>
+			<key>other</key>
+			<string>Переведено %ld заголовка</string>
+		</dict>
+	</dict>
+	<key>%ld eligible messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld сообщение для показа</string>
+			<key>few</key>
+			<string>%ld сообщения для показа</string>
+			<key>many</key>
+			<string>%ld сообщений для показа</string>
+			<key>other</key>
+			<string>%ld сообщения для показа</string>
+		</dict>
+	</dict>
+	<key>%ld eligible headlines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld новость для показа</string>
+			<key>few</key>
+			<string>%ld новости для показа</string>
+			<key>many</key>
+			<string>%ld новостей для показа</string>
+			<key>other</key>
+			<string>%ld новости для показа</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+STROKA - GITHUB REFERENCES
+Checked 14 November 2026. These are comparative references, not imported dependencies.
+
+1. MacOS-Ticker - https://github.com/kapilVetrivel/MacOS-Ticker
+Native AppKit RSS ticker in the menu bar. Useful: Core Animation scrolling, pause/resume, retaining scroll position on updates, freshness and source status. Its screen location and focus differ from Stroka's full-screen/edge/event modes.
+README and actual LICENSE checked. Actual LICENSE: MIT for application code; publisher material remains third-party property. GitHub API license detection returned NOASSERTION, so the license file was checked separately. Last observed push: 9 August 2026.
+https://github.com/kapilVetrivel/MacOS-Ticker/blob/main/LICENSE
+
+2. Crawl - https://github.com/JUSTINMKAUFMAN/Crawl
+Native macOS keyword-based news crawl. Useful concept for a topic-specific ticker; not an up-to-date foundation. MIT, last observed push: 14 July 2019.
+
+3. NetNewsWire - https://github.com/Ranchero-Software/NetNewsWire
+A mature native RSS/Atom/JSON Feed reader. Useful benchmark for dependable subscriptions, local storage, OPML, documentation and contributor workflow. It is not a screen-edge ticker. MIT, last observed push: 12 November 2026. Stroka does not currently claim JSON Feed, OPML or reader-equivalent article management.
+
+4. MacClock - https://github.com/Tapnetix/MacClock
+Native clock with scrolling/rotating RSS, maximum-age filtering and day/night themes. Useful adjacent visual benchmark. AGPL-3.0 actual LICENSE checked; do not import code under an assumed permissive license. Countdown features are outside Stroka's requested product scope. Last observed push: 10 May 2026.
+
+5. Newsprint - https://github.com/ata-sesli/newsprint
+Local macOS reader with source discovery/filtering/OPML concepts. Current README describes a Rust/web-UI stack, contrary to an older SwiftUI search snippet. README says MIT but no root license file was established in this check; license metadata is absent. Use as UX reference only. Last observed push: 21 October 2026.
+
+Not selected as native macOS foundations: marcus-crane/rss-ticker (Linux), nek7u/OneTicker (Windows/Rainmeter).
+
+Product recommendation: retain Stroka's native renderer. Borrow interaction principles: clear source health, calm fixed station/clock blocks, motion confined to the reading lane, easy topic choice and explicit empty-state reasons. Do not rebuild the app around an old or differently targeted project.

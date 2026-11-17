@@ -1,0 +1,16 @@
+#!/bin/zsh
+set -euo pipefail
+STROKA_LAB_ROOT="${0:A:h}"
+STROKA_LAB_OUT="${1:-$STROKA_LAB_ROOT/Validation}"
+STROKA_LAB_APP="$STROKA_LAB_OUT/Stroka Link Lab.app"
+mkdir -p "$STROKA_LAB_APP/Contents/MacOS" "$STROKA_LAB_APP/Contents/Resources" "$STROKA_LAB_ROOT/Validation/ModuleCache"
+python3 "$STROKA_LAB_ROOT/make_project.py"
+xcrun swiftc -swift-version 5 -O -target "$(uname -m)-apple-macos14.0" -module-cache-path "$STROKA_LAB_ROOT/Validation/ModuleCache" -parse-as-library "$STROKA_LAB_ROOT"/Shared/*.swift "$STROKA_LAB_ROOT"/Apple/*.swift -o "$STROKA_LAB_APP/Contents/MacOS/StrokaLink"
+cp "$STROKA_LAB_ROOT/Apple/Info-Mac.plist" "$STROKA_LAB_APP/Contents/Info.plist"
+/usr/libexec/PlistBuddy -c "Set :CFBundleExecutable StrokaLink" "$STROKA_LAB_APP/Contents/Info.plist"
+/usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier ru.bushe.stroka.ecosystem.lab.mac" "$STROKA_LAB_APP/Contents/Info.plist"
+/usr/libexec/PlistBuddy -c "Set :CFBundleName Stroka Link Lab" "$STROKA_LAB_APP/Contents/Info.plist"
+cp "$STROKA_LAB_ROOT/Resources/NewsCatalog.json" "$STROKA_LAB_ROOT/Apple/PrivacyInfo.xcprivacy" "$STROKA_LAB_APP/Contents/Resources/"
+codesign --force --options runtime --entitlements "$STROKA_LAB_ROOT/Apple/Stroka-Link.entitlements" --sign - "$STROKA_LAB_APP"
+codesign --verify --strict "$STROKA_LAB_APP"
+echo "$STROKA_LAB_APP"

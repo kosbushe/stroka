@@ -1,0 +1,9 @@
+STROKA 0.17.0 - SIMPLIFIED SETUP
+
+The user requested one understandable initial setup and four looks. The landing view is now SimpleSetupView: a live strip, name, content, optional market row/common currencies, four styles and one Start ticker button. Content uses QuickContentChooser; display parameters use SimpleDisplaySettings. Presets and Settings are the only toolbar destinations. Legacy views remain in source for diagnostics and compatibility but are not the application's initial window.
+
+Migration retains authored text, station name/logo, custom sources, saved presets and chosen instruments. Older styles map to News, Night, Minimal or Glass. Initial presentation becomes a horizontal strip with clock/date enabled. Saved strip height is retained within 50-180 pt. The previous source-age, download bounds and cancellation policies remain in effect.
+
+Validation and screenshots for this version accompany the local Simple-v0.17.0 review. Prior network observations and performance figures are dated evidence in Release-audit-v0.16.0.txt and must not be presented as fresh measurements of the redesigned control window. Distribution gates remain in ../RELEASE-READINESS.txt. No public upload or App Store submission was performed.
+
+0.17.1 supersedes the placement/output scope: personal Top/Bottom desktop ticker only. CONSTITUTION.md, PRODUCT-DESCRIPTION.md and PROJECT-BRIEF.md define the current product. Full-screen/frame/side/centre/floating/idle-start output is excluded; old values are normalized. See the accompanying Desktop-v0.17.1 validation for current acceptance evidence.

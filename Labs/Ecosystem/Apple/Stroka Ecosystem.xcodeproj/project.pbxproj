@@ -1,0 +1,47 @@
+// !$*UTF8*$!
+{archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+31DDBF6CEB467672D1F0CED6 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../Shared/Profile.swift"; sourceTree = "<group>";};
+7D871049A279532503AC1BA4 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../Apple/ControllerModel.swift"; sourceTree = "<group>";};
+B90C0A7B38A3EF633EE9057F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../Apple/OutputView.swift"; sourceTree = "<group>";};
+6979F5B7A712EE4650D78537 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../Apple/PinnedTransport.swift"; sourceTree = "<group>";};
+D54FBA951F6FD15C91EE7B79 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../Apple/QRScanner.swift"; sourceTree = "<group>";};
+0B768563A6F775790F232409 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../Apple/StrokaApp.swift"; sourceTree = "<group>";};
+6D40B4114F48D55BAB542D35 = {isa = PBXFileReference; lastKnownFileType = text.json; path = "../Resources/NewsCatalog.json"; sourceTree = "<group>";};
+89EB2D8543C0EFB27210B9F6 = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "../Apple/PrivacyInfo.xcprivacy"; sourceTree = "<group>";};
+1D318A75A1B0F62F9443728C = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "Stroka iPhone Lab.app"; sourceTree = BUILT_PRODUCTS_DIR;};
+4B6930B5930DD8345113E563 = {isa = PBXBuildFile; fileRef = 31DDBF6CEB467672D1F0CED6;};
+F12DE8620109EE91192FC597 = {isa = PBXBuildFile; fileRef = 7D871049A279532503AC1BA4;};
+037E34F8435079C9C60CBE21 = {isa = PBXBuildFile; fileRef = B90C0A7B38A3EF633EE9057F;};
+21EFB341645F91033BF123C6 = {isa = PBXBuildFile; fileRef = 6979F5B7A712EE4650D78537;};
+8C601922369BFFBF55777CB3 = {isa = PBXBuildFile; fileRef = D54FBA951F6FD15C91EE7B79;};
+B1F990509A5003834A6E7CB1 = {isa = PBXBuildFile; fileRef = 0B768563A6F775790F232409;};
+306F2A7C892D39CFDF24F5BB = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (4B6930B5930DD8345113E563,F12DE8620109EE91192FC597,037E34F8435079C9C60CBE21,21EFB341645F91033BF123C6,8C601922369BFFBF55777CB3,B1F990509A5003834A6E7CB1); runOnlyForDeploymentPostprocessing = 0;};
+4B6E761FEC8441E115009770 = {isa = PBXBuildFile; fileRef = 6D40B4114F48D55BAB542D35;};
+15B1505DEEB6F156F93C9E80 = {isa = PBXBuildFile; fileRef = 89EB2D8543C0EFB27210B9F6;};
+5149AE55A5A5CEAA4D58F505 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (4B6E761FEC8441E115009770,15B1505DEEB6F156F93C9E80); runOnlyForDeploymentPostprocessing = 0;};
+C5FB640497BD0AA22C754F21 = {isa = PBXNativeTarget; buildConfigurationList = FB7A7723BF785D1632EBC222; buildPhases = (306F2A7C892D39CFDF24F5BB,5149AE55A5A5CEAA4D58F505); buildRules = (); dependencies = (); name = "Stroka iPhone Lab"; productName = "Stroka iPhone Lab"; productReference = 1D318A75A1B0F62F9443728C; productType = "com.apple.product-type.application";};
+1B2B659CFB7558968E5D0D7F = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "Stroka iPhone Lab"; PRODUCT_BUNDLE_IDENTIFIER = "ru.bushe.stroka.ecosystem.lab.ios"; INFOPLIST_FILE = "../Apple/Info-iOS.plist"; SWIFT_VERSION = "5.0"; CODE_SIGN_STYLE = "Automatic"; ENABLE_HARDENED_RUNTIME = "YES"; GENERATE_INFOPLIST_FILE = "NO"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SDKROOT = "iphoneos"; IPHONEOS_DEPLOYMENT_TARGET = "17.0"; TARGETED_DEVICE_FAMILY = "1,2"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";}; name = Debug;};
+C832FAADC53B6E6813CAC96F = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "Stroka iPhone Lab"; PRODUCT_BUNDLE_IDENTIFIER = "ru.bushe.stroka.ecosystem.lab.ios"; INFOPLIST_FILE = "../Apple/Info-iOS.plist"; SWIFT_VERSION = "5.0"; CODE_SIGN_STYLE = "Automatic"; ENABLE_HARDENED_RUNTIME = "YES"; GENERATE_INFOPLIST_FILE = "NO"; SWIFT_OPTIMIZATION_LEVEL = "-O"; SDKROOT = "iphoneos"; IPHONEOS_DEPLOYMENT_TARGET = "17.0"; TARGETED_DEVICE_FAMILY = "1,2"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";}; name = Release;};
+FB7A7723BF785D1632EBC222 = {isa = XCConfigurationList; buildConfigurations = (1B2B659CFB7558968E5D0D7F,C832FAADC53B6E6813CAC96F); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+A7B4E239AE2E289C8B4172DB = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "Stroka Link Lab.app"; sourceTree = BUILT_PRODUCTS_DIR;};
+0954316783B35F57C20EC4BC = {isa = PBXBuildFile; fileRef = 31DDBF6CEB467672D1F0CED6;};
+8A8084F9C8C7A9EB99C8772B = {isa = PBXBuildFile; fileRef = 7D871049A279532503AC1BA4;};
+D692E324FB7798795F9D509F = {isa = PBXBuildFile; fileRef = B90C0A7B38A3EF633EE9057F;};
+6E6129F66F2E8DFD790942AD = {isa = PBXBuildFile; fileRef = 6979F5B7A712EE4650D78537;};
+EA302C78F829FAFE567E9114 = {isa = PBXBuildFile; fileRef = D54FBA951F6FD15C91EE7B79;};
+526ECEA8DABCF89642F09790 = {isa = PBXBuildFile; fileRef = 0B768563A6F775790F232409;};
+2D142622B051A51D32C1A132 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (0954316783B35F57C20EC4BC,8A8084F9C8C7A9EB99C8772B,D692E324FB7798795F9D509F,6E6129F66F2E8DFD790942AD,EA302C78F829FAFE567E9114,526ECEA8DABCF89642F09790); runOnlyForDeploymentPostprocessing = 0;};
+88FD8F18BB3A24765C17D77F = {isa = PBXBuildFile; fileRef = 6D40B4114F48D55BAB542D35;};
+E7FC9D1B06B10CA11CEFD186 = {isa = PBXBuildFile; fileRef = 89EB2D8543C0EFB27210B9F6;};
+8AEF034F435EFBE93AE95D10 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (88FD8F18BB3A24765C17D77F,E7FC9D1B06B10CA11CEFD186); runOnlyForDeploymentPostprocessing = 0;};
+4AC5886DE425CE3D79302F00 = {isa = PBXNativeTarget; buildConfigurationList = F0A6BCD5E2D6743E8DE05D1B; buildPhases = (2D142622B051A51D32C1A132,8AEF034F435EFBE93AE95D10); buildRules = (); dependencies = (); name = "Stroka Link Lab"; productName = "Stroka Link Lab"; productReference = A7B4E239AE2E289C8B4172DB; productType = "com.apple.product-type.application";};
+3E99E5A184CD28F1F1377EE4 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "Stroka Link Lab"; PRODUCT_BUNDLE_IDENTIFIER = "ru.bushe.stroka.ecosystem.lab.mac"; INFOPLIST_FILE = "../Apple/Info-Mac.plist"; SWIFT_VERSION = "5.0"; CODE_SIGN_STYLE = "Automatic"; ENABLE_HARDENED_RUNTIME = "YES"; GENERATE_INFOPLIST_FILE = "NO"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SDKROOT = "macosx"; MACOSX_DEPLOYMENT_TARGET = "14.0"; CODE_SIGN_ENTITLEMENTS = "../Apple/Stroka-Link.entitlements";}; name = Debug;};
+0C40152C7ECCD75F080CBB14 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "Stroka Link Lab"; PRODUCT_BUNDLE_IDENTIFIER = "ru.bushe.stroka.ecosystem.lab.mac"; INFOPLIST_FILE = "../Apple/Info-Mac.plist"; SWIFT_VERSION = "5.0"; CODE_SIGN_STYLE = "Automatic"; ENABLE_HARDENED_RUNTIME = "YES"; GENERATE_INFOPLIST_FILE = "NO"; SWIFT_OPTIMIZATION_LEVEL = "-O"; SDKROOT = "macosx"; MACOSX_DEPLOYMENT_TARGET = "14.0"; CODE_SIGN_ENTITLEMENTS = "../Apple/Stroka-Link.entitlements";}; name = Release;};
+F0A6BCD5E2D6743E8DE05D1B = {isa = XCConfigurationList; buildConfigurations = (3E99E5A184CD28F1F1377EE4,0C40152C7ECCD75F080CBB14); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+AD936FCBED631FA67E05C3EA = {isa = PBXGroup; children = (31DDBF6CEB467672D1F0CED6,7D871049A279532503AC1BA4,B90C0A7B38A3EF633EE9057F,6979F5B7A712EE4650D78537,D54FBA951F6FD15C91EE7B79,0B768563A6F775790F232409,6D40B4114F48D55BAB542D35,89EB2D8543C0EFB27210B9F6,0A3E27B8CA818264D75C8D81); sourceTree = "<group>";};
+0A3E27B8CA818264D75C8D81 = {isa = PBXGroup; children = (1D318A75A1B0F62F9443728C,A7B4E239AE2E289C8B4172DB); name = Products; sourceTree = "<group>";};
+488864B3D19480A82F7F1786 = {isa = XCBuildConfiguration; buildSettings = {}; name = Debug;};
+35B1014F135DE9B45529B733 = {isa = XCBuildConfiguration; buildSettings = {}; name = Release;};
+AD1646610FAAB916B1DAB3FC = {isa = XCConfigurationList; buildConfigurations = (488864B3D19480A82F7F1786,35B1014F135DE9B45529B733); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+244210E48437B6556980A702 = {isa = PBXProject; attributes = {LastUpgradeCheck = 1600;}; buildConfigurationList = AD1646610FAAB916B1DAB3FC; compatibilityVersion = "Xcode 14.0"; developmentRegion = ru; hasScannedForEncodings = 0; knownRegions = (ru,en,Base); mainGroup = AD936FCBED631FA67E05C3EA; productRefGroup = 0A3E27B8CA818264D75C8D81; projectDirPath = ""; projectRoot = ""; targets = (C5FB640497BD0AA22C754F21,4AC5886DE425CE3D79302F00);};
+}; rootObject = 244210E48437B6556980A702; }

@@ -1,0 +1,28 @@
+<resources>
+ <string name="app_name">Stroka TV Lab</string>
+ <string name="intro">Your Mac ticker above TV apps</string>
+ <string name="instructions">On the Mac: Settings → Television. Turn on sharing, then enter the address and six-digit code here.</string>
+ <string name="address">Mac address, e.g. 192.168.1.10:43185</string>
+ <string name="code">Six-digit code</string>
+ <string name="pair">Connect to Mac</string>
+ <string name="permission">Allow display over other apps</string>
+ <string name="start">Start ticker</string>
+ <string name="stop">Stop ticker</string>
+ <string name="paired">Connected. Press Start, then Home to open your TV app.</string>
+ <string name="not_paired">Connect to your Mac first.</string>
+ <string name="needs_overlay">Allow display over other apps first. On some TVs this is under Special app access.</string>
+ <string name="no_settings">Open Android Settings → Apps → Special app access → Display over other apps → Stroka TV.</string>
+ <string name="connecting">Connecting…</string>
+ <string name="connect_error">Could not connect. Check Wi-Fi, address and pairing code on the Mac.</string>
+ <string name="invalid_address">Enter a private home-network IPv4 address and port.</string>
+ <string name="invalid_code">The code must contain six digits.</string>
+ <string name="running">Ticker is on. Your remote still controls your TV apps.</string>
+ <string name="stopped">Ticker stopped.</string>
+ <string name="service_failed">Could not show the ticker. Check the overlay permission.</string>
+ <string name="channel">Visible TV ticker</string>
+ <string name="notice">Stroka TV is showing your ticker</string>
+ <string name="privacy">Home Wi-Fi only. Local HTTP is not encrypted. Your Mac must stay on. Some TV apps hide overlays. This is a test build.</string>
+ <string name="waiting">Waiting for fresh content</string>
+ <string name="offline">Mac connection unavailable</string>
+ <string name="waiting_connection">Waiting for your Mac. Check that sharing is on; the ticker reconnects automatically.</string>
+</resources>

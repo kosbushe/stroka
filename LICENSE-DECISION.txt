@@ -1,0 +1,7 @@
+SOURCE PREVIEW STATUS - 17 November 2026
+
+Published at the owner's explicit request as a public beta repository.
+No open-source license has been selected. Existing copyright is retained as
+stated in LICENSE. An MIT/Apache or other reuse grant must be an explicit
+owner decision; repository publication itself does not make that choice.
+Third-party news, market data, logos and dependencies keep their own terms.

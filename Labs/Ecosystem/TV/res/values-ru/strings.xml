@@ -1,0 +1,28 @@
+<resources>
+ <string name="app_name">Stroka TV Lab</string>
+ <string name="intro">Ваша строка с Mac поверх приложений телевизора</string>
+ <string name="instructions">На Mac: Настройки → Телевизор. Включите передачу и введите здесь адрес и шестизначный код.</string>
+ <string name="address">Адрес Mac, например 192.168.1.10:43185</string>
+ <string name="code">Шестизначный код</string>
+ <string name="pair">Подключиться к Mac</string>
+ <string name="permission">Разрешить поверх других приложений</string>
+ <string name="start">Запустить строку</string>
+ <string name="stop">Остановить строку</string>
+ <string name="paired">Подключено. Нажмите Запустить, затем Домой и откройте нужное ТВ-приложение.</string>
+ <string name="not_paired">Сначала подключитесь к Mac.</string>
+ <string name="needs_overlay">Сначала разрешите показ поверх приложений. На некоторых ТВ это раздел Специальный доступ.</string>
+ <string name="no_settings">Откройте Настройки Android → Приложения → Специальный доступ → Поверх других приложений → Stroka TV.</string>
+ <string name="connecting">Подключение…</string>
+ <string name="connect_error">Не удалось подключиться. Проверьте Wi-Fi, адрес и код на Mac.</string>
+ <string name="invalid_address">Введите локальный IPv4-адрес Mac и порт в домашней сети.</string>
+ <string name="invalid_code">Код должен состоять из шести цифр.</string>
+ <string name="running">Строка включена. Пульт продолжает управлять приложениями телевизора.</string>
+ <string name="stopped">Строка остановлена.</string>
+ <string name="service_failed">Не удалось показать строку. Проверьте разрешение поверх приложений.</string>
+ <string name="channel">Видимая строка на телевизоре</string>
+ <string name="notice">Stroka TV показывает вашу строку</string>
+ <string name="privacy">Только домашний Wi-Fi. Локальный HTTP не зашифрован. Mac должен оставаться включённым. Некоторые ТВ-приложения скрывают наложения. Это тестовая версия.</string>
+ <string name="waiting">Ожидание свежих сообщений</string>
+ <string name="offline">Нет соединения с Mac</string>
+ <string name="waiting_connection">Ожидаем Mac. Проверьте, что передача включена. Строка подключится автоматически.</string>
+</resources>

@@ -1,0 +1,72 @@
+Privacy in Stroka
+Updated 17 November 2026
+
+Your Mac
+Your messages, presets, selected sources, settings, and cached headlines stay on your Mac. They are not sent to the developer. The desktop app has no advertising, analytics or tracking SDK.
+
+Content Library
+News is loaded directly from the RSS and Atom sources in the selected feed. Publishers receive normal connection information, such as your IP address and the resources requested, under their own policies. Only headlines, source names, publication dates, and links are cached; full articles are not stored. Jokes, riddles, conversation questions, and creative prompts are included in the app and work offline. Source language filters original publications. Optional Russian translation uses Apple Translation on-device; language models require a system download. Translated headlines are cached locally and are removed with Delete Local Data.
+
+Market Data
+When used by the selected channel or layout, market data connects directly to Coinbase and MOEX. These providers receive normal network information under their policies. Source timestamps and availability may vary.
+
+Phone Remote
+Off by default. When enabled, your Mac accepts local commands through a link with a random access key. Commands include playback actions and announcement text. This is local HTTP without TLS: use a trusted network and keep the link private. No developer server is involved.
+
+Permissions
+No camera, microphone, contacts, screen recording, or control of other apps is requested. macOS may ask for local-network access for Phone Remote. Data from other apps is not read.
+
+Deletion
+Choose Stroka > Delete Local Data… and confirm to remove messages, presets, and cached headlines. Default settings are restored. Quit Stroka to stop network updates. Individual sources can be disabled in the library.
+
+Beta support: https://github.com/kosbushe/stroka/issues . This notice is published in the repository. Response times and store acceptance are not guaranteed.
+
+Your selected station logo is normalized to PNG and kept locally in settings and saved presets. It is not uploaded. The original file path is not retained.
+
+Market data sources also include the Central Bank of Russia (cbr.ru) and European Central Bank (ecb.europa.eu) for official reference rates. Requests use your internet connection; no account or personal message text is sent to these providers.
+
+When you choose a public Telegram feed, Stroka requests its public t.me web preview directly. Telegram receives the requested channel address and normal network connection information; no Telegram account, private-channel content or personal message queue is sent.
+
+
+Приватность в Stroka
+Обновлено 17 ноября 2026 года
+
+Ваш Mac
+Сообщения, наборы, выбранные источники, настройки и кэш заголовков хранятся на вашем Mac. Разработчику эти данные не отправляются. В настольном приложении нет рекламы, аналитики и SDK отслеживания.
+
+Библиотека контента
+Новости загружаются напрямую из RSS и Atom выбранной ленты. Издатели получают обычные сведения о соединении, включая IP-адрес и запрошенные ресурсы, в соответствии со своими правилами. В кэш сохраняются заголовок, источник, дата публикации и ссылка, а не полные статьи. Шутки, загадки, вопросы для знакомства и творческие задания встроены в приложение и работают без интернета. Язык источников фильтрует оригинальные публикации. Дополнительный перевод на русский выполняется Apple Translation на устройстве после загрузки языковых моделей; переводы хранятся локально.
+
+Котировки
+Когда данные нужны выбранному каналу или оформлению, приложение обращается напрямую к Coinbase и MOEX. Эти поставщики получают сетевые сведения по своим правилам. Время источника и доступность данных могут различаться.
+
+Пульт с телефона
+По умолчанию выключен. При включении Mac принимает команды в локальной сети по ссылке со случайным ключом. Команды содержат действия и текст объявления. Соединение использует локальный HTTP без TLS: выбирайте доверенную сеть и не публикуйте ссылку. Сервер разработчика не используется.
+
+Разрешения
+Приложение не запрашивает камеру, микрофон, контакты, запись экрана или управление другими приложениями. Для пульта macOS может запросить доступ к локальной сети. Данные других приложений не читаются.
+
+Удаление
+Выберите Stroka > Удалить локальные данные… и подтвердите действие. Сообщения, наборы и кэш заголовков будут удалены, настройки восстановятся. Для остановки сетевых обновлений завершите приложение. Отдельные источники можно выключить в библиотеке.
+
+Это локальная тестовая версия. Публичные контакт поддержки и адрес политики приватности нужно добавить до публичного распространения.
+
+Выбранный логотип канала преобразуется в PNG и хранится локально в настройках и сохранённых наборах. Он никуда не загружается. Путь к исходному файлу не сохраняется.
+
+Официальные курсы дополнительно загружаются у ЦБ РФ (cbr.ru) и ЕЦБ (ecb.europa.eu). Запросы используют ваше интернет-соединение. Учётная запись и ваши тексты этим поставщикам не передаются.
+
+При выборе публичного Telegram-источника Stroka напрямую запрашивает его открытую страницу t.me. Telegram получает адрес запрошенного канала и обычные данные сетевого соединения. Учётная запись Telegram, закрытые каналы и ваши тексты для табло не передаются.
+
+Перевод на русский выполняется на устройстве через Apple Translation. macOS может запросить загрузку языковых моделей. Переведенные заголовки хранятся локально и удаляются вместе с локальными данными. Разработчику они не отправляются.
+
+Optional TV prototype / Показ на ТВ
+Off by default. When enabled, Mac shares selected ticker text, source labels, quote values, display preferences and local time-zone over unencrypted HTTP on the trusted private home network. TV pairing is read-only and separate from Phone Remote. The TV stores its Mac address and a session capability in private preferences (backup disabled), not a persistent headline cache. New pairing, sharing off or quitting Mac revokes the old connection. No screen image, custom logo or other apps’ data is sent. Android explicitly requires overlay permission and a user-started foreground service.
+
+По умолчанию выключен. При включении Mac передаёт выбранный текст, названия источников, котировки, параметры показа и часовой пояс по локальному HTTP без шифрования. Используйте доверенную домашнюю сеть. Телевизор получает ленту только для чтения; он хранит адрес Mac и ключ сеанса в закрытых настройках без резервного копирования, а не постоянный кэш новостей. Новый код, выключение показа на ТВ или завершение Mac-приложения отзывают прежнее подключение. Изображение экрана, свой логотип и данные других приложений не передаются. Для Android нужны явное разрешение наложения и запускаемая пользователем видимая служба.
+
+
+Experimental ecosystem Lab
+The separate Labs/Ecosystem prototype includes an iOS QR scanner and Android TV source engine. It requests camera access only for scanning a TV invitation and local-network access for connection. Device keys/tokens stay in system Keychain or AndroidKeyStore-protected storage. TV profile data is sent over the explicitly paired, certificate-pinned local TLS connection, and the TV requests selected public sources directly. The Lab includes ZXing for local QR encoding/decoding; it is not an analytics or cloud service. This describes prepared source; iPhone installation and full device acceptance are not complete. See Labs/Ecosystem/Docs/PROTOCOL-v2.md and PARITY.md.
+
+Экспериментальный Lab
+Отдельный прототип Labs/Ecosystem содержит сканер QR на iOS и движок источников на Android TV. Камера нужна только для сканирования приглашения, локальная сеть - для подключения. Ключи и токены хранятся в Keychain или под защитой AndroidKeyStore. Профиль передаётся явно подключённому ТВ по локальному TLS с проверкой ключа; новости ТВ запрашивает напрямую у выбранных источников. ZXing генерирует/читает QR локально, без облака и аналитики. Это описание подготовленного кода: установка на iPhone и полная приёмка ещё не завершены.

@@ -1,0 +1,5502 @@
+[
+  {
+    "id": "4",
+    "name": "РИА Новости",
+    "url": "https://ria.ru/export/rss2/archive/index.xml",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "1",
+    "name": "РБК",
+    "url": "https://rssexport.rbc.ru/rbcnews/news/30/full.rss",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "2",
+    "name": "Лента.ру",
+    "url": "https://lenta.ru/rss",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "3",
+    "name": "ТАСС",
+    "url": "https://tass.ru/rss/v2.xml",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "6",
+    "name": "Коммерсантъ",
+    "url": "https://www.kommersant.ru/RSS/news.xml",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "31",
+    "name": "BBC · Русская служба",
+    "url": "https://feeds.bbci.co.uk/russian/rss.xml",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "33",
+    "name": "Meduza",
+    "url": "https://meduza.io/rss/all",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "36",
+    "name": "BBC World",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "39",
+    "name": "NPR · News",
+    "url": "https://feeds.npr.org/1001/rss.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "37",
+    "name": "BBC · Headlines",
+    "url": "https://feeds.bbci.co.uk/news/rss.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "38",
+    "name": "The Guardian · World",
+    "url": "https://www.theguardian.com/world/rss",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "40",
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "44",
+    "name": "Le Monde · World",
+    "url": "https://www.lemonde.fr/en/international/rss_full.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "42",
+    "name": "France 24",
+    "url": "https://www.france24.com/en/rss",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "43",
+    "name": "UN News",
+    "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "535",
+    "name": "Все материалы - Московский Комсомолец",
+    "url": "https://www.mk.ru/rss/index.xml",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "536",
+    "name": "Российская Газета",
+    "url": "https://rg.ru/xml/index.xml",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "537",
+    "name": "Газета.Ru - Первая полоса",
+    "url": "https://www.gazeta.ru/export/rss/first.xml",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "538",
+    "name": "PravdaReport",
+    "url": "https://www.pravdareport.com/export.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "539",
+    "name": "TASS",
+    "url": "https://tass.com/rss/v2.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "540",
+    "name": "RT - Daily news",
+    "url": "https://www.rt.com/rss/",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "541",
+    "name": "The Moscow Times - Independent News From Russia",
+    "url": "https://www.themoscowtimes.com/rss/news",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "542",
+    "name": "Газета \"Коммерсантъ\". Главное",
+    "url": "https://www.kommersant.ru/RSS/main.xml",
+    "language": "ru",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "543",
+    "name": "Deccan Chronicle - Latest India news - Breaking news - Hyderabad News - World news - Business news - Politics - Technology news",
+    "url": "https://www.deccanchronicle.com/rss_feed/",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "544",
+    "name": "India Today - Latest Stories",
+    "url": "https://www.indiatoday.in/rss/home",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "545",
+    "name": "The Hindu - Home",
+    "url": "https://www.thehindu.com/feeder/default.rss",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "546",
+    "name": "Home - Mail Online",
+    "url": "https://www.dailymail.co.uk/home/index.rss",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "547",
+    "name": "TheJournal.ie",
+    "url": "https://www.thejournal.ie/feed/",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "548",
+    "name": "FOX News",
+    "url": "https://feeds.foxnews.com/foxnews/latest",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "549",
+    "name": "The42",
+    "url": "https://www.the42.ie/feed/",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "550",
+    "name": "Sydney Morning Herald - Latest News",
+    "url": "https://www.smh.com.au/rss/feed.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "551",
+    "name": "The Age - Latest News",
+    "url": "https://www.theage.com.au/rss/feed.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "552",
+    "name": "Brisbane Times - Latest News",
+    "url": "https://www.brisbanetimes.com.au/rss/feed.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "553",
+    "name": "Irish Mirror - Home",
+    "url": "https://www.irishmirror.ie/?service=rss",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "554",
+    "name": "Free Press Journal",
+    "url": "https://www.freepressjournal.in/stories.rss",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "555",
+    "name": "NDTV News - Topstories",
+    "url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "556",
+    "name": "CBC - Top Stories News",
+    "url": "https://www.cbc.ca/cmlink/rss-topstories",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "557",
+    "name": "The Canberra Times - Local News",
+    "url": "https://www.canberratimes.com.au/rss.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "558",
+    "name": "Times of India",
+    "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "559",
+    "name": "Toronto Sun - RSS Feed",
+    "url": "https://torontosun.com/category/news/feed",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "560",
+    "name": "Daily Express :: News Feed",
+    "url": "https://feeds.feedburner.com/daily-express-news-showbiz",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "561",
+    "name": "Avalanche stars MacKinnon, Makar to miss weeks",
+    "url": "https://globalnews.ca/feed/",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "562",
+    "name": "PerthNow",
+    "url": "https://www.perthnow.com.au/news/feed",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "563",
+    "name": "NYT > Top Stories",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "564",
+    "name": "Home Page",
+    "url": "https://www.business-standard.com/rss/home_page_top_stories.rss",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "565",
+    "name": "IrishExaminer.com",
+    "url": "https://feeds.feedburner.com/ietopstories",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "566",
+    "name": "Business Line - Home",
+    "url": "https://www.thehindubusinessline.com/feeder/default.rss",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "567",
+    "name": "Scroll.in",
+    "url": "https://feeds.feedburner.com/ScrollinArticles.rss",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "568",
+    "name": "Ottawa Citizen",
+    "url": "https://ottawacitizen.com/feed/",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "569",
+    "name": "The Province",
+    "url": "https://theprovince.com/feed/",
+    "language": "en",
+    "category": "world",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "12",
+    "name": "Хабр · Технологии",
+    "url": "https://habr.com/ru/rss/all/all/?fl=ru",
+    "language": "ru",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "14",
+    "name": "iXBT",
+    "url": "https://www.ixbt.com/export/news.rss",
+    "language": "ru",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "17",
+    "name": "SecurityLab",
+    "url": "https://www.securitylab.ru/_services/export/rss/",
+    "language": "ru",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "16",
+    "name": "Hi-Tech Mail",
+    "url": "https://hi-tech.mail.ru/rss/all/",
+    "language": "ru",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "13",
+    "name": "3DNews",
+    "url": "https://3dnews.ru/news/rss/",
+    "language": "ru",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "15",
+    "name": "CNews",
+    "url": "https://www.cnews.ru/inc/rss/news.xml",
+    "language": "ru",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "56",
+    "name": "BBC · Technology",
+    "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "53",
+    "name": "The Verge",
+    "url": "https://www.theverge.com/rss/index.xml",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "55",
+    "name": "Wired",
+    "url": "https://www.wired.com/feed/rss",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "206",
+    "name": "404 Media",
+    "url": "https://www.404media.co/rss/",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "654",
+    "name": "Polygon - All",
+    "url": "https://www.polygon.com/rss/index.xml",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "655",
+    "name": "Slashdot",
+    "url": "https://rss.slashdot.org/Slashdot/slashdotMain",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "658",
+    "name": "Kotaku",
+    "url": "https://kotaku.com/rss",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "659",
+    "name": "Rock, Paper, Shotgun",
+    "url": "https://feeds.feedburner.com/RockPaperShotgun",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "660",
+    "name": "Daring Fireball",
+    "url": "https://daringfireball.net/feeds/main",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "661",
+    "name": "9to5Mac",
+    "url": "https://9to5mac.com/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "662",
+    "name": "Cult of Mac",
+    "url": "https://www.cultofmac.com/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "663",
+    "name": "Gizmodo",
+    "url": "https://gizmodo.com/rss",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "664",
+    "name": "GSMArena.com - Latest articles",
+    "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "665",
+    "name": "The Ancient Gaming Noob",
+    "url": "https://feeds.feedburner.com/TheAncientGamingNoob",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "666",
+    "name": "Macworld.com",
+    "url": "https://www.macworld.com/index.rss",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "667",
+    "name": "ProAndroidDev - Medium",
+    "url": "https://proandroiddev.com/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "668",
+    "name": "AppleInsider News",
+    "url": "https://appleinsider.com/rss/news/",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "669",
+    "name": "Android Authority",
+    "url": "https://www.androidauthority.com/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "670",
+    "name": "TalkAndroid",
+    "url": "https://feeds.feedburner.com/AndroidNewsGoogleAndroidForums",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "671",
+    "name": "Phandroid",
+    "url": "https://feeds2.feedburner.com/AndroidPhoneFans",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "672",
+    "name": "InfoQ",
+    "url": "https://feed.infoq.com",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "673",
+    "name": "ReadWrite",
+    "url": "https://readwrite.com/feed/",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "674",
+    "name": "Escapist Magazine",
+    "url": "https://www.escapistmagazine.com/v2/feed/",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "675",
+    "name": "Lifehacker",
+    "url": "https://lifehacker.com/rss",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "676",
+    "name": "Droid Life",
+    "url": "https://www.droid-life.com/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "677",
+    "name": "AndroidGuys",
+    "url": "https://www.androidguys.com/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "678",
+    "name": "Xbox's Major Nelson",
+    "url": "https://majornelson.com/feed/",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "679",
+    "name": "MacStories",
+    "url": "https://www.macstories.net/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "680",
+    "name": "Stratechery by Ben Thompson",
+    "url": "https://stratechery.com/feed/",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "681",
+    "name": "Stack Overflow Blog",
+    "url": "https://stackoverflow.blog/feed/",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "682",
+    "name": "Facebook Engineering",
+    "url": "https://engineering.fb.com/feed/",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "683",
+    "name": "PlayStation.Blog",
+    "url": "https://feeds.feedburner.com/psblog",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "684",
+    "name": "The Loop",
+    "url": "https://www.loopinsight.com/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "685",
+    "name": "JetBrains Blog",
+    "url": "https://blog.jetbrains.com/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "686",
+    "name": "OS X Daily",
+    "url": "https://feeds.feedburner.com/osxdaily",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "687",
+    "name": "Indie Games Plus",
+    "url": "https://indiegamesplus.com/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "688",
+    "name": "JetBrains News - JetBrains Blog",
+    "url": "https://blog.jetbrains.com/blog/feed",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "689",
+    "name": "The GitHub Blog",
+    "url": "https://github.blog/feed/",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "690",
+    "name": "TouchArcade - iPhone, iPad, Android Games Forum",
+    "url": "https://toucharcade.com/community/forums/-/index.rss",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "691",
+    "name": "Android",
+    "url": "https://blog.google/products/android/rss",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "692",
+    "name": "GitLab",
+    "url": "https://about.gitlab.com/atom.xml",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "693",
+    "name": "SwiftRocks",
+    "url": "https://swiftrocks.com/rss.xml",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "699",
+    "name": "The Airbnb Tech Blog - Medium",
+    "url": "https://medium.com/feed/airbnb-engineering",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "700",
+    "name": "News - Apple Developer",
+    "url": "https://developer.apple.com/news/rss/news.rss",
+    "language": "en",
+    "category": "technology",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "28",
+    "name": "Хабр · AI",
+    "url": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "29",
+    "name": "Хабр · Машинное обучение",
+    "url": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "71",
+    "name": "TechCrunch · AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "72",
+    "name": "The Verge · AI",
+    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "202",
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "74",
+    "name": "OpenAI",
+    "url": "https://openai.com/news/rss.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "75",
+    "name": "MIT News · AI",
+    "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "494",
+    "name": "TechSparks · @techsparks",
+    "url": "https://t.me/s/techsparks",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "495",
+    "name": "Хабр: обработка языка",
+    "url": "https://habr.com/ru/rss/hubs/natural_language_processing/articles/?fl=ru",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "496",
+    "name": "Data Secrets · @data_secrets",
+    "url": "https://t.me/s/data_secrets",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "497",
+    "name": "Denis Sexy IT 🤖 · @denissexy",
+    "url": "https://t.me/s/denissexy",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "498",
+    "name": "Machinelearning · @ai_machinelearning_big_data",
+    "url": "https://t.me/s/ai_machinelearning_big_data",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "499",
+    "name": "Not Boring Tech · @notboring_tech",
+    "url": "https://t.me/s/notboring_tech",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "500",
+    "name": "Хабр: большие данные",
+    "url": "https://habr.com/ru/rss/hubs/bigdata/articles/?fl=ru",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "501",
+    "name": "эйай ньюз · @ai_newz",
+    "url": "https://t.me/s/ai_newz",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "502",
+    "name": "Сиолошная · @seeallochnaya",
+    "url": "https://t.me/s/seeallochnaya",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "698",
+    "name": "gonzo-обзоры ML статей · @gonzo_ML",
+    "url": "https://t.me/s/gonzo_ml",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "504",
+    "name": "Машинное обучение RU · @machinelearning_ru",
+    "url": "https://t.me/s/machinelearning_ru",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "505",
+    "name": "addmeto · @addmeto",
+    "url": "https://t.me/s/addmeto",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "506",
+    "name": "Ффринг | Вайбкодинг · @aiffring",
+    "url": "https://t.me/s/aiffring",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "507",
+    "name": "Hacker News AI",
+    "url": "https://hnrss.org/newest?q=AI",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "508",
+    "name": "Towards Data Science - Medium",
+    "url": "https://towardsdatascience.com/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "509",
+    "name": "AWS Machine Learning",
+    "url": "https://aws.amazon.com/blogs/machine-learning/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "510",
+    "name": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net/atom/everything",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "511",
+    "name": "Nvidia Developer Blog",
+    "url": "https://developer.nvidia.com/blog/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "512",
+    "name": "Blog AI Weirdness",
+    "url": "https://aiweirdness.com/rss",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "513",
+    "name": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "514",
+    "name": "NVIDIA AI Blog",
+    "url": "https://blogs.nvidia.com/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "515",
+    "name": "Science Daily AI News",
+    "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "516",
+    "name": "MIT News - Machine learning",
+    "url": "https://news.mit.edu/topic/mitmachine-learning-rss.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "517",
+    "name": "Microsoft Research · Blog",
+    "url": "https://www.microsoft.com/en-us/research/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "73",
+    "name": "Google · AI",
+    "url": "https://blog.google/technology/ai/rss/",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "201",
+    "name": "One Useful Thing",
+    "url": "https://www.oneusefulthing.org/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "518",
+    "name": "AI Happens · @aihappens",
+    "url": "https://t.me/s/aihappens",
+    "language": "ru",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "519",
+    "name": "Google DeepMind Blog",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "520",
+    "name": "PyTorch",
+    "url": "https://pytorch.org/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "521",
+    "name": "The singularity is nearer",
+    "url": "https://geohot.github.io/blog/feed.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "522",
+    "name": "Ben's Bites",
+    "url": "https://www.bensbites.com/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "523",
+    "name": "Amazon Science Homepage",
+    "url": "https://www.amazon.science/index.rss",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "524",
+    "name": "Last Week in AI",
+    "url": "https://lastweekin.ai/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "525",
+    "name": "ElevenLabs Blog",
+    "url": "https://api.bestblogs.dev/feed/elevenLabsBlog",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "526",
+    "name": "Microsoft Research · News",
+    "url": "https://research.microsoft.com/rss/news.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "527",
+    "name": "The Berkeley Artificial Intelligence Research Blog",
+    "url": "https://bair.berkeley.edu/blog/feed.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "528",
+    "name": "Machine Learning Mastery",
+    "url": "https://machinelearningmastery.com/blog/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "529",
+    "name": "Qdrant",
+    "url": "https://qdrant.tech/index.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "530",
+    "name": "Nicholas Carlini",
+    "url": "https://nicholas.carlini.com/writing/feed.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "531",
+    "name": "Chain Of Thought",
+    "url": "https://vrungta.substack.com/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "532",
+    "name": "minimaxir (Max Woolf)",
+    "url": "https://minimaxir.com/index.xml",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "533",
+    "name": "Sebastian Raschka",
+    "url": "https://magazine.sebastianraschka.com/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "534",
+    "name": "Medium - Artificial Intelligence Magazine",
+    "url": "https://becominghuman.ai/feed",
+    "language": "en",
+    "category": "ai",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "7",
+    "name": "Ведомости",
+    "url": "https://www.vedomosti.ru/rss/news",
+    "language": "ru",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "8",
+    "name": "Агентство Москва · Экономика",
+    "url": "https://www.mskagency.ru/rss/business.rss",
+    "language": "ru",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "9",
+    "name": "Банк России",
+    "url": "https://www.cbr.ru/rss/RssPress",
+    "language": "ru",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "48",
+    "name": "CNBC · Top News",
+    "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "49",
+    "name": "MarketWatch · Top Stories",
+    "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "47",
+    "name": "The Guardian · Business",
+    "url": "https://www.theguardian.com/business/rss",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "211",
+    "name": "Fast Company",
+    "url": "https://www.fastcompany.com/latest/rss",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "46",
+    "name": "BBC · Business",
+    "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "51",
+    "name": "ECB",
+    "url": "https://www.ecb.europa.eu/rss/press.html",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "570",
+    "name": "The Motley Fool",
+    "url": "https://www.fool.com/feeds/index.aspx",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "571",
+    "name": "Fortune",
+    "url": "https://fortune.com/feed/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "572",
+    "name": "Financial Times: companies",
+    "url": "https://www.ft.com/companies?format=rss",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "573",
+    "name": "The Guardian: companies",
+    "url": "https://www.theguardian.com/business/companies/rss",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "574",
+    "name": "The Economist: business",
+    "url": "https://www.economist.com/business/rss.xml",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "575",
+    "name": "The College Investor",
+    "url": "https://thecollegeinvestor.com/feed/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "576",
+    "name": "Money Crashers",
+    "url": "https://www.moneycrashers.com/feed/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "204",
+    "name": "Techmeme",
+    "url": "https://www.techmeme.com/feed.xml",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "577",
+    "name": "Inc.com",
+    "url": "https://www.inc.com/rss/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "578",
+    "name": "SavingAdvice.com Blog",
+    "url": "https://www.savingadvice.com/feed/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "579",
+    "name": "Hacker News: Front Page",
+    "url": "https://hnrss.org/frontpage",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "205",
+    "name": "Hacker News",
+    "url": "https://news.ycombinator.com/rss",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "580",
+    "name": "Hacker News: Show HN",
+    "url": "https://hnrss.org/show",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "581",
+    "name": "International: Top News And Analysis",
+    "url": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "582",
+    "name": "Breaking News on Seeking Alpha",
+    "url": "https://seekingalpha.com/market_currents.xml",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "583",
+    "name": "Small Business Trends",
+    "url": "https://feeds2.feedburner.com/SmallBusinessTrends",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "584",
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com/feed",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "585",
+    "name": "Forbes - Business",
+    "url": "https://www.forbes.com/business/feed/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "586",
+    "name": "Show Hacker News",
+    "url": "https://news.ycombinator.com/showrss",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "587",
+    "name": "Money Saving Mom®",
+    "url": "https://moneysavingmom.com/feed/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "588",
+    "name": "NerdWallet",
+    "url": "https://www.nerdwallet.com/blog/feed/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "701",
+    "name": "Steve Blank",
+    "url": "https://steveblank.com/feed/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "590",
+    "name": "All News",
+    "url": "https://www.investing.com/rss/news.rss",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "591",
+    "name": "The Next Web",
+    "url": "https://thenextweb.com/feed",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "592",
+    "name": "Entrepreneur",
+    "url": "https://feeds.feedburner.com/entrepreneur/latest",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "593",
+    "name": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "594",
+    "name": "Tech in Asia",
+    "url": "https://feeds2.feedburner.com/PennOlson",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "595",
+    "name": "Feld Thoughts",
+    "url": "https://feld.com/feed",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "596",
+    "name": "Moneyweb",
+    "url": "https://www.moneyweb.co.za/feed",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "597",
+    "name": "Hacker News 最佳",
+    "url": "https://hnrss.org/best",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "598",
+    "name": "Product Hunt — The best new products, every day",
+    "url": "https://www.producthunt.com/feed",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "599",
+    "name": "Money Under 30",
+    "url": "https://www.moneyunder30.com/feed",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "600",
+    "name": "Nerd's Eye View - Kitces.com",
+    "url": "https://feeds.feedblitz.com/kitcesnerdseyeview&x=1",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "601",
+    "name": "Financial Samurai",
+    "url": "https://www.financialsamurai.com/feed/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "602",
+    "name": "Hubspot",
+    "url": "https://blog.hubspot.com/CMS/UI/Modules/BizBlogger/rss.aspx?maxcount=25&moduleid=8441&tabid=6307",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "603",
+    "name": "Business News - Latest Headlines",
+    "url": "https://www.businessnews.com.au/rssfeed/latest.rss",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "604",
+    "name": "Moz",
+    "url": "https://feeds.feedburner.com/seomoz",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "605",
+    "name": "Hacker News: Launches",
+    "url": "https://hnrss.org/launches",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "606",
+    "name": "SEO Blog by Ahrefs",
+    "url": "https://ahrefs.com/blog/feed",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "607",
+    "name": "I Will Teach You To Be Rich",
+    "url": "https://www.iwillteachyoutoberich.com/feed/",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "608",
+    "name": "SparkToro",
+    "url": "https://sparktoro.com/blog/feed",
+    "language": "en",
+    "category": "business",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "27",
+    "name": "Sports.ru",
+    "url": "https://www.sports.ru/rss/all_news.xml",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "70",
+    "name": "The Guardian · Sport",
+    "url": "https://www.theguardian.com/sport/rss",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "68",
+    "name": "BBC Sport",
+    "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "447",
+    "name": "Спорт: Газета.ру",
+    "url": "https://www.gazeta.ru/export/rss/sport.xml",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "448",
+    "name": "Спорт-Экспресс",
+    "url": "https://www.sport-express.ru/services/materials/news/se/",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "449",
+    "name": "РИА Новости Спорт · @sportrian",
+    "url": "https://t.me/s/sportrian",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "450",
+    "name": "РИА Спорт",
+    "url": "https://rsport.ria.ru/export/rss2/index.xml",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "451",
+    "name": "Спортс“ · @sportsru",
+    "url": "https://t.me/s/sportsru",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "452",
+    "name": "Спорт: Лента.ру",
+    "url": "https://lenta.ru/rss/news/sport",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "453",
+    "name": "Матч ТВ · @match_tv",
+    "url": "https://t.me/s/match_tv",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "454",
+    "name": "Чемпионат · @championat",
+    "url": "https://t.me/s/championat",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "455",
+    "name": "Олимпийский комитет России · @olympic_russia",
+    "url": "https://t.me/s/olympic_russia",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "456",
+    "name": "Спорт-Экспресс | Sport-Express · @sportexpress",
+    "url": "https://t.me/s/sportexpress",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "457",
+    "name": "ФК «Динамо» Москва · @fcdynamo",
+    "url": "https://t.me/s/fcdynamo",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "458",
+    "name": "Футбольный клуб «Зенит» · @fczenit",
+    "url": "https://t.me/s/fczenit",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "459",
+    "name": "ФК «Локомотив» Москва · @fclokomotiv",
+    "url": "https://t.me/s/fclokomotiv",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "460",
+    "name": "СПАРТАК ИНФОРМ · @spartakinfo",
+    "url": "https://t.me/s/spartakinfo",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "461",
+    "name": "The Guardian: football",
+    "url": "https://www.theguardian.com/football/rss",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "462",
+    "name": "BBC Sport: football",
+    "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "463",
+    "name": "The Guardian: rugby",
+    "url": "https://www.theguardian.com/sport/rugby-union/rss",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "464",
+    "name": "CBS Sports",
+    "url": "https://www.cbssports.com/rss/headlines/",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "465",
+    "name": "BBC Sport: rugby",
+    "url": "https://feeds.bbci.co.uk/sport/rugby-union/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "466",
+    "name": "Sportsnet",
+    "url": "https://www.sportsnet.ca/feed/",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "467",
+    "name": "Cyclingnews",
+    "url": "https://www.cyclingnews.com/feeds/all",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "468",
+    "name": "Motorsport.com",
+    "url": "https://www.motorsport.com/rss/all/news/",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "469",
+    "name": "BBC Sport: horse racing",
+    "url": "https://feeds.bbci.co.uk/sport/horse-racing/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "470",
+    "name": "Cycling Weekly",
+    "url": "https://www.cyclingweekly.com/feeds/all",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "471",
+    "name": "BBC Sport: golf",
+    "url": "https://feeds.bbci.co.uk/sport/golf/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "472",
+    "name": "Autosport",
+    "url": "https://www.autosport.com/rss/feed/all",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "473",
+    "name": "MMA Fighting",
+    "url": "https://www.mmafighting.com/rss/current.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "474",
+    "name": "RaceFans",
+    "url": "https://www.racefans.net/feed/",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "475",
+    "name": "The Race",
+    "url": "https://www.the-race.com/rss/",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "476",
+    "name": "BBC Sport: boxing",
+    "url": "https://feeds.bbci.co.uk/sport/boxing/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "477",
+    "name": "BBC Sport: gymnastics",
+    "url": "https://feeds.bbci.co.uk/sport/gymnastics/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "478",
+    "name": "BBC Sport: winter sports",
+    "url": "https://feeds.bbci.co.uk/sport/winter-sports/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "479",
+    "name": "BBC Sport: disability sport",
+    "url": "https://feeds.bbci.co.uk/sport/disability-sport/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "480",
+    "name": "BBC Sport: athletics",
+    "url": "https://feeds.bbci.co.uk/sport/athletics/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "481",
+    "name": "BBC Sport: Formula 1",
+    "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "482",
+    "name": "The Guardian: tennis",
+    "url": "https://www.theguardian.com/sport/tennis/rss",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "483",
+    "name": "Yahoo! Sports - News, Scores, Standings, Rumors, Fantasy Games",
+    "url": "https://sports.yahoo.com/rss/",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "484",
+    "name": "NDTV Sports - Cricket",
+    "url": "https://feeds.feedburner.com/ndtvsports-cricket",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "485",
+    "name": "Soccer News",
+    "url": "https://www.soccernews.com/feed",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "486",
+    "name": "Sports News - Latest Sports and Football News - Sky News",
+    "url": "https://feeds.skynews.com/feeds/rss/sports.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "487",
+    "name": "Cricket news from ESPN Cricinfo.com",
+    "url": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "488",
+    "name": "Wisden",
+    "url": "https://www.wisden.com/feed",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "489",
+    "name": "BBC Sport - Cricket",
+    "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "490",
+    "name": "Cricket - The Guardian",
+    "url": "https://www.theguardian.com/sport/cricket/rss",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "491",
+    "name": "BBC Sport - Tennis",
+    "url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "492",
+    "name": "Sport.ru · @sportru",
+    "url": "https://t.me/s/sportru",
+    "language": "ru",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "493",
+    "name": "The Guardian: Formula 1",
+    "url": "https://www.theguardian.com/sport/formulaone/rss",
+    "language": "en",
+    "category": "sport",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "10",
+    "name": "Москва 24",
+    "url": "https://www.m24.ru/rss.xml",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "11",
+    "name": "Агентство Москва",
+    "url": "https://www.mskagency.ru/rss/index.rss",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "399",
+    "name": "Архитектурные излишества · @arkhlikbez",
+    "url": "https://t.me/s/arkhlikbez",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "400",
+    "name": "Вечерняя Москва",
+    "url": "https://vm.ru/rss",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "401",
+    "name": "Москва с огоньком · @moscowtop",
+    "url": "https://t.me/s/moscowtop",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "402",
+    "name": "ТАСС / Москва · @moscow_tass",
+    "url": "https://t.me/s/moscow_tass",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "403",
+    "name": "Москва Новости | Сердце Москвы · @moskva_novosti",
+    "url": "https://t.me/s/moskva_novosti",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "404",
+    "name": "Новости Москвы Сегодня · @mosnewstodey",
+    "url": "https://t.me/s/mosnewstodey",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "405",
+    "name": "Москва · @official_moscow",
+    "url": "https://t.me/s/official_moscow",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "694",
+    "name": "MosTrips 🔸Афиша Москва🔸Интересные места Москвы и Подмосковья · @mostriPS",
+    "url": "https://t.me/s/mostrips",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "407",
+    "name": "Москва News · @news_of_moscow",
+    "url": "https://t.me/s/news_of_moscow",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "408",
+    "name": "Москва 24 · @infomoscow24",
+    "url": "https://t.me/s/infomoscow24",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "409",
+    "name": "MSK1.RU | Новости Москвы | Россия · @msk1_news",
+    "url": "https://t.me/s/msk1_news",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "410",
+    "name": "Москва Live · @msk_live",
+    "url": "https://t.me/s/msk_live",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "411",
+    "name": "Где поесть Москва? Рестораны и Кафе · @mskrestfood",
+    "url": "https://t.me/s/mskrestfood",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "412",
+    "name": "ВДНХ · @vdnh_moscow",
+    "url": "https://t.me/s/vdnh_moscow",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "413",
+    "name": "Осторожно, Москва · @ostorozhno_moskva",
+    "url": "https://t.me/s/ostorozhno_moskva",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "414",
+    "name": "Мероприятия Москва - Афиша · @afishamoscva",
+    "url": "https://t.me/s/afishamoscva",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "415",
+    "name": "Афиша Daily · @afishadaily",
+    "url": "https://t.me/s/afishadaily",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "416",
+    "name": "KudaGo: Москва · @kudago",
+    "url": "https://t.me/s/kudago",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "695",
+    "name": "Дептранс. Оперативно · @DtOperativno",
+    "url": "https://t.me/s/dtoperativno",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "418",
+    "name": "Moscow News · @moscownews",
+    "url": "https://t.me/s/moscownews",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "419",
+    "name": "Новости Москвы · @mosnovosti",
+    "url": "https://t.me/s/mosnovosti",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "420",
+    "name": "Это Москва · @etomsk_channel",
+    "url": "https://t.me/s/etomsk_channel",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "421",
+    "name": "Мосфид • Новости Москвы · @moslenta",
+    "url": "https://t.me/s/moslenta",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "422",
+    "name": "Москвач • Новости Москвы · @moscowach",
+    "url": "https://t.me/s/moscowach",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "696",
+    "name": "Дептранс Москвы · @DtRoad",
+    "url": "https://t.me/s/dtroad",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "424",
+    "name": "Городское хозяйство Москвы · @kgh_moscow",
+    "url": "https://t.me/s/kgh_moscow",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "425",
+    "name": "Новости Москвы · @moscowmap",
+    "url": "https://t.me/s/moscowmap",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "426",
+    "name": "Московский Планетарий · @planetarium_mos",
+    "url": "https://t.me/s/planetarium_mos",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "427",
+    "name": "Усадьба Кусково · @kuskovo_museum",
+    "url": "https://t.me/s/kuskovo_museum",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "428",
+    "name": "Говорит Москино · @govoritmoskino",
+    "url": "https://t.me/s/govoritmoskino",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "429",
+    "name": "Московский зоопарк · @moscowzoo_official",
+    "url": "https://t.me/s/moscowzoo_official",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "430",
+    "name": "Российская государственная библиотека (Ленинка) · @leninka_ru",
+    "url": "https://t.me/s/leninka_ru",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "431",
+    "name": "Москвич Mag · @moskvichmag",
+    "url": "https://t.me/s/moskvichmag",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "432",
+    "name": "Москвич Mag",
+    "url": "https://moskvichmag.ru/feed/",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "433",
+    "name": "Музей Москвы · @mosmuseum",
+    "url": "https://t.me/s/mosmuseum",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "434",
+    "name": "Мэр Москвы Сергей Собянин · @mos_sobyanin",
+    "url": "https://t.me/s/mos_sobyanin",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "435",
+    "name": "Парк Горького · @gorkyparkmsk",
+    "url": "https://t.me/s/gorkyparkmsk",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "436",
+    "name": "ПРОКУРАТУРА МОСКВЫ · @moscowproc",
+    "url": "https://t.me/s/moscowproc",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "437",
+    "name": "Афиша · @afisha",
+    "url": "https://t.me/s/afisha",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "438",
+    "name": "Кудаеда · @kudaeda",
+    "url": "https://t.me/s/kudaeda",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "439",
+    "name": "MAMM · @multimediaartmuseum",
+    "url": "https://t.me/s/multimediaartmuseum",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "440",
+    "name": "Природа Москвы · @mospriroda",
+    "url": "https://t.me/s/mospriroda",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "441",
+    "name": "Мосгорнаследие · @mosgornasledie",
+    "url": "https://t.me/s/mosgornasledie",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "442",
+    "name": "Пушкинский музей · @theartsmuseum",
+    "url": "https://t.me/s/theartsmuseum",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "443",
+    "name": "Большой театр России/The Bolshoi Theatre of Russia · @bolshoi_theatre",
+    "url": "https://t.me/s/bolshoi_theatre",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "444",
+    "name": "Подмосковье сегодня · @mosregtoday",
+    "url": "https://t.me/s/mosregtoday",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "445",
+    "name": "ГЭС-2 · @vacges2",
+    "url": "https://t.me/s/vacges2",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "697",
+    "name": "MoscowWalks: прогулки по Москве · @MoscowWalks",
+    "url": "https://t.me/s/moscowwalks",
+    "language": "ru",
+    "category": "moscow",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "telegram"
+  },
+  {
+    "id": "18",
+    "name": "N + 1",
+    "url": "https://nplus1.ru/rss",
+    "language": "ru",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "207",
+    "name": "Phys.org",
+    "url": "https://phys.org/rss-feed/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "60",
+    "name": "Scientific American",
+    "url": "https://www.scientificamerican.com/platform/syndication/rss/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "209",
+    "name": "New Scientist",
+    "url": "https://www.newscientist.com/feed/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "210",
+    "name": "Science News",
+    "url": "https://www.sciencenews.org/feed",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "208",
+    "name": "Quanta Magazine",
+    "url": "https://www.quantamagazine.org/feed/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "356",
+    "name": "Поиск",
+    "url": "https://poisknews.ru/feed/",
+    "language": "ru",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "357",
+    "name": "Хабр: наука",
+    "url": "https://habr.com/ru/rss/hubs/popular_science/articles/?fl=ru",
+    "language": "ru",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "358",
+    "name": "Научная Россия",
+    "url": "https://scientificrussia.ru/rss",
+    "language": "ru",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "359",
+    "name": "Naked Science",
+    "url": "https://naked-science.ru/feed",
+    "language": "ru",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "360",
+    "name": "ПостНаука",
+    "url": "https://postnauka.org/feed",
+    "language": "ru",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "361",
+    "name": "ScienceAlert",
+    "url": "https://www.sciencealert.com/feed",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "362",
+    "name": "Phys.org: earth science",
+    "url": "https://phys.org/rss-feed/earth-news/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "363",
+    "name": "ScienceDaily: health",
+    "url": "https://www.sciencedaily.com/rss/health_medicine.xml",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "364",
+    "name": "ScienceDaily: mind",
+    "url": "https://www.sciencedaily.com/rss/mind_brain.xml",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "365",
+    "name": "Phys.org: biology",
+    "url": "https://phys.org/rss-feed/biology-news/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "366",
+    "name": "ScienceDaily: physics",
+    "url": "https://www.sciencedaily.com/rss/matter_energy.xml",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "367",
+    "name": "Live Science",
+    "url": "https://www.livescience.com/feeds/all",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "368",
+    "name": "The Guardian: science",
+    "url": "https://www.theguardian.com/science/rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "369",
+    "name": "ScienceDaily: archaeology",
+    "url": "https://www.sciencedaily.com/rss/fossils_ruins.xml",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "370",
+    "name": "Phys.org: chemistry",
+    "url": "https://phys.org/rss-feed/chemistry-news/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "371",
+    "name": "UC Berkeley news",
+    "url": "https://news.berkeley.edu/feed/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "372",
+    "name": "Phys.org: physics",
+    "url": "https://phys.org/rss-feed/physics-news/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "373",
+    "name": "Caltech news",
+    "url": "https://www.caltech.edu/about/news/rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "374",
+    "name": "Nature Communications",
+    "url": "https://www.nature.com/ncomms.rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "375",
+    "name": "The Conversation: science",
+    "url": "https://theconversation.com/us/technology/articles.atom",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "376",
+    "name": "Physics World",
+    "url": "https://physicsworld.com/feed/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "377",
+    "name": "Smithsonian: science",
+    "url": "https://www.smithsonianmag.com/rss/science-nature/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "378",
+    "name": "Chemistry World",
+    "url": "https://www.chemistryworld.com/413.rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "379",
+    "name": "PLOS Biology",
+    "url": "https://journals.plos.org/plosbiology/feed/atom",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "380",
+    "name": "PLOS Medicine",
+    "url": "https://journals.plos.org/plosmedicine/feed/atom",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "381",
+    "name": "PLOS Genetics",
+    "url": "https://journals.plos.org/plosgenetics/feed/atom",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "382",
+    "name": "PLOS Computational Biology",
+    "url": "https://journals.plos.org/ploscompbiol/feed/atom",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "383",
+    "name": "ScienceDaily: chemistry",
+    "url": "https://www.sciencedaily.com/rss/matter_energy/chemistry.xml",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "384",
+    "name": "New Atlas: science",
+    "url": "https://newatlas.com/science/index.rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "385",
+    "name": "Phys.org: nanotechnology",
+    "url": "https://phys.org/rss-feed/nanotech-news/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "386",
+    "name": "MIT News: chemistry",
+    "url": "https://news.mit.edu/rss/topic/chemistry",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "387",
+    "name": "Nature Physics",
+    "url": "https://www.nature.com/nphys.rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "388",
+    "name": "Nature Biotechnology",
+    "url": "https://www.nature.com/nbt.rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "389",
+    "name": "Nature Medicine",
+    "url": "https://www.nature.com/nm.rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "390",
+    "name": "Nature Neuroscience",
+    "url": "https://www.nature.com/neuro.rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "391",
+    "name": "NYT > Science",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "392",
+    "name": "BBC News - Science & Environment",
+    "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "393",
+    "name": "Latest Science News -- ScienceDaily",
+    "url": "https://www.sciencedaily.com/rss/all.xml",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "394",
+    "name": "Science Latest",
+    "url": "https://www.wired.com/feed/category/science/latest/rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "395",
+    "name": "FlowingData",
+    "url": "https://flowingdata.com/feed",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "396",
+    "name": "Science-Based Medicine",
+    "url": "https://sciencebasedmedicine.org/feed/",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "397",
+    "name": "Nature",
+    "url": "https://www.nature.com/nature.rss",
+    "language": "en",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "19",
+    "name": "Элементы",
+    "url": "https://elementy.ru/rss/news",
+    "language": "ru",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "398",
+    "name": "Троицкий вариант",
+    "url": "https://trv-science.ru/feed/",
+    "language": "ru",
+    "category": "science",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "66",
+    "name": "BBC · Entertainment",
+    "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "65",
+    "name": "The Guardian · Culture",
+    "url": "https://www.theguardian.com/culture/rss",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "212",
+    "name": "Atlas Obscura",
+    "url": "https://www.atlasobscura.com/feeds/latest",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "213",
+    "name": "Open Culture",
+    "url": "https://www.openculture.com/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "609",
+    "name": "Carscoops",
+    "url": "https://www.carscoops.com/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "610",
+    "name": "Page Array – NewInBooks",
+    "url": "https://www.newinbooks.com/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "611",
+    "name": "I Can Has Cheezburger?",
+    "url": "https://feeds.feedburner.com/icanhascheezburger",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "612",
+    "name": "IGN All",
+    "url": "https://feeds.ign.com/ign/all",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "613",
+    "name": "Consequence",
+    "url": "https://consequenceofsound.net/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "614",
+    "name": "FAIL Blog",
+    "url": "https://feeds.feedburner.com/failblog",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "615",
+    "name": "GameSpot - All Content",
+    "url": "https://www.gamespot.com/feeds/mashup",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "616",
+    "name": "History in 28-minutes",
+    "url": "https://www.historyisnowmagazine.com/blog?format=RSS",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "617",
+    "name": "PetaPixel",
+    "url": "https://petapixel.com/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "618",
+    "name": "CNET News",
+    "url": "https://www.cnet.com/rss/news",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "619",
+    "name": "Apartment Therapy · Design",
+    "url": "https://www.apartmenttherapy.com/design.rss",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "620",
+    "name": "Fashion - ELLE",
+    "url": "https://www.elle.com/rss/fashion.xml",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "621",
+    "name": "Beauty - Fashionista",
+    "url": "https://fashionista.com/.rss/excerpt/beauty",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "622",
+    "name": "Eurogamer.net",
+    "url": "https://www.eurogamer.net/?format=rss",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "52",
+    "name": "Ars Technica",
+    "url": "https://feeds.arstechnica.com/arstechnica/index",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "623",
+    "name": "ArchDaily",
+    "url": "https://feeds.feedburner.com/Archdaily",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "624",
+    "name": "Architecture – Dezeen",
+    "url": "https://www.dezeen.com/architecture/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "625",
+    "name": "BOOK RIOT",
+    "url": "https://bookriot.com/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "626",
+    "name": "How Sweet Eats",
+    "url": "https://www.howsweeteats.com/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "627",
+    "name": "Music Business Worldwide",
+    "url": "https://www.musicbusinessworldwide.com/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "628",
+    "name": "architecture – designboom - architecture & design magazine",
+    "url": "https://www.designboom.com/architecture/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "629",
+    "name": "BMW BLOG",
+    "url": "https://feeds.feedburner.com/BmwBlog",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "630",
+    "name": "Architectural Digest",
+    "url": "https://www.architecturaldigest.com/feed/rss",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "631",
+    "name": "Apartment Therapy · Projects",
+    "url": "https://www.apartmenttherapy.com/projects.rss",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "632",
+    "name": "Beauty - ELLE",
+    "url": "https://www.elle.com/rss/beauty.xml",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "633",
+    "name": "Design MilkInterior Design – Design Milk",
+    "url": "https://design-milk.com/category/interior-design/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "634",
+    "name": "The Architect’s Newspaper",
+    "url": "https://archpaper.com/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "635",
+    "name": "RSS: News",
+    "url": "https://pitchfork.com/rss/news",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "636",
+    "name": "A Beautiful Mess",
+    "url": "https://abeautifulmess.com/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "637",
+    "name": "Fashion | The Guardian",
+    "url": "https://www.theguardian.com/fashion/rss",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "638",
+    "name": "Canon Rumors – Your best source for Canon rumors, leaks and gossip",
+    "url": "https://www.canonrumors.com/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "639",
+    "name": "Lightroom Killer Tips",
+    "url": "https://lightroomkillertips.com/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "640",
+    "name": "Bike EXIF",
+    "url": "https://www.bikeexif.com/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "641",
+    "name": "500px",
+    "url": "https://iso.500px.com/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "642",
+    "name": "A year of reading the world",
+    "url": "https://ayearofreadingtheworld.com/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "643",
+    "name": "Song Exploder",
+    "url": "https://songexploder.net/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "644",
+    "name": "The History Reader",
+    "url": "https://www.thehistoryreader.com/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "645",
+    "name": "101 Cookbooks",
+    "url": "https://www.101cookbooks.com/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "646",
+    "name": "AwkwardFamilyPhotos.com",
+    "url": "https://awkwardfamilyphotos.com/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "647",
+    "name": "Light Stalking",
+    "url": "https://www.lightstalking.com/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "648",
+    "name": "Design MilkArchitecture – Design Milk",
+    "url": "https://design-milk.com/category/architecture/feed/",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "649",
+    "name": "Basic Apple Guy | Apple Wallpapers, Reviews, and Merch",
+    "url": "https://basicappleguy.com/basicappleblog?format=rss",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "650",
+    "name": "David Lebovitz",
+    "url": "https://www.davidlebovitz.com/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "651",
+    "name": "Chocolate & Zucchini",
+    "url": "https://cnz.to/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "652",
+    "name": "Centsational Style",
+    "url": "https://centsationalstyle.com/feed",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "653",
+    "name": "Blog - decor8",
+    "url": "https://www.decor8blog.com/blog?format=rss",
+    "language": "en",
+    "category": "culture",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "104",
+    "name": "The Hollywood Reporter · Movies",
+    "url": "https://www.hollywoodreporter.com/c/movies/movie-news/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "102",
+    "name": "Deadline · Film",
+    "url": "https://deadline.com/v/film/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "103",
+    "name": "Variety · Film",
+    "url": "https://variety.com/v/film/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "101",
+    "name": "The Guardian · Film",
+    "url": "https://www.theguardian.com/film/rss",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "214",
+    "name": "КиноРепортёр",
+    "url": "https://kinoreporter.ru/feed/",
+    "language": "ru",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "215",
+    "name": "MovieWeb",
+    "url": "https://movieweb.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "216",
+    "name": "ScreenRant",
+    "url": "https://screenrant.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "217",
+    "name": "The Hollywood Reporter: movies",
+    "url": "https://www.hollywoodreporter.com/c/movies/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "218",
+    "name": "CinemaBlend",
+    "url": "https://www.cinemablend.com/feeds/all",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "219",
+    "name": "Collider",
+    "url": "https://collider.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "220",
+    "name": "Slashfilm",
+    "url": "https://www.slashfilm.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "221",
+    "name": "IndieWire",
+    "url": "https://www.indiewire.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "222",
+    "name": "The Movie Blog",
+    "url": "https://www.themovieblog.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "223",
+    "name": "Flickering Myth",
+    "url": "https://www.flickeringmyth.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "224",
+    "name": "JoBlo",
+    "url": "https://www.joblo.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "225",
+    "name": "World of Reel",
+    "url": "https://www.worldofreel.com/blog?format=rss",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "226",
+    "name": "Dread Central",
+    "url": "https://www.dreadcentral.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "227",
+    "name": "TheWrap",
+    "url": "https://www.thewrap.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "228",
+    "name": "AwardsWatch",
+    "url": "https://awardswatch.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "229",
+    "name": "Next Best Picture",
+    "url": "https://nextbestpicture.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "230",
+    "name": "MovieMaker",
+    "url": "https://www.moviemaker.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "231",
+    "name": "The Playlist",
+    "url": "https://theplaylist.net/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "232",
+    "name": "Variety: reviews",
+    "url": "https://variety.com/v/film/reviews/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "233",
+    "name": "Dark Horizons",
+    "url": "https://www.darkhorizons.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "234",
+    "name": "Screen Daily",
+    "url": "https://www.screendaily.com/45202.rss",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "235",
+    "name": "Film Threat",
+    "url": "https://filmthreat.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "236",
+    "name": "HeyUGuys",
+    "url": "https://www.heyuguys.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "237",
+    "name": "No Film School",
+    "url": "https://nofilmschool.com/feeds/feed.rss",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "238",
+    "name": "Den of Geek: movies",
+    "url": "https://www.denofgeek.com/movies/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "239",
+    "name": "Awards Daily",
+    "url": "https://www.awardsdaily.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "240",
+    "name": "The Film Stage",
+    "url": "https://thefilmstage.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "241",
+    "name": "CineD",
+    "url": "https://www.cined.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "242",
+    "name": "RogerEbert.com",
+    "url": "https://www.rogerebert.com/feed",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "243",
+    "name": "The Guardian: film news",
+    "url": "https://www.theguardian.com/film/film+tone/news/rss",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "244",
+    "name": "Film Stories",
+    "url": "https://filmstories.co.uk/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "245",
+    "name": "Hollywood Reporter: film reviews",
+    "url": "https://www.hollywoodreporter.com/c/movies/movie-reviews/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "246",
+    "name": "TVLine",
+    "url": "https://tvline.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "67",
+    "name": "Variety",
+    "url": "https://variety.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "247",
+    "name": "Deadline",
+    "url": "https://deadline.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "248",
+    "name": "/Film",
+    "url": "https://feeds2.feedburner.com/slashfilm",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "249",
+    "name": "Movies",
+    "url": "https://www.bleedingcool.com/movies/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "250",
+    "name": "ComingSoon.net",
+    "url": "https://www.comingsoon.net/feed",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "251",
+    "name": "FirstShowing.net",
+    "url": "https://www.firstshowing.net/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "252",
+    "name": "Ain't It Cool News Feed",
+    "url": "https://www.aintitcool.com/node/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "253",
+    "name": "Film Independent",
+    "url": "https://www.filmindependent.org/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "254",
+    "name": "Filmmaker Magazine",
+    "url": "https://filmmakermagazine.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "255",
+    "name": "The Spool",
+    "url": "https://thespool.net/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "256",
+    "name": "Film Comment",
+    "url": "https://www.filmcomment.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "257",
+    "name": "Senses of Cinema",
+    "url": "https://www.sensesofcinema.com/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "258",
+    "name": "DiscussingFilm",
+    "url": "https://discussingfilm.net/feed/",
+    "language": "en",
+    "category": "cinema",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "63",
+    "name": "Space.com",
+    "url": "https://www.space.com/feeds/all",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "62",
+    "name": "NASA",
+    "url": "https://www.nasa.gov/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "308",
+    "name": "Космонавтика: Новости",
+    "url": "https://novosti-kosmonavtiki.ru/feed/",
+    "language": "ru",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "309",
+    "name": "Хабр: астрономия",
+    "url": "https://habr.com/ru/rss/hubs/astronomy/articles/?fl=ru",
+    "language": "ru",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "310",
+    "name": "Space: Phys.org",
+    "url": "https://phys.org/rss-feed/space-news/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "311",
+    "name": "Astronomy Magazine",
+    "url": "https://www.astronomy.com/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "312",
+    "name": "Space: ScienceDaily",
+    "url": "https://www.sciencedaily.com/rss/space_time.xml",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "313",
+    "name": "Astrophysics: ScienceDaily",
+    "url": "https://www.sciencedaily.com/rss/space_time/astrophysics.xml",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "314",
+    "name": "Exoplanets: ScienceDaily",
+    "url": "https://www.sciencedaily.com/rss/space_time/extrasolar_planets.xml",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "315",
+    "name": "Universe Today",
+    "url": "https://www.universetoday.com/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "316",
+    "name": "SpaceQ",
+    "url": "https://spaceq.ca/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "317",
+    "name": "Via Satellite",
+    "url": "https://www.satellitetoday.com/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "318",
+    "name": "Spaceflight Now",
+    "url": "https://spaceflightnow.com/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "319",
+    "name": "The Planetary Society",
+    "url": "https://www.planetary.org/rss/articles",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "320",
+    "name": "SpaceNews",
+    "url": "https://spacenews.com/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "321",
+    "name": "AAS Nova",
+    "url": "https://aasnova.org/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "322",
+    "name": "NASA · Feeds",
+    "url": "https://www.nasa.gov/feeds/iotd-feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "323",
+    "name": "Payload",
+    "url": "https://payloadspace.com/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "324",
+    "name": "Black holes: ScienceDaily",
+    "url": "https://www.sciencedaily.com/rss/space_time/black_holes.xml",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "325",
+    "name": "SpaceWatch.Global",
+    "url": "https://spacewatch.global/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "326",
+    "name": "NASASpaceflight",
+    "url": "https://www.nasaspaceflight.com/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "327",
+    "name": "NOIRLab",
+    "url": "https://noirlab.edu/public/news/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "328",
+    "name": "NASA: Artemis",
+    "url": "https://www.nasa.gov/missions/artemis/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "329",
+    "name": "NASA · Johnson Space Center",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "330",
+    "name": "NASA · Marshall Space Flight Center",
+    "url": "https://www.nasa.gov/centers-and-facilities/marshall/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "331",
+    "name": "Centauri Dreams",
+    "url": "https://www.centauri-dreams.org/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "332",
+    "name": "Space - The Guardian",
+    "url": "https://www.theguardian.com/science/space/rss",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "333",
+    "name": "NASA · Kennedy Space Center",
+    "url": "https://www.nasa.gov/centers-and-facilities/kennedy/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "334",
+    "name": "NASA · Goddard Space Flight Center",
+    "url": "https://www.nasa.gov/centers-and-facilities/goddard/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "335",
+    "name": "NASA · Aeronautics",
+    "url": "https://www.nasa.gov/aeronautics/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "336",
+    "name": "NASA · Armstrong Flight Research Center",
+    "url": "https://www.nasa.gov/centers-and-facilities/armstrong/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "337",
+    "name": "The Guardian: astronomy",
+    "url": "https://www.theguardian.com/science/astronomy/rss",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "338",
+    "name": "NASA · Headquarters",
+    "url": "https://www.nasa.gov/centers-and-facilities/hq/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "339",
+    "name": "NASA · Jet Propulsion Laboratory",
+    "url": "https://www.nasa.gov/centers-and-facilities/jpl/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "340",
+    "name": "SETI Institute",
+    "url": "https://www.seti.org/rss.xml",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "341",
+    "name": "Space missions: ScienceDaily",
+    "url": "https://www.sciencedaily.com/rss/space_time/space_missions.xml",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "342",
+    "name": "Astronomy Now",
+    "url": "https://astronomynow.com/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "343",
+    "name": "NASA: humans in space",
+    "url": "https://www.nasa.gov/humans-in-space/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "344",
+    "name": "Stars: ScienceDaily",
+    "url": "https://www.sciencedaily.com/rss/space_time/stars.xml",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "345",
+    "name": "NASA · Space Station",
+    "url": "https://www.nasa.gov/missions/station/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "346",
+    "name": "NASA · Technology",
+    "url": "https://www.nasa.gov/technology/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "347",
+    "name": "Space Explored",
+    "url": "https://spaceexplored.com/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "348",
+    "name": "ESA/Hubble",
+    "url": "https://esahubble.org/news/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "349",
+    "name": "Webb Telescope",
+    "url": "https://esawebb.org/news/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "350",
+    "name": "NASA · Stennis Space Center",
+    "url": "https://www.nasa.gov/centers-and-facilities/stennis/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "351",
+    "name": "NASA · Ames Research Center",
+    "url": "https://www.nasa.gov/centers-and-facilities/ames/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "352",
+    "name": "NASA · Langley Research Center",
+    "url": "https://www.nasa.gov/centers-and-facilities/langley/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "353",
+    "name": "NASA · Glenn Research Center",
+    "url": "https://www.nasa.gov/centers-and-facilities/glenn/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "354",
+    "name": "NASA · Shared Services Center",
+    "url": "https://www.nasa.gov/centers-and-facilities/nssc/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "355",
+    "name": "NASA · Wallops Flight Facility",
+    "url": "https://www.nasa.gov/centers-and-facilities/wallops/feed/",
+    "language": "en",
+    "category": "space",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "77",
+    "name": "The Guardian · Environment",
+    "url": "https://www.theguardian.com/environment/rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "259",
+    "name": "Экосфера",
+    "url": "https://ecosphere.press/feed/",
+    "language": "ru",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "260",
+    "name": "CleanTechnica",
+    "url": "https://cleantechnica.com/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "261",
+    "name": "Earth.com",
+    "url": "https://www.earth.com/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "262",
+    "name": "Climate Home News",
+    "url": "https://www.climatechangenews.com/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "263",
+    "name": "Electrek",
+    "url": "https://electrek.co/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "264",
+    "name": "The Guardian: climate crisis",
+    "url": "https://www.theguardian.com/environment/climate-crisis/rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "265",
+    "name": "Phys.org: climate",
+    "url": "https://phys.org/rss-feed/earth-news/earth-sciences/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "266",
+    "name": "Phys.org: environment",
+    "url": "https://phys.org/rss-feed/earth-news/environment/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "267",
+    "name": "Grist",
+    "url": "https://grist.org/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "268",
+    "name": "Greenpeace International",
+    "url": "https://www.greenpeace.org/international/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "269",
+    "name": "Phys.org: ecology",
+    "url": "https://phys.org/rss-feed/biology-news/ecology/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "270",
+    "name": "ScienceDaily: environment",
+    "url": "https://www.sciencedaily.com/rss/earth_climate.xml",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "271",
+    "name": "ScienceDaily: pollution",
+    "url": "https://www.sciencedaily.com/rss/earth_climate/pollution.xml",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "272",
+    "name": "ScienceDaily: environmental science",
+    "url": "https://www.sciencedaily.com/rss/earth_climate/environmental_science.xml",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "273",
+    "name": "ScienceDaily: renewable energy",
+    "url": "https://www.sciencedaily.com/rss/earth_climate/renewable_energy.xml",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "274",
+    "name": "PV Magazine",
+    "url": "https://www.pv-magazine.com/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "275",
+    "name": "Inside Climate News",
+    "url": "https://insideclimatenews.org/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "276",
+    "name": "Mongabay",
+    "url": "https://news.mongabay.com/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "277",
+    "name": "The Driven",
+    "url": "https://thedriven.io/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "278",
+    "name": "The Guardian: wildlife",
+    "url": "https://www.theguardian.com/environment/wildlife/rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "279",
+    "name": "Environmental Health News",
+    "url": "https://www.ehn.org/feeds/feed.rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "280",
+    "name": "Earth.Org",
+    "url": "https://earth.org/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "281",
+    "name": "Canary Media",
+    "url": "https://www.canarymedia.com/feed",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "282",
+    "name": "The Conversation: environment",
+    "url": "https://theconversation.com/us/environment/articles.atom",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "283",
+    "name": "The Guardian: energy",
+    "url": "https://www.theguardian.com/environment/energy/rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "284",
+    "name": "The Guardian: conservation",
+    "url": "https://www.theguardian.com/environment/conservation/rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "285",
+    "name": "Carbon Herald",
+    "url": "https://carbonherald.com/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "286",
+    "name": "Rewilding Europe",
+    "url": "https://rewildingeurope.com/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "287",
+    "name": "Yale Environment 360",
+    "url": "https://e360.yale.edu/feed.xml",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "288",
+    "name": "OffshoreWind.biz",
+    "url": "https://www.offshorewind.biz/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "289",
+    "name": "UN SDGs",
+    "url": "https://www.un.org/sustainabledevelopment/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "290",
+    "name": "Yale Climate Connections",
+    "url": "https://yaleclimateconnections.org/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "291",
+    "name": "ScienceDaily: global warming",
+    "url": "https://www.sciencedaily.com/rss/earth_climate/global_warming.xml",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "292",
+    "name": "ScienceDaily: climate",
+    "url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "293",
+    "name": "RenewEconomy",
+    "url": "https://reneweconomy.com.au/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "294",
+    "name": "Nature Climate Change",
+    "url": "https://www.nature.com/nclimate.rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "295",
+    "name": "Nature Ecology & Evolution",
+    "url": "https://www.nature.com/natecolevol.rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "296",
+    "name": "Carbon Brief",
+    "url": "https://www.carbonbrief.org/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "297",
+    "name": "Solar Power World",
+    "url": "https://www.solarpowerworldonline.com/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "298",
+    "name": "BirdLife International",
+    "url": "https://www.birdlife.org/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "299",
+    "name": "ScienceDaily: endangered species",
+    "url": "https://www.sciencedaily.com/rss/plants_animals/endangered_animals.xml",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "300",
+    "name": "Nature Sustainability",
+    "url": "https://www.nature.com/natsustain.rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "301",
+    "name": "Nature Geoscience",
+    "url": "https://www.nature.com/ngeo.rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "302",
+    "name": "Nature Water",
+    "url": "https://www.nature.com/natwater.rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "303",
+    "name": "The Guardian: biodiversity",
+    "url": "https://www.theguardian.com/environment/biodiversity/rss",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "304",
+    "name": "Climate and Capital Media",
+    "url": "https://www.climateandcapitalmedia.com/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "305",
+    "name": "ScienceDaily: sustainability",
+    "url": "https://www.sciencedaily.com/rss/earth_climate/sustainability.xml",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "306",
+    "name": "Carbon Tracker",
+    "url": "https://carbontracker.org/feed/",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  },
+  {
+    "id": "307",
+    "name": "ScienceDaily: ecology",
+    "url": "https://www.sciencedaily.com/rss/earth_climate/ecology.xml",
+    "language": "en",
+    "category": "environment",
+    "availability": "checked",
+    "checkedAt": "2026-11-14",
+    "kind": "rss"
+  }
+]

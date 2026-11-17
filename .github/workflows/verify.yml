@@ -1,0 +1,30 @@
+name: Verify beta
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  core:
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check source metadata
+        run: python3 Scripts/check_release.py
+      - name: Build native diagnostics
+        run: STROKA_ARCHS="$(uname -m)" STROKA_DIAGNOSTICS=1 zsh build.sh "$RUNNER_TEMP/Stroka-QA"
+      - name: Run isolated core checks
+        run: zsh Scripts/verify.zsh "$RUNNER_TEMP/Stroka-QA/Stroka.app"
+      - name: Build Universal local release
+        run: zsh build.sh "$RUNNER_TEMP/Stroka-Release"
+      - name: Check signature and architectures
+        run: |
+          codesign --verify --deep --strict "$RUNNER_TEMP/Stroka-Release/Stroka.app"
+          lipo "$RUNNER_TEMP/Stroka-Release/Stroka.app/Contents/MacOS/Stroka" -verify_arch arm64 x86_64
+      - name: Check shared Lab profile and feed rules
+        run: zsh Labs/Ecosystem/checks.sh

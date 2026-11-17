@@ -1,0 +1,11 @@
+PUBLIC BETA SOURCE CHECKPOINT - 17 November 2026
+
+Owner requested creation/publication of the GitHub repository. The public beta contains Mac 0.23.1 (30), TV mirror receiver 0.2.2 and the separately labelled Ecosystem Lab 0.3.1. This supersedes earlier publication-hold wording; dated audits remain historical evidence.
+
+Mac 0.23.1 and both height-45 APKs were built locally. Scoped 45-point checks: 42 compact + 48 desktop-edge + 25 simple-setup assertions. Prior Mac/TV and Lab evidence is retained with its dates and device/scenario limits. No iOS SDK build/IPA/device installation is claimed. GitHub-hosted CI must be judged from its actual run.
+
+The user's working Mac/TV installation was deliberately preserved. Repository publication does not install or restart the apps. Current source and deferred installation are different states.
+
+Source preview retains copyright without an open-source license grant (LICENSE). Support: GitHub Issues, vulnerabilities: GitHub private reporting. No response-time or store-ready claim. StoreMetadata fields for developer team, provider review and completed device acceptance stay unapproved until actually resolved.
+
+Before store or general public-ready binary distribution: source/contribution terms, provider review, monitored support process, full device/accessibility/energy acceptance, Developer ID signing/notarization or App Store archive, proper Android release-key management/Play requirements and privacy/age-rating metadata. Do not tell users to bypass OS security protections.

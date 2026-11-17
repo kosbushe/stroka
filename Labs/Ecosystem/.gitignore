@@ -1,0 +1,9 @@
+Validation/*
+!Validation/RESULTS.md
+TV/.build/
+*.app/
+*.apk
+*.keystore
+*.jks
+__pycache__/
+.DS_Store

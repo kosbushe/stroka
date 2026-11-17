@@ -1,0 +1,15 @@
+STROKA - SIMPLE SETUP DESIGN, 0.17
+
+Single job: choose what runs on your strip and start it. The main window contains a live strip preview, a station-name field, a content chooser, an optional market row and four style choices. No sidebar, permanent inspector, stats dashboard or theme library is exposed on the landing screen.
+
+Four looks: News (red station, white text lane), Night (quiet dark lane), Minimal (black/white), Glass (soft static gradient, rounded ends). Legacy styles remain decodable, but only these four are offered. The glass surface is cached; no live screen capture or continuous blur is used.
+
+Native macOS controls, system type, semantic colours and a single blue primary action. Main padding 28 pt; 22 pt vertical rhythm; style choices have 12 pt corners. The actual ticker's station and clock blocks remain asymmetric and compact, with moving text clipped exactly at their seams. Name/preview/content/currency/style choices share one clear reading direction.
+
+The title is an instruction, not a marketing slogan. English is the source language, Russian is secondary. The name, sources, messages, presets and market selection survive the change. Native system appearance and reduced motion remain supported.
+
+Content uses a searchable list with Topics/Publishers. Translation, topic exclusions, short-headline filtering and recent-message review are secondary choices inside it. Source status explains failures and missing eligible news. Top/Bottom is on the main screen. More settings handles screen/height/speed/logo/separators; it is not permanently visible.
+
+Manual release acceptance still includes VoiceOver, complete keyboard traversal, Increase Contrast, actual native toolbar materials in dark mode, older OS/Intel/external displays and sustained resource use. Offscreen snapshots alone do not validate every system toolbar material.
+
+0.17.1: only a fixed horizontal top/bottom desktop strip. Full-screen/frame/side/centre/floating and idle output are excluded. Runtime legacy requests are confined to one strip. The canonical product scope is in ../CONSTITUTION.md.
