@@ -47,6 +47,7 @@
 "All the wishes are for you today\nMake your biggest wish\nTime for a group photo!" = "Сегодня все поздравления - тебе\nЗагадывай самое смелое желание\nПора сделать общее фото!";
 "Allow only selected highlights up to 48 hours" = "Разрешить выбранные особые материалы до 48 часов";
 "Allow this highlight for up to 48 hours from publication" = "Разрешить этот материал до 48 часов с момента публикации";
+"Allow window control…" = "Разрешить управление окнами…";
 "Anastasia & Michael" = "Анастасия & Михаил";
 "Android TV / Google TV" = "Android TV / Google TV";
 "Announcement" = "Сообщение";
@@ -233,6 +234,7 @@
 "Film, books, music, and culture from The Guardian. In English." = "Кино, книги, музыка и культура от The Guardian. На английском языке.";
 "Filter the ready-made messages by your keywords." = "Отберите готовые сообщения по вашим ключевым словам.";
 "Find a publisher or topic" = "Найти источник или тему";
+"Fits ordinary windows when you switch apps or resize them. Full Screen and fixed-size windows are excluded. Original sizes return when you stop the ticker, unless you moved the window yourself." = "Подгоняет обычные окна при переключении и изменении размера. Полноэкранные окна и окна фиксированного размера не меняются. После остановки строки прежние размеры вернутся, если вы сами не передвигали окно.";
 "Floating" = "Свободно";
 "For Events & Conversations" = "Для мероприятий и общения";
 "For Every Occasion" = "Для любого повода";
@@ -256,6 +258,7 @@
 "Hide Stroka" = "Скрыть Stroka";
 "Highlights · up to 48h" = "Особое · до 48 часов";
 "Home network only. This local connection is not encrypted. The TV can read the shared feed, but cannot control your Mac." = "Только для домашней сети. Локальное соединение без шифрования. Телевизор получает ленту, но не может управлять Mac.";
+"Horizontal bar" = "Горизонтальный штрих";
 "IDEAS" = "ИДЕИ";
 "ISS · 15 s" = "ISS · 15 с";
 "Ideas are close. Keep what matters in sight.\nYour message could be here" = "Идеи рядом. Не упускайте главное.\nВаше сообщение может быть здесь";
@@ -274,6 +277,7 @@
 "International" = "Международный";
 "Just enter @username. We’ll find the name and public posts automatically." = "Введите @имя. Название и открытые публикации найдём автоматически.";
 "Just for Laughs" = "Анекдоты";
+"Keep windows clear of ticker" = "Освобождать место под строку";
 "Keep your sources, rows and appearance to use them again." = "Сохраните источники, строки и оформление, чтобы вернуться к ним позже.";
 "Keywords match visible headlines and excerpts. Unknown publication dates are excluded." = "Слова ищутся в заголовках и видимых фрагментах. Новости без даты исключены.";
 "Keywords, separated by commas" = "Ключевые слова через запятую";
@@ -281,6 +285,8 @@
 "LIVE" = "ПОТОК";
 "LOCAL TIME" = "МЕСТНОЕ ВРЕМЯ";
 "Language" = "Язык";
+"Language and filters" = "Язык и фильтры";
+"Large circle" = "Большой кружок";
 "Launches, distant planets and space exploration." = "Запуски, далекие планеты и исследования космоса.";
 "Layout" = "Композиция";
 "Layout preview · your selected sources" = "Предпросмотр · выбранные источники";
@@ -611,6 +617,9 @@
 "This name is already used. Choose another name." = "Это название уже используется. Выберите другое.";
 "This source has already been added." = "Такой источник уже добавлен.";
 "Thoughts for Today" = "Мысли дня";
+"Three dots" = "Три точки";
+"Three stars" = "Три звёздочки";
+"Three vertical bars" = "Три вертикальных штриха";
 "Ticker" = "Лента";
 "Ticker at Bottom" = "Строка снизу";
 "Ticker at Top" = "Строка сверху";
@@ -626,9 +635,9 @@
 "Translated" = "Перевод";
 "Translating fresh headlines…" = "Переводим свежие заголовки…";
 "Translation is not ready. Prepare the languages and try again." = "Перевод не готов. Подготовьте языки и повторите.";
-"Tricolor Stripes" = "Три полосы";
 "Try a topic such as cinema, science or humour, or a publisher name." = "Попробуйте тему: кино, наука, юмор или название издания.";
 "Two Rows: News + Markets" = "Две строки: новости и котировки";
+"Two vertical bars" = "Два вертикальных штриха";
 "Type" = "Тип";
 "Unavailable · will retry" = "Недоступно · повторим позже";
 "Undo" = "Отменить";
@@ -666,6 +675,7 @@
 "White Logo Plate" = "Белая подложка логотипа";
 "White ticker · red station" = "Белая строка · красный блок";
 "Window" = "Окно";
+"Window fitting is available in the direct-download Mac build." = "Подгонка окон доступна в версии для прямой установки на Mac.";
 "Word by Word" = "По словам";
 "Works while Stroka is open. Your Mac’s lock screen is managed separately." = "Пока приложение открыто. Блокировка Mac работает отдельно.";
 "World Headlines" = "В мире";

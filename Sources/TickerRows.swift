@@ -104,11 +104,28 @@ extension AppModel {
         guard tickerRows.indices.contains(index) else {return []}
         let row = tickerRows[index]
         if row.channel == .markets {return quotes.map(\.line)}
-        if row.channel == .message {return row.messages.components(separatedBy:.newlines).map{$0.trimmingCharacters(in:.whitespacesAndNewlines)}.filter{!$0.isEmpty}}
-        return rowStories(index).map(\.line)
+        if let lines = rowLineCache[index] {return lines}
+        if row.channel == .message {
+            let lines = row.messages.components(separatedBy:.newlines).map{$0.trimmingCharacters(in:.whitespacesAndNewlines)}.filter{!$0.isEmpty}
+            rowLineCache[index] = lines;return lines
+        }
+        // Build each publisher line once. Looking up every headline by scanning all
+        // stories made each new stream window quadratic and blocked the main thread.
+        let stories = rowStories(index)
+        var lines:[String] = [];lines.reserveCapacity(stories.count)
+        var records:[String:BroadcastRecord] = [:];records.reserveCapacity(stories.count)
+        for story in stories {
+            let line = story.line;lines.append(line)
+            if records[line] == nil {
+                let pack = ContentPack.find(story.packID)
+                records[line] = BroadcastRecord(text:story.text,source:story.source,date:story.date,section:L(pack.section),isOffline:pack.offline,isTranslated:story.isTranslated ?? false)
+            }
+        }
+        rowLineCache[index] = lines;rowRecordCache[index] = records;return lines
     }
     func rowRecord(_ raw:String,index:Int)->BroadcastRecord {
-        if let story = rowStories(index).first(where:{$0.line == raw}) {return BroadcastRecord(text:story.text,source:story.source,date:story.date,section:L(ContentPack.find(story.packID).section),isOffline:ContentPack.find(story.packID).offline,isTranslated:story.isTranslated ?? false)}
+        _ = rowLines(index)
+        if let record = rowRecordCache[index]?[raw] {return record}
         return BroadcastRecord(text:raw,source:settings.brand,date:nil,section:L("MESSAGES"))
     }
 }
@@ -147,7 +164,7 @@ struct TickerRowEditor:View {
             if state.draft.settings.channel == .markets {VStack(spacing:16){Image(systemName:"chart.xyaxis.line").font(.system(size:30)).foregroundStyle(.secondary);Text(L("Uses the instruments selected for your ticker.")).foregroundStyle(.secondary);Button(L("All instruments…")){save();NotificationCenter.default.post(name:Notification.Name("StrokaRowInstruments"),object:model);dismiss()}}.frame(width:640,height:420)}
             else if state.draft.settings.channel == .message {VStack(alignment:.leading,spacing:12){Text(L("One message per line")).font(.callout).foregroundStyle(.secondary);TextEditor(text:Binding(get:{state.draft.settings.messages},set:{state.draft.settings.messages = $0})).font(.system(size:14)).frame(minHeight:240)}.padding(24).frame(width:640,height:420)}
             else {QuickContentChooser(model:state.draft,embedded:true)}
-        }.background{RussianTranslationHost(model:state.draft)}
+        }.frame(width:820,height:ContentChooserLayout.editorHeight).background{RussianTranslationHost(model:state.draft)}
     }
     private func save() {
         model.settings.translateRussian = state.draft.settings.translateRussian

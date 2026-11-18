@@ -10,7 +10,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSTo
         model.prepareOnboarding(firstLaunch:firstLaunch)
         if CommandLine.arguments.contains("--setup") {model.showOnboarding = true}
         if CommandLine.arguments.contains("--russian-news") { model.settings.translateRussian = true;model.newsLanguage = .all }
-        if CommandLine.arguments.contains("--tricolor-separator") { model.settings.separator = "▌▌▌";model.settings.showClock = true;model.settings.broadcastDate = true }
         if CommandLine.arguments.contains("--open-content") { model.settings.channel = .content }
         model.saveSettingsNow()
         window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 920, height: 660), styleMask: [.titled, .closable, .miniaturizable, .resizable], backing: .buffered, defer: false)
@@ -117,6 +116,7 @@ if CommandLine.arguments.contains("--offline-label-check") {app.setActivationPol
 if CommandLine.arguments.contains("--expanded-catalog-check") {app.setActivationPolicy(.regular);expandedCatalogCheck()}
 if CommandLine.arguments.contains("--telegram-live-add-check") {app.setActivationPolicy(.regular);telegramLiveAddCheck()}
 if CommandLine.arguments.contains("--saved-settings-check") {app.setActivationPolicy(.regular);savedSettingsCheck()}
+if CommandLine.arguments.contains("--large-feed-render-check") {app.setActivationPolicy(.regular);largeFeedRenderCheck()}
 if CommandLine.arguments.contains("--row-speed-check") {app.setActivationPolicy(.regular);rowSpeedCheck()}
 if CommandLine.arguments.contains("--tv-bridge-check") {app.setActivationPolicy(.regular);tvBridgeCheck()}
 if CommandLine.arguments.contains("--quick-feed-check") {app.setActivationPolicy(.regular);quickFeedCheck()}

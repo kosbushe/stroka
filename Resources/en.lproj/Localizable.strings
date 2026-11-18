@@ -47,6 +47,7 @@
 "All the wishes are for you today\nMake your biggest wish\nTime for a group photo!" = "All the wishes are for you today\nMake your biggest wish\nTime for a group photo!";
 "Allow only selected highlights up to 48 hours" = "Allow only selected highlights up to 48 hours";
 "Allow this highlight for up to 48 hours from publication" = "Allow this highlight for up to 48 hours from publication";
+"Allow window control…" = "Allow window control…";
 "Anastasia & Michael" = "Anastasia & Michael";
 "Android TV / Google TV" = "Android TV / Google TV";
 "Announcement" = "Announcement";
@@ -233,6 +234,7 @@
 "Film, books, music, and culture from The Guardian. In English." = "Film, books, music, and culture from The Guardian. In English.";
 "Filter the ready-made messages by your keywords." = "Filter the ready-made messages by your keywords.";
 "Find a publisher or topic" = "Find a publisher or topic";
+"Fits ordinary windows when you switch apps or resize them. Full Screen and fixed-size windows are excluded. Original sizes return when you stop the ticker, unless you moved the window yourself." = "Fits ordinary windows when you switch apps or resize them. Full Screen and fixed-size windows are excluded. Original sizes return when you stop the ticker, unless you moved the window yourself.";
 "Floating" = "Floating";
 "For Events & Conversations" = "For Events & Conversations";
 "For Every Occasion" = "For Every Occasion";
@@ -256,6 +258,7 @@
 "Hide Stroka" = "Hide Stroka";
 "Highlights · up to 48h" = "Highlights · up to 48h";
 "Home network only. This local connection is not encrypted. The TV can read the shared feed, but cannot control your Mac." = "Home network only. This local connection is not encrypted. The TV can read the shared feed, but cannot control your Mac.";
+"Horizontal bar" = "Horizontal bar";
 "IDEAS" = "IDEAS";
 "ISS · 15 s" = "ISS · 15 s";
 "Ideas are close. Keep what matters in sight.\nYour message could be here" = "Ideas are close. Keep what matters in sight.\nYour message could be here";
@@ -274,6 +277,7 @@
 "International" = "International";
 "Just enter @username. We’ll find the name and public posts automatically." = "Just enter @username. We’ll find the name and public posts automatically.";
 "Just for Laughs" = "Just for Laughs";
+"Keep windows clear of ticker" = "Keep windows clear of ticker";
 "Keep your sources, rows and appearance to use them again." = "Keep your sources, rows and appearance to use them again.";
 "Keywords match visible headlines and excerpts. Unknown publication dates are excluded." = "Keywords match visible headlines and excerpts. Unknown publication dates are excluded.";
 "Keywords, separated by commas" = "Keywords, separated by commas";
@@ -281,6 +285,8 @@
 "LIVE" = "LIVE";
 "LOCAL TIME" = "LOCAL TIME";
 "Language" = "Language";
+"Language and filters" = "Language and filters";
+"Large circle" = "Large circle";
 "Launches, distant planets and space exploration." = "Launches, distant planets and space exploration.";
 "Layout" = "Layout";
 "Layout preview · your selected sources" = "Layout preview · your selected sources";
@@ -611,6 +617,9 @@
 "This name is already used. Choose another name." = "This name is already used. Choose another name.";
 "This source has already been added." = "This source has already been added.";
 "Thoughts for Today" = "Thoughts for Today";
+"Three dots" = "Three dots";
+"Three stars" = "Three stars";
+"Three vertical bars" = "Three vertical bars";
 "Ticker" = "Ticker";
 "Ticker at Bottom" = "Ticker at Bottom";
 "Ticker at Top" = "Ticker at Top";
@@ -626,9 +635,9 @@
 "Translated" = "Translated";
 "Translating fresh headlines…" = "Translating fresh headlines…";
 "Translation is not ready. Prepare the languages and try again." = "Translation is not ready. Prepare the languages and try again.";
-"Tricolor Stripes" = "Tricolor Stripes";
 "Try a topic such as cinema, science or humour, or a publisher name." = "Try a topic such as cinema, science or humour, or a publisher name.";
 "Two Rows: News + Markets" = "Two Rows: News + Markets";
+"Two vertical bars" = "Two vertical bars";
 "Type" = "Type";
 "Unavailable · will retry" = "Unavailable · will retry";
 "Undo" = "Undo";
@@ -666,6 +675,7 @@
 "White Logo Plate" = "White Logo Plate";
 "White ticker · red station" = "White ticker · red station";
 "Window" = "Window";
+"Window fitting is available in the direct-download Mac build." = "Window fitting is available in the direct-download Mac build.";
 "Word by Word" = "Word by Word";
 "Works while Stroka is open. Your Mac’s lock screen is managed separately." = "Works while Stroka is open. Your Mac’s lock screen is managed separately.";
 "World Headlines" = "World Headlines";

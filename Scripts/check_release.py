@@ -18,7 +18,7 @@ reasons={x['NSPrivacyAccessedAPIType']:x['NSPrivacyAccessedAPITypeReasons'] for 
 require(reasons.get('NSPrivacyAccessedAPICategoryUserDefaults')==['CA92.1'] and reasons.get('NSPrivacyAccessedAPICategorySystemBootTime')==['35F9.1'],'local preferences and timing reason declarations present')
 cat=json.loads((r/'Resources/Localizable.xcstrings').read_text())
 require(cat['sourceLanguage']=='en' and all(set(x['localizations'])>={'en','ru'} for x in cat['strings'].values()),'every String Catalog entry has English and Russian')
-for name in ('SavedSettings.swift','ControlView.swift','TelegramSource.swift','TVBridge.swift','QuickFeed.swift','Onboarding.swift','SimpleSetup.swift','TickerRows.swift','MarketCatalog.swift','FeedChooser.swift'):
+for name in ('SavedSettings.swift','ControlView.swift','TelegramSource.swift','TVBridge.swift','QuickFeed.swift','Onboarding.swift','SimpleSetup.swift','TickerRows.swift','MarketCatalog.swift','FeedChooser.swift','WindowFit.swift'):
     keys=set(re.findall(r'\bL\("([^"\\]*)"\)',(r/'Sources'/name).read_text()))
     require(not (keys-set(cat['strings'])),name+' literal UI strings exist in the catalog')
 project=(r/'Stroka.xcodeproj/project.pbxproj').read_text()
@@ -37,7 +37,7 @@ require((r/'AppIcon.icns').is_file() and (r/'Icon1024.png').is_file(),'app and s
 # Read source only. Do not scan settings/caches or print potential credential values.
 patterns=[r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----',r'gh[pousr]_[A-Za-z0-9]{30,}',r'github_pat_[A-Za-z0-9_]{30,}',r'AKIA[0-9A-Z]{16}']
 violations=[]
-for folder in ('Sources','Resources','Tests','StoreMetadata','Docs','Scripts','.github','TVCompanion'):
+for folder in ('Sources','Helpers','Resources','Tests','StoreMetadata','Docs','Scripts','.github','TVCompanion'):
     for file in (r/folder).rglob('*'):
         if any(part in ('.build','build','.gradle','__pycache__') for part in file.relative_to(r).parts):continue
         if file.is_file() and file.suffix in ('.swift','.json','.txt','.html','.xcstrings','.strings','.md','.py','.zsh','.yml','.kt','.kts','.xml'):

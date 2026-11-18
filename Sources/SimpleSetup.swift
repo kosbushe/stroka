@@ -158,11 +158,20 @@ struct SimpleSetupView:View {
     func rowLabel(_ title:String)->some View {Text(title).font(.system(size:13,weight:.medium)).frame(width:98,alignment:.leading)}
     func currency(_ title:String,id:String)->some View {Toggle(title,isOn:Binding(get:{model.selectedMarketIDs.contains(id)},set:{model.selectInstrument(id,enabled:$0)})).toggleStyle(.button).controlSize(.small)}
 }
+enum ContentChooserLayout {
+    static var editorHeight:CGFloat {min(900,max(640,(NSScreen.main?.visibleFrame.height ?? 900)-96))}
+    static let listMinimum:CGFloat = 400
+    static let catalogFeeds = NewsCatalog.all.map(\.feed)+ContentPack.find("telegram").sources
+}
 struct QuickContentChooser:View {
     @ObservedObject var model:AppModel;@Environment(\.dismiss) var dismiss
     var embedded = false
     @State private var publishers = false;@State private var search = "";@State private var address = "";@State private var sourceName = "";@State private var sourceError = "";@State private var reviewHeadlines = false
-    var feeds:[FeedSource] {var seen = Set<String>();return ((model.settings.customFeeds ?? [])+NewsCatalog.all.map(\.feed)+ContentPack.find("telegram").sources).filter{seen.insert($0.url).inserted && (search.isEmpty || ($0.name+" "+$0.url).localizedCaseInsensitiveContains(search))}.sorted{(selected($0) ? 0 : 1,$0.name)<(selected($1) ? 0 : 1,$1.name)}}
+    @State private var showContentOptions = false
+    var feeds:[FeedSource] {
+        let chosen = Set(model.enabledContentSources.map(\.url));var seen = Set<String>()
+        return ((model.settings.customFeeds ?? [])+ContentChooserLayout.catalogFeeds).filter{seen.insert($0.url).inserted && (search.isEmpty || ($0.name+" "+$0.url).localizedCaseInsensitiveContains(search))}.sorted{(chosen.contains($0.url) ? 0 : 1,$0.name)<(chosen.contains($1.url) ? 0 : 1,$1.name)}
+    }
     func selected(_ feed:FeedSource)->Bool {model.enabledContentSources.contains{$0.url == feed.url}}
     func toggle(_ feed:FeedSource,_ enabled:Bool) {
         if model.selectedPack.id != "custom" {model.settings.customFeeds = model.enabledContentSources;model.selectPack("custom")}
@@ -176,8 +185,9 @@ struct QuickContentChooser:View {
         if enabled,let lang = feed.language,model.newsLanguage != .all,lang != (model.newsLanguage == .russian ? "ru" : "en") {model.newsLanguage = .all}
     }
     var body:some View {
-        VStack(alignment:.leading,spacing:16) {
-            HStack {Text(L("Choose your content")).font(.system(size:23,weight:.semibold));Spacer();if !embedded {Button(L("Done")){dismiss()}.keyboardShortcut(.defaultAction)}}
+        let chosen = Set(model.enabledContentSources.map(\.url))
+        VStack(alignment:.leading,spacing:12) {
+            if !embedded {HStack {Text(L("Choose your content")).font(.system(size:23,weight:.semibold));Spacer();Button(L("Done")){dismiss()}.keyboardShortcut(.defaultAction)}}
             Picker(L("Choose content"),selection:$publishers){Text(L("Topics")).tag(false);Text(L("Publishers")).tag(true)}.pickerStyle(.segmented).labelsHidden()
             TextField(L("Search topics or publishers"),text:$search).textFieldStyle(.roundedBorder)
             TelegramChannelField{feed in
@@ -185,7 +195,7 @@ struct QuickContentChooser:View {
             }
             if publishers {
                 if feeds.isEmpty {Text(L("No search results")).font(.callout).foregroundStyle(.secondary)}
-                ScrollView {LazyVStack(spacing:0){ForEach(feeds){feed in Toggle(isOn:Binding(get:{selected(feed)},set:{toggle(feed,$0)})){HStack{VStack(alignment:.leading,spacing:4){Text(feed.name).font(.system(size:13,weight:.medium));if selected(feed){Text(model.sourceSummary(feed)).font(.caption).foregroundStyle(.secondary)}};Spacer();Text((feed.language ?? "").uppercased()).font(.caption).foregroundStyle(.secondary)}}.toggleStyle(.checkbox).padding(.vertical,11);Divider()}}}
+                ScrollView {LazyVStack(spacing:0){ForEach(feeds,id:\.url){feed in Toggle(isOn:Binding(get:{chosen.contains(feed.url)},set:{toggle(feed,$0)})){HStack(spacing:12){Text(feed.name).font(.system(size:13,weight:.medium)).lineLimit(1).help(feed.name);Spacer(minLength:12);if chosen.contains(feed.url){Text(model.sourceSummary(feed)).font(.caption).foregroundStyle(.secondary).lineLimit(1).frame(maxWidth:220,alignment:.trailing)};Text((feed.language ?? "").uppercased()).font(.caption).foregroundStyle(.secondary).frame(width:24)}}.toggleStyle(.checkbox).frame(height:39);Divider()}}}.frame(minHeight:ContentChooserLayout.listMinimum,maxHeight:.infinity).layoutPriority(1).accessibilityIdentifier("source-selection-list")
                 HStack{Text(LF("%ld sources",model.enabledContentSources.count)).font(.caption).foregroundStyle(.secondary);Spacer();Button(L("Clear Selection")){model.settings.customFeeds = [];model.activateContentPack("custom")}.buttonStyle(.borderless)}
                 DisclosureGroup(L("Add RSS feed…")){HStack{TextField(L("Name (optional)"),text:$sourceName);TextField("https://…",text:$address);Button(L("Add")){addFeed()}}.textFieldStyle(.roundedBorder);if !sourceError.isEmpty{Text(sourceError).font(.caption).foregroundStyle(.red)}}
             } else {
@@ -198,18 +208,22 @@ struct QuickContentChooser:View {
                         if !packs.isEmpty {Text(L(group.title)).font(.system(size:11,weight:.semibold)).foregroundStyle(.secondary).padding(.top,14).padding(.bottom,6)}
                         ForEach(packs){pack in Button{model.activateContentPack(pack.id)}label:{HStack(spacing:12){Image(systemName:pack.symbol).frame(width:22).foregroundStyle(Color.accentColor);Text(L(pack.catalogTitle)).font(.system(size:13));Spacer();if !pack.offline && pack.id != "custom"{Text(LF("%ld sources",pack.sources.count)).font(.caption).foregroundStyle(.secondary)};if model.upperChannel != .message && model.selectedPack.id == pack.id{Image(systemName:"checkmark").foregroundStyle(Color.accentColor)}}.padding(.vertical,10).contentShape(Rectangle())}.buttonStyle(.plain);Divider()}
                     }
-                }}
+                }}.frame(minHeight:ContentChooserLayout.listMinimum,maxHeight:.infinity).layoutPriority(1)
             }
             if model.upperChannel != .message {
                 Divider()
+                DisclosureGroup(isExpanded:$showContentOptions) {
+                VStack(alignment:.leading,spacing:12) {
                 if model.selectedPack.offline {Picker(L("Language"),selection:Binding(get:{model.settings.offlineLanguage.flatMap(NewsLanguage.init(rawValue:)) ?? model.newsLanguage},set:{model.settings.offlineLanguage = $0.rawValue})){ForEach(NewsLanguage.allCases){Text($0.title).tag($0)}}}
                 else {HStack{Picker(L("Source Language"),selection:$model.newsLanguage){ForEach(NewsLanguage.allCases){Text($0.title).tag($0)}};Toggle(L("Translate to Russian"),isOn:Binding(get:{model.settings.translateRussian ?? false},set:{model.settings.translateRussian = $0;if $0{model.newsLanguage = .all}})).toggleStyle(.checkbox)}
                     if model.settings.translateRussian == true {HStack{Text(model.translationStatus.isEmpty ? L("Fresh English headlines are translated on this Mac") : model.translationStatus).font(.caption).foregroundStyle(.secondary);Spacer();Button(L("Prepare Translation…")){NotificationCenter.default.post(name:Notification.Name("StrokaPrepareTranslation"),object:nil)}}}
                     DisclosureGroup(L("Topic filters")){VStack(alignment:.leading,spacing:10){TextField(L("Keywords, separated by commas"),text:Binding(get:{model.settings.sessionKeywords ?? ""},set:{model.settings.sessionKeywords = $0}));TextField(L("Exclude keywords, separated by commas"),text:Binding(get:{model.settings.excludedKeywords ?? ""},set:{model.settings.excludedKeywords = $0}));Toggle(L("Short headlines · up to 11 words"),isOn:Binding(get:{model.settings.shortHeadlines ?? false},set:{model.settings.shortHeadlines = $0})).toggleStyle(.checkbox)}.textFieldStyle(.roundedBorder).padding(.top,8)}
                 }
+                }.padding(.top,8)
+                } label:{HStack{Text(L("Language and filters"));Spacer();Text(model.newsLanguage.title+(model.settings.translateRussian == true ? " · "+L("Translate to Russian"):"")).font(.caption).foregroundStyle(.secondary)}}
             }
             HStack{if model.upperChannel != .message {Button(L("Preview headlines…")){reviewHeadlines = true}.buttonStyle(.borderless)};Text(model.simpleContentStatus).font(.caption).foregroundStyle(.secondary);Spacer();Button{model.refreshContent()}label:{Image(systemName:"arrow.clockwise")}.disabled(model.refreshingContent || model.selectedPack.offline || model.upperChannel == .message).accessibilityLabel(L("Refresh feeds"))}
-        }.padding(24).frame(width:640,height:embedded ? 520 : 650).environment(\.locale,Localization.locale)
+        }.padding(20).frame(width:820).frame(height:embedded ? nil:ContentChooserLayout.editorHeight).frame(maxHeight:.infinity).environment(\.locale,Localization.locale)
         .sheet(isPresented:$reviewHeadlines){VStack(alignment:.leading,spacing:16){HStack{Text(L("Recent headlines")).font(.title2.weight(.semibold));Spacer();Button(L("Done")){reviewHeadlines = false}};ScrollView{LazyVStack(alignment:.leading){if model.selectedPack.offline{ForEach(model.selectedContent){story in EditorialStoryRow(model:model,story:story);Divider()}}else{ForEach(model.editorialReviewStories){story in EditorialStoryRow(model:model,story:model.displayStory(story,applyRules:false) ?? story,review:true);Divider()}}}};Text(L("News expires after 24 hours. Starred highlights never exceed 48 hours.")).font(.caption).foregroundStyle(.secondary)}.padding(24).frame(width:600,height:540)}
     }
     func addFeed() {
@@ -230,6 +244,7 @@ struct SimpleDisplaySettings:View {
                     HStack{Text(L("Strip Thickness"));Slider(value:Binding(get:{model.settings.resolvedStripHeight},set:{model.settings.stripDensity = .custom;model.settings.stripHeight = $0.rounded()}),in:45...180);Text(String(Int(model.settings.resolvedStripHeight))+" pt").monospacedDigit().frame(width:52)}
                     HStack{Text(L("Speed"));Slider(value:$model.settings.speed,in:20...260);Text(String(Int(model.settings.speed))).monospacedDigit().frame(width:36)}
                     if model.needsMarkets && model.settings.graduatedSpeeds == false {HStack{Text(L("Markets Speed"));Slider(value:Binding(get:{model.settings.marketSpeed ?? 85},set:{model.settings.marketSpeed = $0}),in:20...260)}}
+                    WindowFitControls(model:model)
                 }
                 // TV setup is deferred and is not exposed in the desktop release.
                 Section(L("Appearance")) {
@@ -237,7 +252,7 @@ struct SimpleDisplaySettings:View {
                     Toggle(L("Show Source"),isOn:Binding(get:{model.settings.broadcastSource ?? true},set:{model.settings.broadcastSource = $0}))
                     if model.tickerRows.count > 1 {Toggle(L("Faster lower rows"),isOn:Binding(get:{model.settings.graduatedSpeeds != false},set:{model.settings.graduatedSpeeds = $0}))}
                     Toggle(L("Reduce Motion"),isOn:$model.reduceMotion)
-                    Picker(L("Message Separator"),selection:Binding(get:{model.settings.resolvedSeparator},set:{model.settings.separator = $0})){ForEach(["▌▌▌","///","•••","***","◆"],id:\.self){Text($0 == "▌▌▌" ? L("Tricolor Stripes") : $0).tag($0)};if !["▌▌▌","///","•••","***","◆"].contains(model.settings.resolvedSeparator){Text(model.settings.resolvedSeparator).tag(model.settings.resolvedSeparator)}}
+                    Picker(L("Message Separator"),selection:Binding(get:{model.settings.resolvedSeparator},set:{model.settings.separator = $0})){ForEach(MessageSeparators.options,id:\.self){Text($0+"  "+L(MessageSeparators.labelKey($0))).tag($0)};if !MessageSeparators.options.contains(model.settings.resolvedSeparator){Text(model.settings.resolvedSeparator).tag(model.settings.resolvedSeparator)}}
                     HStack{Text(L("Station logo"));Spacer();Button(model.settings.logoData == nil ? L("Upload Logo…") : L("Replace Logo…")){BroadcastBrandControls(model:model).chooseLogo()};if model.settings.logoData != nil{Button(L("Remove")){model.settings.logoData = nil;model.settings.logoName = nil}}}
                 }
             }.formStyle(.grouped)

@@ -14,7 +14,7 @@ Phone Remote
 Off by default. When enabled, your Mac accepts local commands through a link with a random access key. Commands include playback actions and announcement text. This is local HTTP without TLS: use a trusted network and keep the link private. No developer server is involved.
 
 Permissions
-No camera, microphone, contacts, screen recording, or control of other apps is requested. macOS may ask for local-network access for Phone Remote. Data from other apps is not read.
+No camera, microphone, contacts or screen recording is requested. In the direct-download Mac build, the optional Stroka Windows helper requires Accessibility permission to adjust ordinary window frames. It does not read window contents or keystrokes. Restoration frames stay only in helper memory; untouched windows are restored on stop, disable or normal exit. macOS may ask for local-network access for Phone Remote.
 
 Deletion
 Choose Stroka > Delete Local Data… and confirm to remove messages, presets, and cached headlines. Default settings are restored. Quit Stroka to stop network updates. Individual sources can be disabled in the library.

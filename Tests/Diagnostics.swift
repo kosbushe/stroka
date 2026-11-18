@@ -489,15 +489,15 @@ func dualCheck() {
 func separatorCheck() {
     var checks = 0
     func check(_ value:@autoclosure()->Bool,_ label:String) { guard value() else { print("FAIL: \(label)"); fflush(stdout); exit(1) }; checks += 1; print("PASS: \(label)") }
-    var settings = Settings(); check(settings.resolvedSeparator == "▌▌▌","default separator is tricolor vertical stripes")
-    settings.separator = " \n "; check(settings.resolvedSeparator == "▌▌▌","empty separator falls back to a visible marker")
+    var settings = Settings(); check(settings.resolvedSeparator == "│││","default separator is neutral vertical bars")
+    settings.separator = " \n "; check(settings.resolvedSeparator == "│││","empty separator falls back to a visible marker")
     settings.separator = "123456789012345"; check(settings.resolvedSeparator.count == 12,"custom separator is bounded")
     settings.separator = "***"; let saved = try! JSONDecoder().decode(Settings.self,from:JSONEncoder().encode(settings)); check(saved.resolvedSeparator == "***","separator persists in presets and settings")
     let font = NSFont.monospacedSystemFont(ofSize:28,weight:.medium)
     for reverse in [false,true] {
-        let one = TickerStreamWindow.make(messages:["First","Second","Third"],index:0,separator:"///",font:font,ink:.black,accent:.red,viewport:900,reverse:reverse)!
-        let next = TickerStreamWindow.make(messages:["First","Second","Third"],index:1,separator:"///",font:font,ink:.black,accent:.red,viewport:900,reverse:reverse)!
-        check(one.text.string.contains("First   ///   Second") || reverse,"marker is between adjacent messages")
+        let one = TickerStreamWindow.make(messages:["First","Second","Third"],index:0,separator:"│││",font:font,ink:.black,accent:.red,viewport:900,reverse:reverse)!
+        let next = TickerStreamWindow.make(messages:["First","Second","Third"],index:1,separator:"│││",font:font,ink:.black,accent:.red,viewport:900,reverse:reverse)!
+        check(one.text.string.contains("First   │││   Second") || reverse,"marker is between adjacent messages")
         check(one.size.width >= 900+one.advance && one.advance > one.currentWidth,"stream window fills viewport beyond outgoing message")
         func offset(_ window:TickerStreamWindow) -> CGFloat {
             let range = (window.text.string as NSString).range(of:"Second",options:reverse ? .backwards : [])
@@ -511,14 +511,14 @@ func separatorCheck() {
         check(abs(oldX-newX)<0.02,"incoming word keeps its exact position across a left/right boundary")
     }
     let suite = "ru.bushe.stroka.separator.\(UUID())"; let defaults = UserDefaults(suiteName:suite)!
-    let m = AppModel(defaults:defaults); m.settings.channel = .message; m.settings.messages = "FIRST DEMO MESSAGE\nSECOND DEMO MESSAGE\nTHIRD DEMO MESSAGE"; m.applyLook(.bulletin); m.settings.dualTicker = true; m.settings.dualUpperChannel = .message; m.settings.speed = 160; m.settings.marketSpeed = 80; m.settings.separator = "///"; m.reduceMotion = false
+    let m = AppModel(defaults:defaults); m.settings.channel = .message; m.settings.messages = "FIRST DEMO MESSAGE\nSECOND DEMO MESSAGE\nTHIRD DEMO MESSAGE"; m.applyLook(.bulletin); m.settings.dualTicker = true; m.settings.dualUpperChannel = .message; m.settings.speed = 160; m.settings.marketSpeed = 80; m.settings.separator = "│││"; m.reduceMotion = false
     m.quotes = [Quote(id:"DEMO-BTC",value:69000,change:1.2,time:Date(),received:Date(),source:"DEMO"),Quote(id:"DEMO-INDEX",value:2800,change:-0.7,time:Date(),received:Date(),source:"DEMO")]
     let w = NSWindow(contentRect:CGRect(x:100,y:100,width:1100,height:144),styleMask:[.borderless],backing:.buffered,defer:false); w.isReleasedWhenClosed = false; w.level = .floating
     let v = TickerView(model:m); w.contentView = v; w.orderFrontRegardless(); NSApp.activate(ignoringOtherApps:true); pumpApplication(for:0.4)
     defer { w.orderOut(nil); w.contentView = nil; w.close(); defaults.removePersistentDomain(forName:suite) }
     v.localIndex = 0;v.compositor.seek(0);v.compositor.refresh(manualElapsed:0)
-    check(v.compositor.bodyKey.contains("FIRST DEMO MESSAGE   ///   SECOND DEMO MESSAGE"),"upper stream contains adjacent messages and markers")
-    check(v.marketLane?.compositor.bodyKey.contains("///") == true,"lower market row uses the same marker")
+    check(v.compositor.bodyKey.contains("FIRST DEMO MESSAGE   │││   SECOND DEMO MESSAGE"),"upper stream contains adjacent messages and markers")
+    check(v.marketLane?.compositor.bodyKey.contains("│││") == true,"lower market row uses the same marker")
     for reverse in [false,true] {
         m.settings.reverse = reverse; pumpApplication(for:0.1)
         v.localIndex = 0; v.compositor.seek(0); v.compositor.refresh(manualElapsed:0)
@@ -543,11 +543,11 @@ func separatorCheck() {
     check(v.compositor.bodyKey.contains("•••") && abs((before-after)-12.8)<10,"changing marker keeps movement position")
     let folder = FileManager.default.temporaryDirectory.appendingPathComponent("StrokaSeparators-\(UUID())"); try! FileManager.default.createDirectory(at:folder,withIntermediateDirectories:true)
     m.interfaceLanguage = .russian; m.settings.messages = "Новая выставка открывается в субботу\nКонцерт начнётся в 20:00\nДобро пожаловать на наш вечер"; m.settings.showClock = true
-    for token in ["///","•••","***"] {
+    for token in MessageSeparators.options {
         m.settings.separator = token
         let view = TickerView(model:m); view.frame = CGRect(x:0,y:0,width:1920,height:144)
         guard let rep = view.snapshot(at:0,marketTime:0), let png = rep.representation(using:.png,properties:[:]) else { exit(1) }
-        let name = token == "///" ? "slashes" : token == "•••" ? "dots" : "stars"
+        let name = "separator-\(MessageSeparators.options.firstIndex(of:token)!)"
         try! png.write(to:folder.appendingPathComponent(name+".png"))
     }
     print("SEPARATOR DIRECTORY: \(folder.path)"); print("\(checks) separator checks passed"); fflush(stdout); exit(0)
@@ -783,8 +783,8 @@ func editorialCheck() {
     w.orderOut(nil);w.contentView = nil;w.close()
     m.selectPack("thoughts");check(m.selectedContent.count == 48,"original offline thoughts are not mislabelled or expired as news")
     let marker = TickerStreamWindow.marker("▌▌▌",font:NSFont.systemFont(ofSize:28),accent:.orange)
-    let white = marker.attribute(.foregroundColor,at:3,effectiveRange:nil) as? NSColor,blue = marker.attribute(.foregroundColor,at:4,effectiveRange:nil) as? NSColor,red = marker.attribute(.foregroundColor,at:5,effectiveRange:nil) as? NSColor
-    check(white == .white && blue == hex(0x286DCC) && red == hex(0xE3363D),"vertical marker uses white, blue and red stripes in order")
+    let colors = (3...5).compactMap{marker.attribute(.foregroundColor,at:$0,effectiveRange:nil) as? NSColor}
+    check(marker.string.contains("│││") && colors.allSatisfy{$0 == .orange},"legacy vertical marker renders neutral bars in one accent color")
     let delegate = AppDelegate();delegate.model = m;let toolbar = NSToolbar(identifier:"EditorialTest")
     let ids = delegate.toolbarDefaultItemIdentifiers(toolbar).map(\.rawValue)
     check(ids.filter{$0 != NSToolbarItem.Identifier.flexibleSpace.rawValue} == ["privacy"],"toolbar keeps only Settings")
@@ -1075,7 +1075,7 @@ func simpleSetupCheck() {
 }
 func simpleSetupUICheck() {
     let folder = FileManager.default.temporaryDirectory.appendingPathComponent("StrokaSimpleUI-\(UUID())");try! FileManager.default.createDirectory(at:folder,withIntermediateDirectories:true)
-    for (name,lang,dark,width,height,dual,kind) in [("en-main",InterfaceLanguage.english,false,920.0,660.0,false,"main"),("ru-main",.russian,false,920.0,660.0,true,"main"),("en-dark",.english,true,920.0,660.0,true,"main"),("ru-compact",.russian,false,840.0,600.0,true,"main"),("en-content",.english,false,640.0,650.0,false,"content"),("ru-content",.russian,false,640.0,650.0,false,"content"),("ru-display",.russian,false,600.0,610.0,true,"display")] {
+    for (name,lang,dark,width,height,dual,kind) in [("en-main",InterfaceLanguage.english,false,920.0,660.0,false,"main"),("ru-main",.russian,false,920.0,660.0,true,"main"),("en-dark",.english,true,920.0,660.0,true,"main"),("ru-compact",.russian,false,840.0,600.0,true,"main"),("en-content",.english,false,820.0,900.0,false,"content"),("ru-content",.russian,false,820.0,900.0,false,"content"),("ru-display",.russian,false,600.0,610.0,true,"display")] {
         autoreleasepool {
             let suite = "ru.bushe.stroka.simpleui.\(UUID())";let defaults = UserDefaults(suiteName:suite)!;defer{defaults.removePersistentDomain(forName:suite)}
             let m = AppModel(defaults:defaults);m.interfaceLanguage = lang;m.prepareSimpleSetup();m.applyLook(.bulletin);m.settings.brand = "BUSHE NEWS";m.settings.caption = "";m.settings.dualTicker = dual;m.settings.dualUpperChannel = .content;m.settings.applyDensity(.desktop);m.activateContentPack("thoughts");m.newsLanguage = lang == .russian ? .russian : .english
@@ -1474,7 +1474,7 @@ func expandedCatalogCheck() {
         let w = NSWindow(contentRect:host.frame,styleMask:[.titled],backing:.buffered,defer:false);w.isReleasedWhenClosed = false;w.contentView = host;w.orderFrontRegardless();pumpApplication(for:0.25);host.layoutSubtreeIfNeeded()
         if let rep = host.bitmapImageRepForCachingDisplay(in:host.bounds){host.cacheDisplay(in:host.bounds,to:rep);try! rep.representation(using:.png,properties:[:])!.write(to:folder.appendingPathComponent("ai-\(language.rawValue).png"))}
         w.orderOut(nil);w.contentView = nil;w.close()
-        let chooser = NSHostingView(rootView:QuickContentChooser(model:m).background(Color(nsColor:.windowBackgroundColor)));chooser.frame = CGRect(x:0,y:0,width:640,height:650)
+        let chooser = NSHostingView(rootView:QuickContentChooser(model:m).background(Color(nsColor:.windowBackgroundColor)));chooser.frame = CGRect(x:0,y:0,width:820,height:ContentChooserLayout.editorHeight)
         let c = NSWindow(contentRect:chooser.frame,styleMask:[.titled],backing:.buffered,defer:false);c.isReleasedWhenClosed = false;c.contentView = chooser;c.orderFrontRegardless();pumpApplication(for:0.2);chooser.layoutSubtreeIfNeeded()
         if let rep = chooser.bitmapImageRepForCachingDisplay(in:chooser.bounds){chooser.cacheDisplay(in:chooser.bounds,to:rep);try! rep.representation(using:.png,properties:[:])!.write(to:folder.appendingPathComponent("telegram-\(language.rawValue).png"))}
         c.orderOut(nil);c.contentView = nil;c.close()
@@ -1661,4 +1661,37 @@ final class SavedSettingsQAWindowDelegate:NSObject,NSWindowDelegate {
     let finish:()->Void
     init(finish:@escaping()->Void){self.finish = finish}
     func windowWillClose(_ notification:Notification){finish()}
+}
+
+// Regression fixture for the reported three-feed stalls. No live feeds or user content.
+func largeFeedRenderCheck() {
+    let suite = "ru.bushe.stroka.large-feed.\(UUID())";let defaults = UserDefaults(suiteName:suite)!
+    defer {defaults.removePersistentDomain(forName:suite)}
+    let m = AppModel(defaults:defaults);m.newsLanguage = .all;m.reduceMotion = false
+    var settings = m.settings;settings.look = .nightline;settings.channel = .content;settings.translateRussian = false;settings.stripHeight = 84
+    let feeds = (0..<3).map{FeedSource(name:"Fixture \($0)",url:"https://fixture.invalid/row-\($0)",language:"ru")}
+    let rows = feeds.map{feed -> TickerRow in var row = TickerRow(packID:"custom");row.customFeeds = [feed];return row}
+    rows[0].apply(to:&settings);settings.tickerRows = rows;m.settings = settings
+    let count = 600
+    m.contentStories = feeds.enumerated().flatMap{row,feed in (0..<count).map{index in
+        Story(id:"\(row)-\(index)",text:NSString(format:"Новость %ld: %@",index,"Проверка длинной русской строки, источника и плавного перехода к следующему сообщению") as String,source:feed.name,date:Date().addingTimeInterval(-60),link:"https://fixture.invalid/item-\(row)-\(index)",language:"ru",sourceURL:feed.url,packID:"custom")
+    }}
+    let views = (0..<3).map{row -> TickerView in let view = TickerView(model:m);view.rowIndex=row;return view}
+    var times:[Double] = []
+    for row in 0..<3 {for index in 0..<4 {
+        views[row].localIndex = index
+        let start = CACurrentMediaTime()
+        guard let stream = views[row].streamWindow(fontSize:20,look:.nightline,viewport:1500,reverse:false),stream.text.string.contains("Новость \(index):"),stream.text.string.contains(feeds[row].name) else{print("FAIL: selected row text or source missing");exit(1)}
+        times.append((CACurrentMediaTime()-start)*1000)
+    }}
+    let maximum = times.max() ?? 0
+    print(String(format:"LARGE FEED: rows=3 itemsPerRow=%d transitions=%d total=%.2fms max=%.2fms",count,times.count,times.reduce(0,+),maximum));fflush(stdout)
+    m.contentStories[0].text = "Updated fixture headline"
+    let updated = m.rowLines(0)
+    guard let first=updated.first,m.rowRecord(first,index:0).text == "Updated fixture headline" else{print("FAIL: edited source did not invalidate rendered text");exit(1)}
+    m.contentStories[0].date = Date().addingTimeInterval(-25*3600)
+    guard !m.rowLines(0).contains(where:{$0.contains("Updated fixture headline")}) else{print("FAIL: expired source retained in render cache");exit(1)}
+    m.pendingSave?.cancel();m.editorialWake?.invalidate();m.feedTransport.invalidate();defaults.removePersistentDomain(forName:suite)
+    if CommandLine.arguments.contains("--require-fast") && maximum>100 {print("FAIL: a single transition blocked the main thread for over 100 ms");exit(1)}
+    print("PASS: large-feed text, source attribution, update and expiry checks");fflush(stdout);exit(0)
 }

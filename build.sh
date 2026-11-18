@@ -21,5 +21,8 @@ if [[ -f "$STROKA_ROOT/AppIcon.icns" ]]; then cp "$STROKA_ROOT/AppIcon.icns" "$S
 cp "$STROKA_ROOT/PrivacyInfo.xcprivacy" "$STROKA_APP/Contents/Resources/PrivacyInfo.xcprivacy"
 cp "$STROKA_ROOT/Resources/Collections.json" "$STROKA_ROOT/Resources/NewsCatalog.json" "$STROKA_ROOT/Resources/MarketCatalog.json" "$STROKA_APP/Contents/Resources/"
 cp -R "$STROKA_ROOT/Resources/en.lproj" "$STROKA_ROOT/Resources/ru.lproj" "$STROKA_APP/Contents/Resources/"
+if [[ "${STROKA_WINDOW_FIT:-1}" == "1" ]]; then
+  STROKA_ARCHS="$STROKA_ARCHS" zsh "$STROKA_ROOT/Scripts/build_window_fit.zsh" "$STROKA_APP/Contents/Helpers"
+fi
 codesign --force --options runtime --entitlements "$STROKA_ROOT/Stroka.entitlements" --sign "${STROKA_SIGN_IDENTITY:--}" "$STROKA_APP"
 echo "$STROKA_APP"

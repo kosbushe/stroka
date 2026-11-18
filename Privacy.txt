@@ -1,5 +1,5 @@
 Privacy in Stroka
-Updated 17 November 2026
+Updated 18 November 2026
 
 Your Mac
 Your messages, presets, selected sources, settings, and cached headlines stay on your Mac. They are not sent to the developer. The desktop app has no advertising, analytics or tracking SDK.
@@ -14,7 +14,7 @@ Phone Remote
 Off by default. When enabled, your Mac accepts local commands through a link with a random access key. Commands include playback actions and announcement text. This is local HTTP without TLS: use a trusted network and keep the link private. No developer server is involved.
 
 Permissions
-No camera, microphone, contacts, screen recording, or control of other apps is requested. macOS may ask for local-network access for Phone Remote. Data from other apps is not read.
+No camera, microphone, contacts or screen recording is requested. In the direct-download Mac build, the optional Stroka Windows helper requires Accessibility permission to adjust ordinary window frames. It does not read window contents or keystrokes. Restoration frames stay only in helper memory; untouched windows are restored on stop, disable or normal exit. macOS may ask for local-network access for Phone Remote.
 
 Deletion
 Choose Stroka > Delete Local Data… and confirm to remove messages, presets, and cached headlines. Default settings are restored. Quit Stroka to stop network updates. Individual sources can be disabled in the library.
@@ -29,7 +29,7 @@ When you choose a public Telegram feed, Stroka requests its public t.me web prev
 
 
 Приватность в Stroka
-Обновлено 17 ноября 2026 года
+Обновлено 18 ноября 2026 года
 
 Ваш Mac
 Сообщения, наборы, выбранные источники, настройки и кэш заголовков хранятся на вашем Mac. Разработчику эти данные не отправляются. В настольном приложении нет рекламы, аналитики и SDK отслеживания.
@@ -44,7 +44,7 @@ When you choose a public Telegram feed, Stroka requests its public t.me web prev
 По умолчанию выключен. При включении Mac принимает команды в локальной сети по ссылке со случайным ключом. Команды содержат действия и текст объявления. Соединение использует локальный HTTP без TLS: выбирайте доверенную сеть и не публикуйте ссылку. Сервер разработчика не используется.
 
 Разрешения
-Приложение не запрашивает камеру, микрофон, контакты, запись экрана или управление другими приложениями. Для пульта macOS может запросить доступ к локальной сети. Данные других приложений не читаются.
+Камера, микрофон, контакты и запись экрана не запрашиваются. В версии для прямой установки на Mac дополнительному помощнику Stroka Windows нужен Универсальный доступ для изменения положения и размера обычных окон. Содержимое окон и нажатия клавиш не читаются. Прежняя геометрия хранится только в памяти помощника; нетронутые окна восстанавливаются при остановке строки, отключении режима или обычном выходе. Для пульта macOS может запросить доступ к локальной сети.
 
 Удаление
 Выберите Stroka > Удалить локальные данные… и подтвердите действие. Сообщения, наборы и кэш заголовков будут удалены, настройки восстановятся. Для остановки сетевых обновлений завершите приложение. Отдельные источники можно выключить в библиотеке.

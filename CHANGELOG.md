@@ -1,3 +1,35 @@
+## 0.24.2 - 2026-11-18 (beta release)
+
+This GitHub beta includes the performance, window-fitting and source-picker repairs recorded below in 0.23.2-0.24.1.
+
+- Replace the tricolor flag marker with six neutral options: three bars, two bars, horizontal bar, three dots, three stars and a large circle.
+- Normalize legacy flag/slash markers to monochrome vertical bars, including restored saved settings and TV export.
+- Remove the flag picker label, per-stripe coloring and legacy tricolor launch switch.
+- Verify 28 normalization/rendering checks, light/dark previews, the installed six-item menu and live ticker output.
+
+## 0.24.1 - 2026-11-18 (local source-picker repair)
+
+- Expand the row content editor and give the publisher list a minimum 400 pt viewport.
+- Keep publisher rows at 40 pt so at least ten checkbox rows remain visible.
+- Remove the duplicate embedded heading and collapse language/translation/filter options together.
+- Preserve existing selections and the draft Save/Cancel behavior.
+- Build selection membership once per catalog sort and use stable source URLs for row identity, avoiding repeated whole-selection recalculation.
+
+## 0.24.0 - 2026-11-18 (local window-fitting preview)
+
+- Add a separately permissioned window helper to the direct-download Mac build.
+- Fit ordinary foreground-app windows clear of the ticker after activation and resizing.
+- Restore untouched windows on stop, disable or normal exit.
+- Exclude native Full Screen, fixed-size windows, dialogs and other displays.
+- Keep the main app sandboxed; the helper needs an explicit Accessibility grant.
+
+## 0.23.2 - 2026-11-18 (local performance fix)
+
+- Cache each row's rendered lines and source records instead of scanning the whole feed for every headline.
+- Format only adjacent messages needed by the visible ticker window.
+- Invalidate cached text on content/translation/expiry changes; preserve live market updates.
+- Add a three-feed regression fixture with 1800 synthetic headlines.
+
 ## 0.23.1 - 2026-11-15
 
 - Strip height can be set to 45-180 pt for any number of rows. Removed the hidden 56 pt minimum for two rows. Compact presets remain available.

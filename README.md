@@ -4,7 +4,7 @@
 
 **Your sources. Your name. Your news channel.**
 
-[Download the Mac beta](https://github.com/kosbushe/stroka/releases/tag/v0.23.1-beta.1) · [Русский](README.ru.md) · [Roadmap](ROADMAP.md)
+[Download the Mac beta](https://github.com/kosbushe/stroka/releases/tag/v0.24.2-beta.1) · [Русский](README.ru.md) · [Roadmap](ROADMAP.md)
 
 ![Stroka illustrated preview](assets/stroka-preview.svg)
 
@@ -17,6 +17,13 @@ Put your name on it. Pick a look. Set the pace. Your world scrolls by while you 
 | RSS, public Telegram, your watchlist and your own words | Your name or logo, four looks, a compact clock | One to four rows, top or bottom, with adjustable speed |
 
 **Native macOS beta · Apple Silicon + Intel · Local settings · No account required**
+
+## New in 0.24.2
+
+- Smoother transitions on large feeds, with cached text and source records.
+- A larger source picker with at least ten checkbox rows at the tested desktop size.
+- Six neutral separators: three bars, two bars, a horizontal bar, dots, stars or a large circle.
+- Optional **Keep windows clear of ticker** in Settings. The separately permissioned Stroka Windows helper fits ordinary windows above/below the strip; use desktop Fill/Zoom. Native Full Screen and fixed-size windows are excluded. [Details and limits](Docs/WINDOW-FITTING.md).
 
 ## What goes on your channel?
 
@@ -46,16 +53,16 @@ News stays fresh: original publication time under 24 hours, or under 48 hours fo
 
 | Platform | What you can try |
 |---|---|
-| **Mac** | Beta **0.23.1 (30)**. Native AppKit/SwiftUI app, macOS 14+, Universal Apple Silicon/Intel. Optional on-device English-to-Russian translation needs macOS 15+ and prepared Apple language models. |
+| **Mac** | Beta **0.24.2 (34)**. Native AppKit/SwiftUI app, macOS 14+, Universal Apple Silicon/Intel. Optional on-device English-to-Russian translation needs macOS 15+ and prepared Apple language models. |
 | **Android TV / Google TV** | Experimental **0.2.2** receiver for your Mac feed. Mac stays on; basic pairing/overlay tested on Philips Android TV 11 in receiver 0.2.1. [TV guide](TVCompanion/README.md). |
 | **iPhone + autonomous TV** | [Experimental Lab](Labs/Ecosystem/README.md): common editor, QR/TLS pairing and a TV-owned source engine. iPhone build/device acceptance and full feature parity remain incomplete. |
 | **Windows** | A future port direction. No Windows app is included. |
 
-Settings, messages and caches stay local. There is no developer news backend, analytics or advertising SDK. Private Telegram subscriptions, social-account timelines, automatic resizing of other apps and universal HDMI/DRM overlays are outside this beta.
+Settings, messages and caches stay local. There is no developer news backend, analytics or advertising SDK. Private Telegram subscriptions, social-account timelines and universal HDMI/DRM overlays are outside this beta.
 
 ## Download or build
 
-The [first GitHub prerelease](https://github.com/kosbushe/stroka/releases/tag/v0.23.1-beta.1) contains the Mac beta, experimental TV receiver and SHA-256 checksums. These are **locally signed prototype builds**, not notarized Developer ID releases or App Store/Google Play apps. Keep macOS protections enabled. Building from source is the supported developer route if your Mac refuses the downloadable beta.
+The [latest GitHub prerelease](https://github.com/kosbushe/stroka/releases/tag/v0.24.2-beta.1) contains the Mac beta, experimental TV receiver and SHA-256 checksums. These are **locally signed prototype builds**, not notarized Developer ID releases or App Store/Google Play apps. Keep macOS protections enabled. Building from source is the supported developer route if your Mac refuses the downloadable beta.
 
 Requires **macOS 14+**, Apple Command Line Tools and a compatible Swift/macOS SDK. No external Swift packages are required for the desktop app.
 
@@ -65,6 +72,8 @@ cd stroka
 zsh build.sh "$PWD/dist"
 open "$PWD/dist/Stroka.app"
 ```
+
+The default build is Universal and includes the optional window-fitting helper. Set `STROKA_WINDOW_FIT=0` to omit that direct-download-only helper. The main app stays sandboxed; the helper requires a separate user-approved Accessibility grant.
 
 The default build is Universal. Use `STROKA_ARCHS=arm64` for Apple Silicon only. Configure your own `STROKA_SIGN_IDENTITY` for an owner's signing identity. The [TV guide](TVCompanion/README.md) covers Android SDK/JDK prerequisites and local installation. Never commit signing keys.
 

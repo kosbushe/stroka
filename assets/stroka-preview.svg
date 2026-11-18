@@ -10,7 +10,7 @@
 <rect x="48" y="267" width="136" height="106" fill="#cc1531"/>
 <text x="116" y="313" fill="white" font-size="21" font-weight="700" text-anchor="middle">YOUR</text><text x="116" y="340" fill="white" font-size="21" font-weight="700" text-anchor="middle">NEWS</text>
 <text x="206" y="309" fill="#161c26" font-size="23" font-weight="600">News · Headlines from the publishers you choose</text>
-<rect x="773" y="288" width="4" height="25" fill="#d5d9df"/><rect x="781" y="288" width="4" height="25" fill="#2869df"/><rect x="789" y="288" width="4" height="25" fill="#cc1531"/>
+<rect x="773" y="288" width="3" height="25" fill="#cc1531"/><rect x="781" y="288" width="3" height="25" fill="#cc1531"/><rect x="789" y="288" width="3" height="25" fill="#cc1531"/>
 <text x="811" y="309" fill="#161c26" font-size="23" font-weight="600">Your messages</text>
 <rect x="184" y="328" width="860" height="45" fill="#121b26"/>
 <text x="206" y="357" fill="#d8dee9" font-size="18">Markets · Your watchlist, with source and delay labels</text>

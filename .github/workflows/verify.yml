@@ -19,12 +19,21 @@ jobs:
       - name: Build native diagnostics
         run: STROKA_ARCHS="$(uname -m)" STROKA_DIAGNOSTICS=1 zsh build.sh "$RUNNER_TEMP/Stroka-QA"
       - name: Run isolated core checks
-        run: zsh Scripts/verify.zsh "$RUNNER_TEMP/Stroka-QA/Stroka.app"
+        run: |
+          zsh Scripts/verify.zsh "$RUNNER_TEMP/Stroka-QA/Stroka.app"
+          "$RUNNER_TEMP/Stroka-QA/Stroka.app/Contents/MacOS/Stroka" --large-feed-render-check
+      - name: Check separator rendering and window geometry
+        run: |
+          xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache -target "$(uname -m)-apple-macosx14.0" Sources/MessageSeparators.swift Tests/MessageSeparatorsTests.swift -framework AppKit -o "$RUNNER_TEMP/separator-tests"
+          "$RUNNER_TEMP/separator-tests"
+          xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache -target "$(uname -m)-apple-macosx14.0" Sources/WindowFitGeometry.swift Tests/WindowFitGeometryTests.swift -o "$RUNNER_TEMP/window-fit-tests"
+          "$RUNNER_TEMP/window-fit-tests"
       - name: Build Universal local release
         run: zsh build.sh "$RUNNER_TEMP/Stroka-Release"
       - name: Check signature and architectures
         run: |
           codesign --verify --deep --strict "$RUNNER_TEMP/Stroka-Release/Stroka.app"
           lipo "$RUNNER_TEMP/Stroka-Release/Stroka.app/Contents/MacOS/Stroka" -verify_arch arm64 x86_64
+          lipo "$RUNNER_TEMP/Stroka-Release/Stroka.app/Contents/Helpers/Stroka Windows.app/Contents/MacOS/StrokaWindows" -verify_arch arm64 x86_64
       - name: Check shared Lab profile and feed rules
         run: zsh Labs/Ecosystem/checks.sh

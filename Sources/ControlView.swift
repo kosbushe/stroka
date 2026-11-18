@@ -169,10 +169,10 @@ struct ControlView: View {
                 labeledSlider(L("Speed"), value: $model.settings.speed, range: 20...260, suffix: "")
                 if model.settings.motion == .horizontal || model.dualBandActive || model.settings.resolvedPlacement.vertical {
                     VStack(alignment:.leading,spacing:8) {
-                        Picker(L("Message Separator"),selection:Binding(get:{ ["▌▌▌","///","•••","***","◆"].contains(model.settings.resolvedSeparator) ? model.settings.resolvedSeparator : "custom" },set:{ model.settings.separator = $0 == "custom" ? "◇" : $0 })) {
-                            Text(L("Tricolor Stripes")).tag("▌▌▌"); Text("///").tag("///"); Text("•••").tag("•••"); Text("***").tag("***"); Text("◆").tag("◆"); Text(L("Custom")).tag("custom")
+                        Picker(L("Message Separator"),selection:Binding(get:{ MessageSeparators.options.contains(model.settings.resolvedSeparator) ? model.settings.resolvedSeparator : "custom" },set:{ model.settings.separator = $0 == "custom" ? "●" : $0 })) {
+                            ForEach(MessageSeparators.options,id:\.self){Text($0+"  "+L(MessageSeparators.labelKey($0))).tag($0)};Text(L("Custom")).tag("custom")
                         }
-                        TextField(L("Your separator"),text:Binding(get:{model.settings.separator ?? "▌▌▌"},set:{model.settings.separator = String($0.components(separatedBy:.newlines).joined(separator:" ").prefix(12))})).textFieldStyle(.roundedBorder).font(.system(size:13,design:.monospaced))
+                        TextField(L("Your separator"),text:Binding(get:{model.settings.resolvedSeparator},set:{model.settings.separator = String($0.components(separatedBy:.newlines).joined(separator:" ").prefix(12))})).textFieldStyle(.roundedBorder).font(.system(size:13,design:.monospaced))
                         Text(L("Messages follow one another without a blank pause. Both rows use this separator.")).font(.system(size:11)).foregroundStyle(.secondary).fixedSize(horizontal:false,vertical:true)
                     }
                 }
@@ -342,6 +342,8 @@ struct SettingsView: View {
                     }
                     Divider()
                     SavedSettingsSection(model:model)
+                    Divider()
+                    WindowFitControls(model:model)
                     Divider()
                     VStack(alignment:.leading,spacing:10) {
                         Text(L("Television")).font(.headline)

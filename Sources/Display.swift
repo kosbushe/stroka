@@ -277,6 +277,7 @@ final class OutputController {
         let screen = NSScreen.screens[min(max(0,m.selectedScreen),NSScreen.screens.count-1)]
         window = makeWindow(frame:Self.stripFrame(in:screen.visibleFrame,settings:m.settings),screen:screen)
         m.activeMode = .strip;m.previewMode = .strip;m.idleOutput = false;m.playing = true
+        m.synchronizeWindowFit()
         activity = ProcessInfo.processInfo.beginActivity(options:[.idleDisplaySleepDisabled,.userInitiated],reason:L("Stroka display is active"))
     }
 
@@ -289,6 +290,7 @@ final class OutputController {
         guard let m = model,m.activeMode == .strip,let screen = window?.screen,let view = window?.contentView as? TickerView else {return}
         window?.setFrame(Self.stripFrame(in:screen.visibleFrame,settings:m.settings),display:true)
         view.rotated = false;view.clockwise = false;view.requestRefresh()
+        m.synchronizeWindowFit()
     }
 
     func stop() {
@@ -296,6 +298,7 @@ final class OutputController {
         for w in extraWindows { w.orderOut(nil); w.contentView = nil; w.close() }; extraWindows = []
         if let activity { ProcessInfo.processInfo.endActivity(activity); self.activity = nil }
         model?.activeMode = nil; model?.idleOutput = false
+        model?.synchronizeWindowFit()
     }
 }
 

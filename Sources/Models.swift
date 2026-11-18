@@ -111,6 +111,7 @@ struct Settings: Codable {
     var dualUpperChannel: Channel? = nil
     var tickerRows: [TickerRow]? = nil
     var graduatedSpeeds:Bool? = nil
+    var fitWindows:Bool? = nil
     var marketSpeed: Double? = nil
     var marketInstruments:[String]? = nil
     var roundedStrip:Bool? = nil
@@ -126,10 +127,7 @@ struct Settings: Codable {
     var resolvedStripDensity:StripDensity { stripDensity ?? ((stripHeight == 52 || stripHeight == 50) ? .desktop : (stripHeight == 88 || stripHeight == 144 ? .broadcast : .custom)) }
     mutating func applyDensity(_ value:StripDensity) { stripDensity = value;if value != .custom { stripHeight = value == .desktop ? (dualTicker == true ? 52 : 50) : (dualTicker == true ? 144 : 88) } }
     var separator: String? = nil
-    var resolvedSeparator: String {
-        let value = String((separator ?? "▌▌▌").components(separatedBy:.newlines).joined(separator:" ").trimmingCharacters(in:.whitespacesAndNewlines).prefix(12))
-        return value.isEmpty ? "▌▌▌" : value
-    }
+    var resolvedSeparator: String { MessageSeparators.resolve(separator) }
     var resolvedStripHeight:Double { min(180,max(45,stripHeight)) }
     var resolvedPlacement: StripPlacement { stripPlacement ?? (stripTop ? .top : .bottom) }
     var resolvedComposition: Composition { composition ?? .ticker }
@@ -161,8 +159,11 @@ class AppModel: ObservableObject {
     var cachedContent: [Story]?
     var recordCache: [String: BroadcastRecord] = [:]
     var rowStoryCache: [Int:[Story]] = [:]
+    var rowLineCache: [Int:[String]] = [:]
+    var rowRecordCache: [Int:[String:BroadcastRecord]] = [:]
+    var textRevision = 0
     var lineBuildCount = 0
-    func invalidateTextCache() { cachedLines = nil; cachedStories = nil; cachedContent = nil; recordCache = [:]; rowStoryCache = [:] }
+    func invalidateTextCache() { cachedLines = nil; cachedStories = nil; cachedContent = nil; recordCache = [:]; rowStoryCache = [:];rowLineCache = [:];rowRecordCache = [:];textRevision &+= 1 }
     var editorialWake:Timer?
     @Published var translationCache:[String:String] = [:]
     @Published var translationSignal = 0
@@ -181,6 +182,7 @@ class AppModel: ObservableObject {
             if oldValue.dualTicker != settings.dualTicker || oldValue.dualUpperChannel != settings.dualUpperChannel { sequence += 1 }
             if oldValue.logoData != settings.logoData { logoRevision += 1; cachedLogo = nil }
             invalidateTextCache(); saveSettings()
+            if oldValue.fitWindows != settings.fitWindows { synchronizeWindowFit() }
             if oldValue.allowExtended != settings.allowExtended || oldValue.extendedStories != settings.extendedStories { scheduleEditorialExpiry();translationSignal += 1 }
             if oldValue.translateRussian != settings.translateRussian || oldValue.contentPackID != settings.contentPackID { translationSignal += 1 }
             if oldValue.tickerRows != settings.tickerRows || oldValue.contentPackID != settings.contentPackID || (settings.contentPackID == "custom" && oldValue.customFeeds != settings.customFeeds) || oldValue.disabledContentSources != settings.disabledContentSources {

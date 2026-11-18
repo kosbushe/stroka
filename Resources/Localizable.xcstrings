@@ -8385,22 +8385,6 @@
         }
       }
     },
-    "Tricolor Stripes": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tricolor Stripes"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Три полосы"
-          }
-        }
-      }
-    },
     "Visual Style": {
       "localizations": {
         "en": {
@@ -11621,6 +11605,182 @@
           "stringUnit": {
             "state": "translated",
             "value": "Код действует 10 минут. При необходимости нажмите «Новый код подключения»."
+          }
+        }
+      }
+    },
+    "Keep windows clear of ticker": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep windows clear of ticker"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Освобождать место под строку"
+          }
+        }
+      }
+    },
+    "Fits ordinary windows when you switch apps or resize them. Full Screen and fixed-size windows are excluded. Original sizes return when you stop the ticker, unless you moved the window yourself.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fits ordinary windows when you switch apps or resize them. Full Screen and fixed-size windows are excluded. Original sizes return when you stop the ticker, unless you moved the window yourself."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подгоняет обычные окна при переключении и изменении размера. Полноэкранные окна и окна фиксированного размера не меняются. После остановки строки прежние размеры вернутся, если вы сами не передвигали окно."
+          }
+        }
+      }
+    },
+    "Allow window control…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow window control…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешить управление окнами…"
+          }
+        }
+      }
+    },
+    "Window fitting is available in the direct-download Mac build.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Window fitting is available in the direct-download Mac build."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подгонка окон доступна в версии для прямой установки на Mac."
+          }
+        }
+      }
+    },
+    "Language and filters": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language and filters"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Язык и фильтры"
+          }
+        }
+      }
+    },
+    "Three vertical bars": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three vertical bars"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Три вертикальных штриха"
+          }
+        }
+      }
+    },
+    "Two vertical bars": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Two vertical bars"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Два вертикальных штриха"
+          }
+        }
+      }
+    },
+    "Horizontal bar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horizontal bar"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Горизонтальный штрих"
+          }
+        }
+      }
+    },
+    "Three dots": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three dots"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Три точки"
+          }
+        }
+      }
+    },
+    "Three stars": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three stars"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Три звёздочки"
+          }
+        }
+      }
+    },
+    "Large circle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Large circle"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Большой кружок"
           }
         }
       }
